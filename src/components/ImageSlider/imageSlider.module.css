@@ -1,0 +1,17 @@
+.image_container_slider{
+    display: flex;
+    justify-content: center;
+}
+.image_container_slider>div{
+    width: 100% !important;
+}
+.image_container_slider>div>div>button:nth-child(2){
+   left: 0 !important;
+   background: #000 !important;
+   border-radius: 16px !important;
+}
+.image_container_slider>div>div>button:nth-child(3){
+    right: 0 !important;
+    background: #000 !important;
+    border-radius: 16px !important;
+ }

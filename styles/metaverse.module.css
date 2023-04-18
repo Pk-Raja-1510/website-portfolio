@@ -1,0 +1,9 @@
+.wrapper {
+  margin-top: 81px;
+  width: 100%;
+  min-height: 100vh;
+}
+.wrapper > iframe {
+  width: 100%;
+  height: 100vh;
+}

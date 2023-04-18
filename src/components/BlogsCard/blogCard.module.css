@@ -1,0 +1,43 @@
+.blogContainer {
+    height: 350px;
+    min-width: 400px;
+    max-width: 400px;
+    padding: 1.5rem;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 350px;
+    cursor: pointer;
+  }
+  
+  .blogImage {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+  }
+  .blogImage:hover{
+  }
+  .blogHead {
+    font-size: 1rem;
+    padding-top: 1rem;
+    margin: 0;
+  }
+  
+  .blogButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+  }
+  
+  .blogButton button {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
