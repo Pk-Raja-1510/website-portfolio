@@ -120,8 +120,8 @@ class team extends Component{
             </section>
             <section className={styles.employes}>
               <figure>
-                {employee.map((item) => (
-                    <div className={styles.employee}>
+                {employee.map((item,index) => (
+                    <div className={styles.employee} key={index}>
                       <Image
                           src="/static/images/work.png"
                           height={100}

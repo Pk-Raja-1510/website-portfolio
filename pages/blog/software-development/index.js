@@ -10,7 +10,7 @@ const SoftwareDevelopment = () => {
         <h1>Software Development</h1>
         <div className={styles.blockchain_grid}>
           {softwareDevelopmentData?.map((item) => (
-            <BlogCard img={item?.image} title={item?.title} path={item?.path} />
+            <BlogCard img={item?.image} title={item?.title} path={item?.path}  key={item?.id} />
           ))}
         </div>
       </div>

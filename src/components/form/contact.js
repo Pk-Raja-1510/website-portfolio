@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Contact.module.css";
 
 const Contact = ({ hooks }) => {
+  
   const {
     ref,
     name,
@@ -42,14 +43,6 @@ const Contact = ({ hooks }) => {
           name="phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-        />
-        <input
-          ref={ref.subjectRef}
-          type="text"
-          placeholder="Subject*"
-          name="subject"
-          value={subject}
-          onChange={(e) => setSubject(e.target.value)}
         />
         <input
           ref={ref.messageRef}

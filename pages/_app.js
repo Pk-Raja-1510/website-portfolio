@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
           content="Hire Web3 experts to enhance your Metaverse experience. Expedite your NFT Drops with RedBlox, Best blockchain developers in Pondicherry,India."
         />
         <link rel="canonical" href={canonicalUrl} />
-        <link rel="icon" href="/static/icons/r.svg" />
+        <link rel="icon" href="/static/icons/red_new.svg" />
 
         {/* Global site tag (gtag.js) - Google Analytics  */}
         <script

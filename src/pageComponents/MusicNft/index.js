@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import { Footer } from "src/components/footer";
 import styles from "styles/Home.module.css";
 
 const MusicNft = () => {
@@ -164,51 +165,7 @@ const MusicNft = () => {
             </div>
           </div>
         </section>
-
-        <section className={styles.footer}>
-          <div className={styles.row}>
-            <nav>
-              <Image
-                src="/static/icons/email.svg"
-                height="25"
-                width="25"
-                layout="fixed"
-              />
-              contact@redblox.io
-            </nav>
-            <nav>
-              <Image
-                src="/static/icons/phone.svg"
-                height="25"
-                width="25"
-                layout="fixed"
-              />
-              +91 9591117648 / +91 9994811269
-            </nav>
-          </div>
-          <div className={styles.location}>
-            <nav>
-              <span>
-                <h3>Pondicherry</h3>
-                208, 100 Feet Road, Mudaliarpet, Pondicherry - 605004, India.
-                <br />
-                <br />
-                98, Saint Theresa Street, Pondicherry - 605001, India.
-              </span>
-              <span>
-                <h3>Bengaluru</h3>
-                152/2, 1st Floor, Lake Point Tower Avenue, Road, AECS C Block,
-                Begur, Bengaluru, Karnataka - 560068, India.
-              </span>
-              <span>
-                <h3>Mumbai</h3>
-                A/5, Mt.Mary Steps, Kadeshwari Mandir Marg, Bandra West Mumbai
-                Mumbai, Maharasta - 400050, India.
-              </span>
-            </nav>
-          </div>
-          <p>Copyright (c) 2022 - RedBlox Technologies Pvt. Ltd</p>
-        </section>
+        <Footer />
       </main>
     </>
   );

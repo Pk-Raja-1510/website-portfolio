@@ -9,11 +9,11 @@ export const homeHooks = () => {
   const companyRef = useRef(null);
   const termRef = useRef(null);
   const [client, setClient] = useState(null);
-  const [name, setName] = useState(null);
-  const [email, setEmail] = useState(null);
-  const [phone, setPhone] = useState(null);
-  const [subject, setSubject] = useState(null);
-  const [message, setMessage] = useState(null);
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [subject, setSubject] = useState('');
+  const [message, setMessage] = useState('');
   const [company, setCompany] = useState(null);
   const [term, setTerm] = useState(false);
   const [loading, setLoading] = useState(false);

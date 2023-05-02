@@ -25,11 +25,11 @@
     align-items: center;
     margin-bottom: 1rem;
     gap: 2rem;
+    cursor: pointer;
 }
 .Categories_collection>div>a{
     font-size: 16px;
     font-family: "Comfortaa";
-    cursor: pointer;
     font-weight: 600;
 }
 .Categories_collection>div>p{

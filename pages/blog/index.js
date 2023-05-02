@@ -39,6 +39,7 @@ const Blog = () => {
                   img={item?.image}
                   title={item?.title}
                   path={item?.path}
+                  key={item?.id}
                 />
               ))}
             </section>
@@ -55,6 +56,7 @@ const Blog = () => {
                   img={item?.image}
                   title={item?.title}
                   path={item?.path}
+                  key={item?.id}
                 />
               ))}
             </section>
@@ -71,6 +73,7 @@ const Blog = () => {
                   img={item?.image}
                   title={item?.title}
                   path={item?.path}
+                  key={item?.id}
                 />
               ))}
             </section>
@@ -87,6 +90,7 @@ const Blog = () => {
                   img={item?.image}
                   title={item?.title}
                   path={item?.path}
+                  key={item?.id}
                 />
               ))}
             </section>
@@ -103,6 +107,7 @@ const Blog = () => {
                   img={item?.image}
                   title={item?.title}
                   path={item?.path}
+                  key={item?.id}
                 />
               ))}
             </section>
@@ -112,13 +117,14 @@ const Blog = () => {
             >
               See All
             </button>
-            <h3>Teams</h3>
+            <h3>Teams & Advisors</h3>
             <section className={styles.new_blogWrapper}>
               {teamsData?.map((item) => (
                 <BlogCard
                   img={item?.image}
                   title={item?.title}
                   path={item?.path}
+                  key={item?.id}
                 />
               ))}
             </section>

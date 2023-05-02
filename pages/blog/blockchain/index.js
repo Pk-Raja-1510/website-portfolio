@@ -10,7 +10,7 @@ const BlockChain = () => {
         <h1>Blockchain</h1>
         <div className={styles.blockchain_grid}>
           {blackChainData?.map((item) => (
-            <BlogCard img={item?.image} title={item?.title} path={item?.path} />
+            <BlogCard img={item?.image} title={item?.title} path={item?.path}  key={item?.id} />
           ))}
         </div>
       </div>

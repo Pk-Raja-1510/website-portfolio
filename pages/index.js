@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Contact from "src/components/form/contact";
-import ImageSlider from "src/components/ImageSlider";
+import ImageSliders from "src/components/ImageSliders";
 import { useRouter } from "next/router";
 import {
   clientData,
@@ -18,7 +18,13 @@ import { homeHooks } from "src/Hooks/home";
 import { handleContact, handleForm } from "src/services/contact";
 import styles from "styles/Home.module.css";
 import classNames from "classnames";
-
+import { Footer } from "src/components/footer";
+import { SocialIcons } from "src/components/socialIcons";
+import { BlogCard } from "src/components/BlogsCard";
+import { SlickSlider } from "src/components/slickSlider";
+import Slider from "react-slick";
+import { CarouselRotaing } from "src/components/carouselRotaing";
+import { ProcessFlow } from "src/components/processFlow";
 const Index = () => {
   const navigate = useRouter();
   const router = useRouter();
@@ -59,7 +65,33 @@ const Index = () => {
     setMessage,
     setSubject,
   };
-
+  const slidercomingSoon = {
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  };
   const cb = () => {
     ref.nameRef.current.value = null;
     ref.emailRef.current.value = null;
@@ -106,7 +138,6 @@ const Index = () => {
   useEffect(() => {
     setClient(clientData);
   }, [clientData]);
-
   return (
     <>
       <main className={styles.main}>
@@ -120,14 +151,12 @@ const Index = () => {
           />
           <section className={styles.section}>
             <div className={styles.left}>
-              <h1>
-                Blockchain, Metaverse, NFT, AR, VR Development, IoT, Web &
-                Mobile App Development Services and Solution Provider
-              </h1>
+              <h1>Blockchain, Metaverse, NFTs, AR/VR Development</h1>
               <p>
-                Our experienced blockchain and web developer experts take Your
-                Business to the Next Level with high security, scalable, and
-                transparency.
+                Our team of Experienced developers specialising in both
+                blockchain and web technologies, can elevate your business to
+                new heights by providing secure, scalable, and transparent
+                solutions.
               </p>
               <a className={styles.header_button} href="/#contact">
                 Get Free Consultation
@@ -147,7 +176,7 @@ const Index = () => {
                   That Bridges Web2 And
                   Web3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fueling Digital
                   Transformation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Driven
-                  To Breakthrough Future Tech Solutions{" "}
+                  To Breakthrough Future Tech Solutions
                 </p>
               </marquee>
             </div>
@@ -173,36 +202,37 @@ const Index = () => {
             <div className={styles.intro}>
               <p className={styles.sub_do_text}>What we do</p>
               <h2>
-                We take Your Business to the Next Level with Our Blockchain
-                Development Services
+                With our Blockchain Development Solutions, We can elevate your
+                business to new heights
               </h2>
               <p>
-                At RedBlox, Our customer experience is at the forefront of
-                everything we do. We believe that we are transforming businesses
-                with powerful scalable and adaptable blockchain services and
-                solutions, and helping build functional systems that improve
-                their overall performance, and enable them to unlock new
-                opportunities. Move your business to the next level with our
-                custom blockchain development services.
+                Redblox places customer experience as a top priority in all of
+                our operations. Our aim is to revolutionise businesses with
+                dynamic, scalable, and versatile blockchain solutions, creating
+                operational systems that enhance performance and unlock new
+                opportunities. Take your business to the next level with our
+                bespoke blockchain development services.
               </p>
-              <a href="/#contact" className={styles.touch_button}>Get in Touch With Us</a>
+              <a href="/#contact" className={styles.touch_button}>
+                Connect With Us Today
+              </a>
             </div>
             <div className={styles.portfolio_main_right}>
               <div>
                 <div>
                   <Image
-                    src="/static/icons/developer.png"
-                    height="100"
-                    width="100"
+                    src="/static/gif/d.gif"
+                    height="150"
+                    width="150"
                     layout="fixed"
                   />
-                  <p>100+ Developers </p>
+                  <p>200+ Developers </p>
                 </div>
                 <div>
                   <Image
-                    src="/static/icons/projects.png"
-                    height="100"
-                    width="100"
+                    src="/static/gif/p.gif"
+                    height="150"
+                    width="150"
                     layout="fixed"
                   />
                   <p>250+ Projects </p>
@@ -211,18 +241,18 @@ const Index = () => {
               <div>
                 <div>
                   <Image
-                    src="/static/icons/experience.png"
-                    height="100"
-                    width="100"
+                    src="/static/gif/e.gif"
+                    height="150"
+                    width="150"
                     layout="fixed"
                   />
                   <p> 5+ Year Experience</p>
                 </div>
                 <div>
                   <Image
-                    src="/static/icons/clients.png"
-                    height="100"
-                    width="100"
+                    src="/static/gif/c.gif"
+                    height="150"
+                    width="150"
                     layout="fixed"
                   />
                   <p>30+ Clients</p>
@@ -232,56 +262,32 @@ const Index = () => {
           </div>
         </section>
         <section className={styles.slider_new_container}>
-          <h3>Services & Solutions We Offered</h3>
-          <div className={styles.slider_main_content}>
-            {sliderData?.map((item) => (
-              <div key={item?.id}>
-                <h4>{item?.header}</h4>
-                <div>
-                  <p>{item?.content}</p>
-                  <button className={styles.See_more_button}>See More</button>
-                </div>
-                <div className={styles.slider_hresder_icons}>
-                  <Image
-                    src={item?.image}
-                    height="50"
-                    width="50"
-                    layout="fixed"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
+          <h3>Here are the Services and Solutions We Provide</h3>
+          <SlickSlider />
         </section>
         <section className={styles.slider_new_imgs}>
           <h3>Technologies We work with</h3>
-          <ImageSlider />
+          <ImageSliders />
         </section>
         <section className={styles.industries_we_covered}>
-          <h3>Industries We Covered</h3>
-          <div className={styles.industries_we_covered_grid}>
-            {industryCoveredData?.map((item) => (
-              <div className={styles.industries_we_covered_card} key={item?.id}>
-                <div>
-                  <Image
-                    src={item?.img}
-                    height="40"
-                    width="40"
-                    layout="fixed"
-                  />
-                  <h4>{item?.title}</h4>
-                </div>
-                <p>{item?.content}</p>
-              </div>
-            ))}
+          <h3>We serve to every industry with success</h3>
+          <div>
+            <p>
+              Following the trend and popularity of Blockchain technology, our
+              experts have expanded our service offerings to include blockchain
+              services such as testing, technology advisory, development
+              services, and more. These services across various industries,
+              including:
+            </p>
+            <CarouselRotaing />
           </div>
         </section>
         <section className={styles.help_banner}>
           <div className={styles.help_banner_content}>
-            <h3>Need help with blockchain development?</h3>
+            <h3>Need Assistance with Blockchain Development?</h3>
             <p>
-              You're just a step away from making the right choice. Let's get
-              started,shall we?
+              You are one step closer to making the right decision. Shall we get
+              started?
             </p>
             <div className={styles.help_banner_button}>
               <button>CONTACT US</button>
@@ -316,105 +322,23 @@ const Index = () => {
           <h3>Our Recent Blogs</h3>
           <div className={styles.blogWrapper_new}>
             {recentBlogs?.map((item) => (
-              <div
-                className={styles.blogContainer}
-                onClick={() => router.push(`/blog${item.path}`)}
-              >
-                <img className={styles.blogImage} src={item?.image} />
-                <h5 className={styles.blogHead}>{item?.title}</h5>
-                <div className={styles.blogButton}>
-                  <button>View More</button>
-                </div>
-              </div>
+              <BlogCard img={item?.img} title={item?.name} path={item?.path} key={item?.id}/>
             ))}
           </div>
         </section>
         <section className={styles.section3}>
-          <h3> Why Choose Redblox for Blockchain Development Services?</h3>
+          <h3>Why Redblox Technologies?</h3>
           <p>
-            We are very well equipped with teams carrying advanced engineering
-            knowledge and skills to globalize your business. We bring Blockchain
-            Technology to every business by providing secure firm solutions.
+            Over the past few years, we have consulted, designed, and developed
+            over 250+ digital products for startups, medium scale companies, and
+            Large enterprises. The dedication and hard work of our team are
+            reflected in the quality of the products, which are now being
+            utilised by millions of users worldwide.
           </p>
         </section>
         <section className={styles.execution_process}>
           <h3>Our Project Execution Process</h3>
-          <div>
-            <div className={styles.steps_round}>
-              <p className={styles.steps}>1</p>
-              <Image
-                src="/static/icons/execute.png"
-                width="50"
-                height="50"
-                layout="fixed"
-              />
-              <p className={styles.steps_content}>Identifying the solutions</p>
-            </div>
-            <Image
-              src="/static/icons/right-arrow.png"
-              width="25"
-              height="25"
-              layout="fixed"
-            />
-            <div className={styles.steps_round}>
-              <p className={styles.steps}>2</p>
-              <Image
-                src="/static/icons/web-design.png"
-                width="50"
-                height="50"
-                layout="fixed"
-              />
-              <p className={styles.steps_content}>Designing & Development</p>
-            </div>
-            <Image
-              src="/static/icons/right-arrow.png"
-              width="25"
-              height="25"
-              layout="fixed"
-            />
-            <div className={styles.steps_round}>
-              <p className={styles.steps}>3</p>
-              <Image
-                src="/static/icons/testing.png"
-                width="50"
-                height="50"
-                layout="fixed"
-              />
-              <p className={styles.steps_content}>Testing & Deployment</p>
-            </div>
-            <Image
-              src="/static/icons/right-arrow.png"
-              width="25"
-              height="25"
-              layout="fixed"
-            />
-            <div className={styles.steps_round}>
-              <p className={styles.steps}>4</p>
-              <Image
-                src="/static/icons/launch.png"
-                width="50"
-                height="50"
-                layout="fixed"
-              />
-              <p className={styles.steps_content}>Launch & Maintenance</p>
-            </div>
-            <Image
-              src="/static/icons/right-arrow.png"
-              width="25"
-              height="25"
-              layout="fixed"
-            />
-            <div className={styles.steps_round}>
-              <p className={styles.steps}>5</p>
-              <Image
-                src="/static/icons/24-7.png"
-                width="50"
-                height="50"
-                layout="fixed"
-              />
-              <p className={styles.steps_content}>24x7 Help & Support</p>
-            </div>
-          </div>
+          <ProcessFlow />
         </section>
         <section className={styles.faq_banner_home}>
           <h3>
@@ -469,7 +393,7 @@ const Index = () => {
                 <Contact hooks={hooks} />
               ) : (
                 <p>
-                  Hello! I'm{" "}
+                  Hello! I'm
                   <input
                     ref={ref.nameRef}
                     className={styles.contact_input}
@@ -478,8 +402,8 @@ const Index = () => {
                     name="name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                  />{" "}
-                  , and I work with{" "}
+                  />
+                  , and I work with
                   <input
                     ref={ref.companyRef}
                     className={styles.company}
@@ -488,8 +412,8 @@ const Index = () => {
                     name="company"
                     value={company}
                     onChange={(e) => setCompany(e.target.value)}
-                  />{" "}
-                  . We're looking to expand our app. You may reach out to us by{" "}
+                  />
+                  . We're looking to expand our app. You may reach out to us by
                   <input
                     ref={ref.emailRef}
                     className={styles.email}
@@ -498,7 +422,7 @@ const Index = () => {
                     name="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                  />{" "}
+                  />
                   to talk about it and set up a call.
                 </p>
               )}
@@ -517,134 +441,59 @@ const Index = () => {
               </button>
             </div>
             <div className={styles.content_form_three}>
+              <h2>Tak To Our Experts :</h2>
+              <p>
+              To get started, simply fill out our contact form and let us know what topic you would like to discuss. Our team will connect you with the most suitable expert for your needs.
+              </p>
               <div className={styles.form_contact_details}>
-                <Image
-                  src="/static/icons/whatsapp.png"
-                  height="50"
-                  width="50"
-                  layout="fixed"
-                />
                 <div>
-                  <p>Whatsapp us</p>
-                  <p>+91 7806974190</p>
+                  <Image
+                    src="/static/icons/whatsapp.png"
+                    height="25"
+                    width="25"
+                    layout="fixed"
+                  />
                 </div>
+                <p>Whatsapp us: +91 7806974190</p>
               </div>
               <div className={styles.form_contact_details}>
-                <Image
-                  src="/static/icons/gmail.png"
-                  height="50"
-                  width="50"
-                  layout="fixed"
-                />
                 <div>
-                  <p>Drop an Email</p>
-                  <p>contact@redblox.io</p>
+                  <Image
+                    src="/static/icons/gmail.png"
+                    height="25"
+                    width="25"
+                    layout="fixed"
+                  />
                 </div>
+                <p>Email: contact@redblox.io</p>
+              </div>
+              <div className={styles.form_contact_details}>
+                <div>
+                  <Image
+                    src="/static/icons/skype.png"
+                    height="25"
+                    width="25"
+                    layout="fixed"
+                  />
+                </div>
+                <p>Skype: +91 7806974190</p>
+              </div>
+              <div className={styles.form_contact_details}>
+                <div>
+                  <Image
+                    src="/static/icons/telegram.png"
+                    height="25"
+                    width="25"
+                    layout="fixed"
+                  />
+                </div>
+                <p>Telegram: +91 7806974190</p>
               </div>
             </div>
           </div>
         </section>
-        <section className={styles.footer}>
-          <div className={styles.contact_us_footer}>
-            <div>
-              <Image
-                src="/static/icons/redblox-metaverse-w.svg"
-                height={100}
-                width={200}
-                layout="fixed"
-                onClick={() => navigate?.push("/")}
-                alt="redblox-metaverse"
-              />
-            </div>
-            <div>
-              <nav>
-                <Image
-                  src="/static/icons/email.svg"
-                  height="25"
-                  width="25"
-                  layout="fixed"
-                />
-                contact@redblox.io
-              </nav>
-              <nav>
-                <Image
-                  src="/static/icons/phone.svg"
-                  height="25"
-                  width="25"
-                  layout="fixed"
-                />
-                +91 7806974190
-              </nav>
-            </div>
-            <div>
-              <p>Follow Us on</p>
-              <div className={styles.footer_contact_icon}>
-                <Image
-                  onClick={() =>
-                    otherRoute("https://www.instagram.com/redblox.io/")
-                  }
-                  src="/static/icons/instagram.svg"
-                  height='40'
-                  width='40'
-                  layout="fixed"
-                />
-                <Image
-                  onClick={() =>
-                    otherRoute("https://www.linkedin.com/company/redblox-io/")
-                  }
-                  src="/static/icons/linkedin-b.webp"
-                  height='40'
-                  width='40'
-                  layout="fixed"
-                />
-                <Image
-                  onClick={() => otherRoute("https://twitter.com/RedBloxIO")}
-                  src="/static/icons/twitter.svg"
-                  height='40'
-                  width='40'
-                  layout="fixed"
-                />
-                <Image
-                  onClick={() => otherRoute("https://github.com/Redblox-io")}
-                  src="/static/icons/github.svg"
-                  height='40'
-                  width='40'
-                  layout="fixed"
-                />
-                <Image
-                  onClick={() => otherRoute("https://www.facebook.com/Redblox.io")}
-                  src="/static/icons/fb.png"
-                  height='40'
-                  width='40'
-                  layout="fixed"
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.location}>
-            <nav>
-              <span>
-                <h3>Pondicherry</h3>
-                208, First Floor, 100 Feet Road, Mudaliarpet, Pondicherry -
-                605004, India.
-                <br />
-                <br />
-                98, Saint Theresa Street, Pondicherry - 605001, India.
-              </span>
-              <span>
-                <h3>Bengaluru</h3>
-                152/2, 1st Floor, Lake Point Tower Avenue, Road, AECS C Block,
-                Begur, Bengaluru, Karnataka - 560068, India.
-              </span>
-              <span>
-                <h3>Mumbai</h3>
-                A/5, Mt.Mary Steps, Kadeshwari Mandir Marg, Bandra West Mumbai,
-                Mumbai, Maharasta - 400050, India.
-              </span>
-            </nav>
-          </div>
-          <p>Copyright (c) 2022 - RedBlox Technologies Pvt. Ltd</p>
-        </section>
+        {/* <SocialIcons /> */}
+        <Footer />
       </main>
     </>
   );

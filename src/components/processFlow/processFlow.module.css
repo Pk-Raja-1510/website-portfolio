@@ -1,0 +1,89 @@
+.flexbox {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3rem;
+}
+
+.flexbottom {
+    border-bottom: 0px solid #0000008c;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 430px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.flextop {
+    border-top: 0px solid #0000008c;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    position: relative;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.flextop:before {content: '';width: 1px;height: 250px;background: #0000008c;position: absolute;left: 0;}
+
+.flextop:after {
+    content: '';
+    width: 1px;
+    height: 250px;
+    background: #0000008c;
+    position: absolute;
+    right: 0;
+}
+
+.flexbottom {
+    box-shadow: inset 0px -5px 0px #0000008c;
+}
+
+.flextop {
+    box-shadow: inset 0px 5px 0px #0000008c;
+}
+
+.imgbox{
+    width: 150px;
+    height: 150px;
+    background-color: #0000008c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgbox>div{
+    width: 100px;
+    height: 100px;
+    background-color: #fff ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.textbox>h4{
+    font-size: 18px;
+    font-family: Comfortaa;
+    font-weight: 700;
+    margin: 0;
+}
+.textbox>p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Comfortaa;
+    line-height: 1.3;
+}

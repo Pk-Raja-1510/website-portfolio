@@ -77,7 +77,7 @@ const HeaderHome = () => {
           width={35}
           layout="fixed"
         /> */}
-        <a href="/#contact" className={styles.header_button}>Connect with us</a>
+        <a href="/#contact" className={styles.header_button}>Get Free Demo</a>
       </div>
     </main>
   );
