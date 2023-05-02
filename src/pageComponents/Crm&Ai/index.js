@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import Contacts from "src/components/contacts";
 import { Footer } from "src/components/footer";
 import styles from "styles/Home.module.css";
 
@@ -277,6 +278,7 @@ const CrmAi = () => {
             </div>
           </div>
         </section>
+        <Contacts/>
         <Footer />
       </main>
     </>

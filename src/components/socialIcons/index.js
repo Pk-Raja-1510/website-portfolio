@@ -5,36 +5,39 @@ export const SocialIcons = () => {
     const otherRoute = (url) => window?.open(url);
   return (
     <div className={styles.fixed_social_icons}>
+      <h3>Share this Page on</h3>
+      <div>
         <Image
-          onClick={() => otherRoute("https://www.instagram.com/redblox.io/")}
-          src="/static/icons/gmail_clr.png"
+          onClick={() => otherRoute("https://www.facebook.com/Redblox.io")}
+          src="/static/icons/fb.png"
           height={25}
           width={25}
           layout="fixed"
         />
         <Image
           onClick={() =>
-            otherRoute("https://www.linkedin.com/company/redblox-io/")
+            otherRoute("https://https://twitter.com/RedBloxIO")
           }
-          src="/static/icons/whatsapp_clr.png"
+          src="/static/icons/twitter.png"
           height={25}
           width={25}
           layout="fixed"
         />
         <Image
-          onClick={() => otherRoute("https://twitter.com/RedBloxIO")}
-          src="/static/icons/linkedin.png"
+          onClick={() => otherRoute("")}
+          src="/static/icons/medium.png"
           height={25}
           width={25}
           layout="fixed"
         />
         <Image
-          onClick={() => otherRoute("https://github.com/Redblox-io")}
-          src="/static/icons/skype.png"
+          onClick={() => otherRoute("")}
+          src="/static/icons/reddit.png"
           height={25}
           width={25}
           layout="fixed"
         />
+        </div>
     </div>
   )
 }

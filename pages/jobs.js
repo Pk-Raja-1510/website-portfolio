@@ -4,6 +4,7 @@ import styles from "../styles/job.module.css";
 import stylesFooter from "../styles/Home.module.css";
 import Image from "next/image";
 import Head from "next/head";
+import { Footer } from "src/components/footer";
 
 const Jobinffo = (props) => {
   return (
@@ -53,51 +54,7 @@ const Jobs = () => {
             </div>
           ))}
         </div>
-        <section className={stylesFooter.footer}>
-          <div className={stylesFooter.row}>
-            <nav>
-              <Image
-                src="/static/icons/email.svg"
-                height="25"
-                width="25"
-                layout="fixed"
-              />
-              contact@redblox.io
-            </nav>
-            <nav>
-              <Image
-                src="/static/icons/phone.svg"
-                height="25"
-                width="25"
-                layout="fixed"
-              />
-              +91 9591117648 / +91 9994811269
-            </nav>
-          </div>
-          <div className={stylesFooter.location}>
-            <nav>
-              <Image
-                src="/static/icons/location.svg"
-                height="25"
-                width="25"
-                layout="fixed"
-              />
-              <span>
-                208, First Floor, 100 Feet Road, Mudaliarpet, Pondicherry -
-                605004, India.
-              </span>
-              <span>
-                152/2, 1st Floor, Lake Point Tower Avenue, Road, AECS C Block,
-                Begur, Bengaluru, Karnataka - 560068, India.
-              </span>
-              <span>
-                A/5, Mt.Mary Steps, Kadeshwari Mandir Marg, Bandra West Mumbai,
-                Mumbai, Maharasta - 400050, India.
-              </span>
-            </nav>
-          </div>
-          <p>Copyright (c) 2022 - RedBlox Technologies Pvt. Ltd</p>
-        </section>
+       <Footer/>
       </main>
     </>
   );

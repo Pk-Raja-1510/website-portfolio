@@ -6,7 +6,9 @@ import { BlogCard } from "src/components/BlogsCard";
 import Categories from "src/components/Categories";
 import { RecentBlogsTitle } from "src/components/RecentBlogsTitle";
 import { Subscribe } from "src/components/Subscribe";
+import Contacts from "src/components/contacts";
 import { Footer } from "src/components/footer";
+import { SocialIcons } from "src/components/socialIcons";
 import {
   artificialIntelligenceData,
   blackChainData,
@@ -139,8 +141,10 @@ const Blog = () => {
             <Categories />
             <RecentBlogsTitle />
             <Subscribe />
+            <SocialIcons />
           </div>
         </div>
+        <Contacts/>
         <Footer />
       </main>
     </>

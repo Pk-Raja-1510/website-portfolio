@@ -1,30 +1,18 @@
-import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Contact from "src/components/form/contact";
 import ImageSliders from "src/components/ImageSliders";
 import { useRouter } from "next/router";
-import {
-  clientData,
-  data1,
-  data2,
-  faqData,
-  industryCoveredData,
-  projects,
-  recentBlogs,
-  sliderData,
-} from "src/constants/home";
+import { clientData, faqData, recentBlogs } from "src/constants/home";
 import { homeHooks } from "src/Hooks/home";
 import { handleContact, handleForm } from "src/services/contact";
 import styles from "styles/Home.module.css";
-import classNames from "classnames";
 import { Footer } from "src/components/footer";
-import { SocialIcons } from "src/components/socialIcons";
 import { BlogCard } from "src/components/BlogsCard";
 import { SlickSlider } from "src/components/slickSlider";
-import Slider from "react-slick";
 import { CarouselRotaing } from "src/components/carouselRotaing";
 import { ProcessFlow } from "src/components/processFlow";
+import Contacts from "src/components/contacts";
 const Index = () => {
   const navigate = useRouter();
   const router = useRouter();
@@ -272,13 +260,18 @@ const Index = () => {
         <section className={styles.industries_we_covered}>
           <h3>We serve to every industry with success</h3>
           <div>
-            <p>
-              Following the trend and popularity of Blockchain technology, our
-              experts have expanded our service offerings to include blockchain
-              services such as testing, technology advisory, development
-              services, and more. These services across various industries,
-              including:
-            </p>
+            <div>
+              <p>
+                Following the trend and popularity of Blockchain technology, our
+                experts have expanded our service offerings to include
+                blockchain services such as testing, technology advisory,
+                development services, and more. These services across various
+                industries, including:
+              </p>
+              <a href="/#contact" className={styles.touch_button}>
+                Talk to our experts
+              </a>
+            </div>
             <CarouselRotaing />
           </div>
         </section>
@@ -322,7 +315,12 @@ const Index = () => {
           <h3>Our Recent Blogs</h3>
           <div className={styles.blogWrapper_new}>
             {recentBlogs?.map((item) => (
-              <BlogCard img={item?.img} title={item?.name} path={item?.path} key={item?.id}/>
+              <BlogCard
+                img={item?.img}
+                title={item?.name}
+                path={item?.path}
+                key={item?.id}
+              />
             ))}
           </div>
         </section>
@@ -369,130 +367,7 @@ const Index = () => {
             </div>
           ))}
         </section>
-        <section className={styles.contact} id="contact">
-          <div className={styles.content}>
-            <div className={styles.content_form_one}>
-              <div
-                disabled={form}
-                onClick={() => setForm(!form)}
-                className={!form ? styles.enable : styles.disabled}
-              >
-                <span className="material-icons">expand_less</span>
-              </div>
-              <div
-                disabled={!form}
-                onClick={() => setForm(!form)}
-                className={form ? styles.enable : styles.disabled}
-              >
-                <span className="material-icons">expand_more</span>
-              </div>
-            </div>
-            <div className={styles.content_form_two}>
-              <h2>Contact</h2>
-              {!form ? (
-                <Contact hooks={hooks} />
-              ) : (
-                <p>
-                  Hello! I'm
-                  <input
-                    ref={ref.nameRef}
-                    className={styles.contact_input}
-                    type="text"
-                    placeholder="your name*"
-                    name="name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                  />
-                  , and I work with
-                  <input
-                    ref={ref.companyRef}
-                    className={styles.company}
-                    type="text"
-                    placeholder="company name*"
-                    name="company"
-                    value={company}
-                    onChange={(e) => setCompany(e.target.value)}
-                  />
-                  . We're looking to expand our app. You may reach out to us by
-                  <input
-                    ref={ref.emailRef}
-                    className={styles.email}
-                    type="text"
-                    placeholder="your email or contact number*"
-                    name="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                  />
-                  to talk about it and set up a call.
-                </p>
-              )}
-              <button
-                disabled={loading || !name || !email}
-                className={styles.arrow}
-                onClick={handleSubmit}
-              >
-                {loading ? "Submitting..." : "Submit"}
-                <img
-                  src="/static/icons/next.svg"
-                  height="25"
-                  width="25"
-                  layout="fixed"
-                />
-              </button>
-            </div>
-            <div className={styles.content_form_three}>
-              <h2>Tak To Our Experts :</h2>
-              <p>
-              To get started, simply fill out our contact form and let us know what topic you would like to discuss. Our team will connect you with the most suitable expert for your needs.
-              </p>
-              <div className={styles.form_contact_details}>
-                <div>
-                  <Image
-                    src="/static/icons/whatsapp.png"
-                    height="25"
-                    width="25"
-                    layout="fixed"
-                  />
-                </div>
-                <p>Whatsapp us: +91 7806974190</p>
-              </div>
-              <div className={styles.form_contact_details}>
-                <div>
-                  <Image
-                    src="/static/icons/gmail.png"
-                    height="25"
-                    width="25"
-                    layout="fixed"
-                  />
-                </div>
-                <p>Email: contact@redblox.io</p>
-              </div>
-              <div className={styles.form_contact_details}>
-                <div>
-                  <Image
-                    src="/static/icons/skype.png"
-                    height="25"
-                    width="25"
-                    layout="fixed"
-                  />
-                </div>
-                <p>Skype: +91 7806974190</p>
-              </div>
-              <div className={styles.form_contact_details}>
-                <div>
-                  <Image
-                    src="/static/icons/telegram.png"
-                    height="25"
-                    width="25"
-                    layout="fixed"
-                  />
-                </div>
-                <p>Telegram: +91 7806974190</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <SocialIcons /> */}
+        <Contacts />
         <Footer />
       </main>
     </>
