@@ -2,26 +2,41 @@ import nodemailer from "nodemailer";
 
 export default function handler(req, res) {
   const { name, email, phone, company, subject, message } = req.body;
-  console.log(phone, "phone");
+  // console.log(phone, "phone");
   var messageData;
   const mailer = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
     secure: true,
     auth: {
-      user: "testuserus12@gmail.com",
-      pass: "gajj bzny idau nxdx",
+      user: "contact.redblox@gmail.com",
+      pass: "whkxxqzmgmtuquyg",
     },
   });
 
-  messageData = `name: ${name} \n email: ${email} \n phone: ${phone} \n company: ${company} \n message: ${message}`;
+  messageData = `
+  <div style="
+    font-size: 20px;
+    background: white;
+    padding: 2rem;
+    width: 100%;
+    line-height:2.5
+  ">
+  <div>Name: ${name}</div> \n
+  <div>Phone: ${phone}</div>\n 
+  <div>Email: ${email}</div>\n 
+  <div>Company: ${company}</div>\n 
+  <div>Message: ${message}</div>\n 
+  </div>
+  `;
 
   try {
     (async () => {
       await mailer.sendMail({
         from: email,
-        to: "contact@redblox.io, saptha@redblox.io, tabrez@redblox.io, pricilla@redblox.io",
-        subject: company || subject,
+        to: 
+        "contact@redblox.io, saptha@redblox.io, tabrez@redblox.io, pricilla@redblox.io",
+        subject: company || message,
         html: messageData,
       });
       return res.status(200).json({ status: true, error: null });

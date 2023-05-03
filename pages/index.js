@@ -209,7 +209,7 @@ const Index = () => {
               <div>
                 <div>
                   <Image
-                    src="/static/gif/dev.gif"
+                    src="/static/gif/d.gif"
                     height="150"
                     width="150"
                     layout="fixed"
@@ -218,7 +218,7 @@ const Index = () => {
                 </div>
                 <div>
                   <Image
-                    src="/static/gif/pro.gif"
+                    src="/static/gif/p.gif"
                     height="150"
                     width="150"
                     layout="fixed"

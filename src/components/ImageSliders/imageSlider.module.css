@@ -9,7 +9,7 @@
 
 .titles {
     display: flex;
-    gap: 1rem;
+    gap: 10rem;
     text-align: center;
     overflow-x: scroll;
     padding-bottom: 0.5rem;
@@ -23,11 +23,11 @@
     font-weight: 600;
     font-family: Comfortaa;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0;
     margin-bottom: 2rem;
     white-space: nowrap;
-    min-width: 260px;
+    /* min-width: 260px; */
 }
 
 .head_title_select {
@@ -37,12 +37,12 @@
     cursor: pointer;
     background: #000;
     color: #fff;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 12px;
     margin: 0;
     margin-bottom: 2rem;
     white-space: nowrap;
-    min-width: 300px;
+    /* min-width: 300px; */
 
 }
 

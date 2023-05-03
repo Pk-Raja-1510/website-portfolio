@@ -3,6 +3,7 @@ import styles from "styles/Home.module.css";
 import Contact from '../form/contact';
 import { homeHooks } from 'src/Hooks/home';
 import Image from 'next/image';
+import { handleContact, handleForm } from 'src/services/contact';
 const Contacts = () => {
     const {
         ref,
@@ -20,12 +21,12 @@ const Contacts = () => {
         setCompany,
         setEmail,
         setPhone,
-        setSubject,
+        // setSubject,
         setMessage,
         setForm,
         setLoading,
       } = homeHooks();
-    
+  
       const hooks = {
         ref,
         name,
@@ -37,13 +38,13 @@ const Contacts = () => {
         setEmail,
         setPhone,
         setMessage,
-        setSubject,
+        // setSubject,
       };
       const cb = () => {
         ref.nameRef.current.value = null;
         ref.emailRef.current.value = null;
         if (!form) {
-          ref.subjectRef.current.value = null;
+          // ref.subjectRef.current.value = null;
           ref.messageRef.current.value = null;
           ref.phoneRef.current.value = null;
         } else ref.companyRef.current.value = null;
@@ -52,12 +53,17 @@ const Contacts = () => {
         setEmail(null);
         setPhone(null);
         setMessage(null);
-        setSubject(null);
+        // setSubject(null);
       };
     
       const handleSubmit = () => {
         form && handleContact(name, email, company, setLoading, cb);
-        !form && handleForm(name, email, phone, subject, message, setLoading, cb);
+        !form && handleForm(name, email, phone, message, setLoading, cb);
+        setName("");
+        setCompany('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
       };
   return (
     <section className={styles.contact} id="contact">

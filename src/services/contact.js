@@ -21,7 +21,7 @@ export const handleContact = async (name, email, company, setLoading, cb) => {
     if (status) {
       setLoading(false);
       toast.success("Sent successfully.");
-      cb();
+      // cb();
       return;
     }
   } else toast.warning("Please fill all the required fields.");
@@ -31,19 +31,19 @@ export const handleForm = async (
   name,
   email,
   phone,
-  subject,
+  // subject,
   message,
   setLoading,
   cb
 ) => {
-  if (name && email && subject && message) {
+  if (name && email  && message) {
     setLoading(true);
     const res = await fetch("api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, email, phone, subject, message }),
+      body: JSON.stringify({ name, email, phone,  message }),
     });
 
     const { error, status } = await res.json();
@@ -56,7 +56,7 @@ export const handleForm = async (
     if (status) {
       setLoading(false);
       toast.success("Sent successfully.");
-      cb();
+      // cb();
       return;
     }
   } else toast.warning("Please fill all the required fields.");

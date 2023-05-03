@@ -25,16 +25,11 @@ export const teckData = [
       },
       {
         id: 5,
-        img: "/static/images/blockchain/IP.png",
-        alt: "",
-      },
-      {
-        id: 6,
         img: "/static/images/blockchain/multichain.png",
         alt: "",
       },
       {
-        id: 7,
+        id: 6,
         img: "/static/images/blockchain/sawtooth.png",
         alt: "",
       },

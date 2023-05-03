@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Contact.module.css";
 
 const Contact = ({ hooks }) => {
-  
+ 
   const {
     ref,
     name,
@@ -37,7 +37,7 @@ const Contact = ({ hooks }) => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
-          ref={ref.emailRef}
+          ref={ref.phoneRef}
           type="number"
           placeholder="Phone"
           name="phone"
