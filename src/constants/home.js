@@ -30,19 +30,19 @@ export const projects = [
 export const blackChainData = [
   {
     id: 1,
-    title: "Blockchain - Want To Become A Blockchain Expert In 2023?",
-    description: "Blockchain - Want to become a Blockchain Expert in 2023?",
-    image: "/static/images/BlockchainExpert.jpg",
+    title: "How to Became a Blockchain Expert in 2023",
+    description: "How to Became a Blockchain Expert in 2023",
+    image: "/static/images/BlockchainExpert.webp",
     alt: "",
-    path: "/blockchain/blockchain-expert",
+    path: "/blockchain/how-to-become-a-blockchain-expert-in-2023",
   },
   {
     id: 2,
-    title: "Blockchain - Centralized Vs Decentralized Digital Networks",
+    title: "Centralized Vs Decentralized Digital Networks",
     description: "Blockchain - Centralized Vs Decentralized Digital Networks",
-    image: "/static/images/purpleMordenCentralized.jpg",
+    image: "/static/images/Centralized_Vs_Decentralized.webp",
     alt: "",
-    path: "/blockchain/blockchain-cenVsDecen",
+    path: "/blockchain/centralised-vs-decentralised-digital-networks",
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ export const metaverseData = [
   {
     id: 3,
     title:
-      "Metaverse - It’s Time To Reshape The Fashion Industry In A Virtual Space",
+      "Metaverse Effectively Reshaping the Fashion Industry",
     image: "/static/images/FashionMetaverse.webp",
     alt: "",
     path: "/metaverse/metaverse-effectively-reshaping-the-fashion-industry",
@@ -80,7 +80,7 @@ export const metaverseData = [
   {
     id: 4,
     title:
-      "Metaverse - How can Metaverse make a great change in Real Estate Industries?",
+      "How Metaverse will transform the Real Estate Industry?",
     image: "/static/images/realestate.webp",
     alt: "",
     path: "/metaverse/how-metaverse-will-transform-the-real-estate-industry",
@@ -165,7 +165,7 @@ export const softwareDevelopmentData = [
 export const artificialIntelligenceData = [
   {
     id: 1,
-    title: "AI - The Massive Growth Of CRM & AI From The Past To The Future.",
+    title: "Artificial Intelligence in Customer Relationship Management",
     description:
       "AI - The massive growth of CRM & AI from the past to the Future.",
     image: "/static/images/art.webp",
@@ -332,7 +332,7 @@ export const sliderData = [
     id: 1,
     header: "Blockchain Development",
     content:
-      "We specialise in delivering customised blockchain development services and solutions utilising various blockchain platforms. Our blockchain solutions are specifically designed to cater to your business requirements, enabling enhanced trust and transparency with cost-effective approaches.",
+      "We specialise in delivering customised blockchain development services and solutions utilising various blockchain platforms.",
     image: "/static/icons/blockchain.png",
     alt: "",
   },
@@ -340,7 +340,7 @@ export const sliderData = [
     id: 2,
     header: "Metaverse Development",
     content:
-      "We offer a variety of fascinating opportunities through our metaverse development solutions. The Metaverse has seen significant growth in recent years, with many business leaders interested in expanding into the virtual space. Don't miss out on the chance to kickstart your Metaverse business today!",
+      "We offer a variety of fascinating opportunities through our metaverse development solutions. Don't miss out on the chance to kickstart your Metaverse business today!",
     image: "/static/icons/metaverse.png",
     alt: "",
   },
@@ -348,7 +348,7 @@ export const sliderData = [
     id: 3,
     header: "Mobile App Development",
     content:
-      "Our Mobile app development offers a wide range of benefits to businesses such as increased brand visibility, enhanced customer engagement, and improved accessibility. We work closely with clients to understand your business needs and create apps that align with their goals.",
+      "Our Mobile app development solutions offer a wide range of benefits to businesses to enhance customer engagement and create apps that align with their goals.",
     image: "/static/icons/web_app.png",
     alt: "",
   },
@@ -356,7 +356,7 @@ export const sliderData = [
     id: 4,
     header: "NFT Platform Development",
     content:
-      "Redblox, a top-notch NFT development company, can assist you in creating NFTs for digital collectibles, games, music, real estate, and other purposes. Our Experienced NFT developers can take your business models to new heights by utilising the potential of blockchain technology.",
+      " Our Experienced NFT developers can take your business models to new heights by utilizing the potential of blockchain technology.",
     image: "/static/icons/nft_platform.png",
     alt: "",
   },
@@ -364,7 +364,7 @@ export const sliderData = [
     id: 5,
     header: "VR & AR Development",
     content:
-      "Our VR and AR development services cover everything from strategy and design to development. We work closely with your team to ensure a deep understanding of your product vision and business objectives, as this is the foundation for creating an exceptional VR/AR experience.",
+      "Our VR and AR development services cover everything from strategy. We work closely with your team to ensure a deep understanding of your business objectives.",
     image: "/static/icons/vr_ar.png",
     alt: "",
   },
@@ -372,7 +372,7 @@ export const sliderData = [
     id: 6,
     header: "dApp Development",
     content:
-      "Our dApp development services provide diverse tools and technologies across various blockchain networks. This includes popular frameworks such as Angular and React Native, as well as programming languages like Solidity, Go, Rust, JavaScript, Node.js, and many others.",
+      "Our dApp development services provide diverse tools and technologies across various blockchain networks.",
     image: "/static/icons/dapp.png",
     alt: "",
   },
@@ -380,7 +380,7 @@ export const sliderData = [
     id: 7,
     header: "Custom Software Development",
     content:
-      "We specialise in Custom software development services to streamline corporate processes from concept to coding, development to deployment, and increase business revenues. We are providing flexible integration and customization for your software products.",
+      "We specialise in Custom software development services to streamline corporate processes from concept to coding, development to deployment, and increase business revenues.",
     image: "/static/icons/custom_software.png",
     alt: "",
   },
@@ -388,7 +388,7 @@ export const sliderData = [
     id: 8,
     header: "Crypto Wallet Development",
     content:
-      "Our Crypto Wallet Development Services facilitate faster and more secure transactions for users, leveraging the benefits of our advanced crypto wallet solutions. Our goal is to create a customizable, multi-chain crypto wallet that meets the specific requirements of our clients.",
+      "Our Crypto Wallet Development Services facilitate faster and more secure transactions for users, leveraging the benefits of our advanced crypto wallet solutions.",
     image: "/static/icons/crypto_wallet.png",
     alt: "",
   },
@@ -446,8 +446,8 @@ export const industryCoveredData = [
 ];
 export const recentBlogs = [
   {
-    id: 1,
-    name: "Metaverse - It’s Time To Reshape The Fashion Industry In A Virtual Space",
+    id: 1,  
+    name: "Metaverse Effectively Reshaping the Fashion Industry",
     path: "/metaverse/metaverse-effectively-reshaping-the-fashion-industry",
     img: "/static/images/FashionMetaverse.webp",
     alt: "",
@@ -493,3 +493,4 @@ export const faqData = [
       "A blockchain platform is a distributed digital ledger that enables users to securely store and exchange information. The register is maintained by a distributed network of computers, and each transaction is confirmed by agreement among network users.",
   },
 ];
+export const batchData=['/static/batch/appfutura-badge.jpg','/static/batch/top_clutch.png','/static/batch/Google.jpg','/static/batch/Top_Software_Development_Company.jpg','/static/batch/vr_development_company_mumbai.png']

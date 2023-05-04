@@ -9,7 +9,7 @@
 
 .titles {
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
     text-align: center;
     overflow-x: scroll;
     padding-bottom: 0.5rem;

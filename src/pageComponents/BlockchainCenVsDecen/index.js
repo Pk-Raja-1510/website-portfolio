@@ -9,194 +9,275 @@ const BlockchainCenVsDecen = () => {
   return (
     <>
       <Head>
-        <title>Blog | Redblox</title>
-        <meta
-          property="og:title"
-          content="Mr.Kamran Qamar - An Inspiring Business Strategist and Advisor"
-        />
+        <title>Centralised Vs Decentralised Digital Networks - Redblox</title>
         <meta
           property="og:description"
-          content="We are happy & excited to announce that Mr. Kamran Qamar has joined Redblox Team as the Advisor and mentor, guiding our Tech Ninjas & elevating our Initiatives"
+          content="Centralised vs. Decentralised Digital Networks: Which is Better? This blog explores the differences between centralised and decentralised networks, including their strengths and weaknesses. Learn about the potential benefits and drawbacks of each type of network, and gain a deeper understanding of how they operate."
+        />
+        <meta
+          property="og:keywords"
+          content="decentralised vs centralised, difference between centralization and decentralisation, what is centralization and decentralisation, centralised vs decentralised organisation, Difference between centralised and decentralised, centralised and decentralised management,"
         />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">
           <div>
-            <h1 className={styles.head}>
-              Blockchain - Centralized Vs Decentralized Digital Networks
+            <h1 className={styles.blog_id_title}>
+              Centralized Vs Decentralized Digital Networks
             </h1>
             <div>
               <div className={styles.img}>
                 <img
                   className={styles.Gameimg}
-                  src="/static/images/purpleMordenCentralized.jpg"
+                  src="/static/images/Centralized_Vs_Decentralized.webp"
                 />
               </div>
             </div>
             <div className={styles.data}>
-              <p>
-                You may know multiple networks that come under different
-                versions like 3G, 4G, and 5G. But it is a completely different
-                concept in digital networks. Mainly there are two categories of
-                digital networks which are{" "}
-                <span className={styles.textBold}>Centralized</span> and{" "}
-                <span className={styles.textBold}>Decentralized</span> Digital
-                Networks. There are some pros and cons to both technologies and
-                the user can choose the specific one depending on their needs.
-                This blog will reveal the major difference, advantages, and
-                disadvantages of Centralized and Decentralized Digital Networks.
+              <p className={styles.blog_id_content}>
+                The current business landscape is witnessing a surge in
+                decentralised networks due to the emergence of advanced
+                technologies such as Blockchain and cloud computing. These
+                decentralised networks have evolved significantly from the
+                centralised networks of the past decade. This blog aims to
+                educate the fundamental distinctions between network
+                environments and highlight their merits and demerits.
               </p>
-              <h3>What does Centralized Networks?</h3>
-              <p>
-                In a Centralized Network, a single point connects all the nodes
-                This single point only can control the communication between
-                every node. Because of the centralized control, every data can
-                easily detect and track by the service providers. This is highly
-                efficient and supportive for the business side to manage the
-                user and customer data. There are some drawbacks present in a
-                centralized network. If the central node fails, the entire
-                network will crash. If the central node is weak, then the bad
-                actor can easily enter the central networks and change
-                transactions and data.
+              <h2 className={styles.blog_id_main_heading}>
+                What is a Decentralised Network?
+              </h2>
+              <p className={styles.blog_id_content}>
+                A decentralised network structure distributes among multiple
+                devices instead of relying on a single server. This pattern has
+                progressed from the swift developments in desktop and laptop
+                computers that provide a performance level surpassing the
+                requirements of most business applications. Consequently, the
+                surplus computational capacity can be utilised for distributed
+                processing.
               </p>
-              <h3>How does a Centralized network work?</h3>
-              <p>
-                Imagine that if you are trying to communicate with the customer
-                care service, the call will connect to the central server, and
-                then your call will redirect to the desired departments. The
-                centralized system forwards every call to the system, and then
-                the calls are forwarded to desired departments. The main thing
-                is the central system can record and track every call, for
-                Security and business development purposes. This type of network
-                system will be suitable for the organization or government to
-                monitor the data and communications safely.<br></br> <br></br>In
-                a centralized system, there is a drawback. If the central system
-                goes down all the connectivity of every user will be off. If the
-                hacker breaks the security gateways of the central system, they
-                can easily change and monitor everyone connected to the central
-                node.
+              <h2 className={styles.blog_id_main_heading}>
+                How Does a Decentralised Network Work?
+              </h2>
+              <p className={styles.blog_id_content}>
+                In a decentralised network, users own their data without any
+                limitations. All data transfers are recorded on the ledger of
+                every user in the network, making it impossible to alter the
+                data once it is transferred through the blockchain. This feature
+                has made it an ideal choice for developing cryptocurrencies and
+                copyright processes. Despite its high level of security, a group
+                of reliable tech experts must ensure its regular maintenance to
+                keep the decentralised blockchain technology up and running.
               </p>
-              <h3>Decentralized Network</h3>
-              <p>
-                <span className={styles.textBold}>Decentralized Networks</span>{" "}
-                are in complete contrast to centralized networks. In this
-                network, there is no single-point control so there is no access
-                control or restrictions for the users. It is a transparent
-                network so the user will get ownership of their data. The user
-                will never be afraid of their data security and this platform
-                will never expose the individual identity. Because of the
-                decentralized system, it is very hard to hack the network. If
-                the bad actor tries to hack or change the data, then they have
-                to change every user's account. It will take a long time to
-                change or hack a single user account in a decentralized network,
-                so it is highly impossible to hack every account in the
-                decentralized network.
+              <div className={styles.blog_buttons}>
+                <a href="/#contact" className={styles.touch_button}>
+                  Decentralized Application Development Services - Contact Us
+                </a>
+              </div>
+              <h2 className={styles.blog_id_main_heading}>
+                What are Centralized networks?
+              </h2>
+              <p className={styles.blog_id_content}>
+                A Centralised Network involves a single point connecting all
+                nodes, thereby enabling communication control between each node.
+                Due to centralised control, service providers can easily detect
+                and track all data, making it highly efficient for businesses to
+                manage user and customer data. However, this type of network
+                also has certain drawbacks. If the central node fails, the
+                entire network crashes, and can easily infiltrate the central
+                network and alter transactions and data.
               </p>
-              <h3>How does the Decentralized Network work?</h3>
-              <p>
-                In a decentralized network, the user will have ownership of
-                their data, and there are no restrictions. All data transfers
-                will copy to the ledger of all the users in the same network. So
-                it is not possible to make any changes once it transferred the
-                data through the blockchain. Because of this excellent feature,
-                it was used to create a cryptocurrencies and copyrights process.
-                Even though it is highly secure but a set of trusted techies
-                should maintain it regularly. So they can regularly maintain the
-                decentralized blockchain technology.
+              <h2 className={styles.blog_id_main_heading}>
+                How Does a Centralised Network Work?
+              </h2>
+
+              <p className={styles.blog_id_content}>
+                A centralised network revolves around a sole server or master
+                node that manages critical data processing and stores both user
+                information and data accessible by other users. Users can
+                connect to the central server through client nodes and request
+                data rather than execute them independently.
               </p>
-              <h3>
-                Differences between Centralized and Decentralized Technology
+              <h2 className={styles.blog_id_main_heading}>
+                Difference Between Centralised and Decentralised Digital
+                Networks
+              </h2>
+              <table className={styles.table_blog}>
+                <tbody>
+                  <tr>
+                    <th>Centralised Network</th>
+                    <th>Decentralised Network</th>
+                  </tr>
+                  <tr>
+                    <td>Data in centralised Internet networks must pass through a central point.</td>
+                    <td>Data travels via numerous points without any need for it to pass through a specific point before access is given.</td>
+                  </tr>
+                  <tr>
+                    <td>Systematic Authority Reservation in a Network</td>
+                    <td>The network involves the methodical distribution of authority to multiple access points.</td>
+                  </tr>
+                  <tr>
+                    <td>Data Communication flow is in Vertical</td>
+                    <td>The flow of data is constantly open and free.</td>
+                  </tr>
+                  <tr>
+                    <td>The central point, which can be a single server, bears responsibility.</td>
+                    <td>There are numerous points with decision-making capacities.</td>
+                  </tr>
+                  <tr>
+                    <td>As agencies and governments can track the flow of information and data, privacy is always an issue.</td>
+                    <td>Known for data security and privacy protection</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h2 className={styles.blog_id_main_heading}>
+                Advantages of Centralization:
+              </h2>
+              <h3 className={styles.blog_id_sub_heading}>Common Chain:</h3>
+              <p className={styles.blog_id_content}>
+                The command chain is well-specified and centralised. When an
+                organisation uses centralization, they are aware of the chain of
+                command. This means that everyone in the organisation
+                understands their function and to whom they must report. They
+                also know who is under their command and are accountable for
+                their subordinate's behavior.
+              </p>
+              <p className={styles.blog_id_content}>
+                When it comes to a network that uses centralization, one central
+                node or a group of nodes is in charge of transactional
+                verification.
+              </p>
+              <h3 className={styles.blog_id_sub_heading}>Reduce Costs:</h3>
+              <p className={styles.blog_id_content}>
+                One of the most significant benefits of centralization is the
+                reduction in costs. Any centralised network or infrastructure
+                demands less support and expenditure. Because centralised
+                organisations or networks are planned, the costs associated with
+                them do not exceed budgets unless it is absolutely necessary to
+                expand the network.
+              </p>
+              <h3 className={styles.blog_id_sub_heading}>
+                Quick Decision Implementation:
+              </h3>
+              <p className={styles.blog_id_content}>
+                Without a doubt, centralization organisations or networks allow
+                for rapid decision implementation. Because centralised networks
+                have fewer nodes or people, there is less communication between
+                the various levels of authorization.
+              </p>
+              <h2 className={styles.blog_id_main_heading}>
+                Advantages of Decentralization:
+              </h2>
+              <h3 className={styles.blog_id_sub_heading}>
+                1. Full Access Control
+              </h3>
+              <p className={styles.blog_id_content}>
+                One of the top benefits of decentralisation is that users have
+                full control over their transactions. This means they can
+                initiate a transaction whenever they want without requiring
+                authorization from a centralised authority. To put it simply,
+                the verification process is not reliant on third parties, and a
+                decentralised network uses consensus mechanisms to validate the
+                information.
+              </p>
+              <h3 className={styles.blog_id_sub_heading}>
+                2. Data Can’t be Renamed or Deleted
               </h3>
               <p>
-                The differences between Centralized and Decentralized Technology
-                is below, and this will give a better clarification about which
-                one is suitable for you.
+                The data structure of blockchain technology is append-only. This
+                means that no one can change or edit the data once it has been
+                saved. Another blockchain system that uses other data
+                structures, such as Corda, adheres to the immutability property.
               </p>
-              <ul>
-                <h3>Third Parties Involvement </h3>
-                <li>
-                  <p>Centralized systems come under third-party involvement.</p>
-                </li>
-                <li>
-                  <p>
-                    Decentralized systems will never allow third-party
-                    integration because every data transaction will come under
-                    the P2P process.
-                  </p>
-                </li>
-              </ul>
-              <ul>
-                <h3>Transparency </h3>
-                <li>
-                  <p>
-                    The transparency of a centralized system is low and it will
-                    never allow users to access every piece of information.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Decentralized systems are completely transparent and they
-                    will follow no restrictions or terms and conditions.
-                  </p>
-                </li>
-              </ul>
-              <ul>
-                <h3>Security </h3>
-                <li>
-                  <p>
-                    The security of the centralized system is low when compared
-                    to the decentralized system because if the hacker breaks the
-                    security gateway of the centralized system, they can easily
-                    access every user's account.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    A decentralized system is highly secure when compared to a
-                    centralized system because it is not possible to steal
-                    someone's information because the encoded data will share
-                    with everyone in the blockchain network.
-                  </p>
-                </li>
-              </ul>
-              <ul>
-                <h3>Scalability</h3>
-                <li>
-                  <p>
-                    The scalability of a centralized system is very low because
-                    the organization can misuse the personal details of users.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    The scalability of a decentralized system is high because it
-                    will never come under any organization so it is not possible
-                    to misuse your data.
-                  </p>
-                </li>
-              </ul>
-
-              <h3>Exchange Fees </h3>
-              <p>
-                Blockchain technology exchange fees are required to make
-                transactions. This is common for both centralized and
-                decentralized blockchain systems. But the exchange fees are high
-                in a centralized system when compared to a decentralized system.
-                So you can choose your desired exchange which is suitable for
-                you.
+              <h3 className={styles.blog_id_sub_heading}>3. Safe & Secure</h3>
+              <p className={styles.blog_id_content}>
+                Because of how they manage data and transactions, decentralised
+                networks are secure. They use cryptography to ensure the
+                security of the data ledgers. Furthermore, the data in the
+                current block requires data from the adjacent block in order to
+                validate the data using cryptography.
               </p>
-              <h3>End Words</h3>
-              <p>
-                Blockchain supports both users and service providers by
-                providing two major options like{" "}
-                <span className={styles.textBold}>
-                  Centralized and Decentralized Digital Networks.
-                </span>{" "}
-                It is time to choose your desired blockchain technology and if
-                you use or implement these technologies, then{" "}
-                <span className={styles.textBold}>RedBlox</span> will be the
-                perfect choice for you. It's time to move your business towards
-                the updated technology with the guidance of RedBlox.
+              <h3 className={styles.blog_id_sub_heading}>4. Censorship</h3>
+              <p className={styles.blog_id_content}>
+                Decentralisation entails less censorship. There is a greater
+                possibility of information being restricted under a centralised
+                system. However, because there is no central authority
+                controlling the data, the decentralised network is less
+                susceptible to censorship.
+              </p>
+              <h3 className={styles.blog_id_sub_heading}>
+                5. Open Development
+              </h3>
+              <p className={styles.blog_id_content}>
+                Decentralised networks generally encourage open development.
+                Because of the network's open development environment,
+                incredible services, tools, and products are built on top of it.
+              </p>
+              <div className={styles.blog_buttons}>
+                <a href="/#contact" className={styles.touch_button}>
+                  Decentralized Platform Development Services - Talk to us
+                </a>
+              </div>
+              <h2 className={styles.blog_id_main_heading}>
+                Use-Cases of Centralized vs Decentralized
+              </h2>
+              <h3 className={styles.blog_id_sub_heading}>Payment Systems</h3>
+              <p className={styles.blog_id_content}>
+                How does a decentralised system used in the payment system? By
+                using a decentralised, Your funds are always available because
+                there is no central authority or point of failure.
+              </p>
+              <p className={styles.blog_id_content}>
+                It also eliminates the possibility of your funds being hacked or
+                accessed by a bad person. So, by using cryptocurrencies to
+                receive and transmit payments, you remove the function of the
+                centralised entity from the process, thereby improving it in
+                every aspect.
+              </p>
+              <p className={styles.blog_id_content}>
+                Another advantage of the payment mechanism is the elimination of
+                intermediary expenses.
+              </p>
+              <h3 className={styles.blog_id_sub_heading}>Voting System</h3>
+              <p className={styles.blog_id_content}>
+                The entire voting system scenario revolves around one critical
+                issue: transparency. The existing method of voting does not take
+                transparency into account. As a result, there are numerous
+                conspiracy theories about how the votes are controlled within.
+              </p>
+              <p className={styles.blog_id_content}>
+                This is where a decentralised voting platform can help. It can
+                be used by governments to administer elections and give
+                transparent voting. In this manner, they can put to rest all of
+                the speculations that emerge when general election results are
+                announced.
+              </p>
+              <p className={styles.blog_id_content}>
+                Voters can readily verify their votes by utilizing a transparent
+                voting system or a voting system that runs on a decentralised
+                network. This also means that no party can commit fraud in the
+                voting process. Another advantage of this method is that results
+                can be announced as soon as voting is completed.
+              </p>
+              <h2 className={styles.blog_id_main_heading}>
+                Conclusion: Centralized vs Decentralized: Which one is better?
+              </h2>
+              <p className={styles.blog_id_content}>
+                Decentralised system network has only been used in a few
+                applications, with only technology and banking operation.
+                However, the decentralised system is still in its early stages
+                and has already demonstrated enormous potential due to its high
+                security, transparency and connectivity, and ability to foster
+                fairness among its users.
+              </p>
+              <p className={styles.blog_id_content}>
+                Despite the fact that decentralised systems are not as
+                frequently utilised as centralised systems nowadays, they are
+                nevertheless employed primarily in the gaming sector, such as
+                through NFTs in Play to Earn. With innovative plans like Walk to
+                Earn, Step to Earn & Exercise to Earn, the fitness industry
+                embraces decentralised solutions. We are convinced that the
+                function of decentralised systems will expand and become a key
+                part of many sectors in the future.
               </p>
             </div>
           </div>

@@ -7,6 +7,13 @@ export const SocialIcons = () => {
     <div className={styles.fixed_social_icons}>
       <h3>Share this Page on</h3>
       <div>
+      <Image
+          onClick={() => otherRoute("https://www.linkedin.com/company/redblox-io/")}
+          src="/static/icons/linkedin.png"
+          height={25}
+          width={25}
+          layout="fixed"
+        />
         <Image
           onClick={() => otherRoute("https://www.facebook.com/Redblox.io")}
           src="/static/icons/fb.png"

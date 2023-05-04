@@ -2100,3 +2100,33 @@
   font-size: 20px;
   font-weight: 700;
 }
+.table_blog{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    margin: 2rem auto;
+}
+.table_blog>tbody>tr>th{
+  border: 2px solid #000;
+  padding: 8px;
+  width: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.table_blog>tbody>tr>td{
+  border: 2px solid #000;
+  text-align: left;
+  padding: 8px;
+  width: 50%;
+}
+.batch_section{
+  padding: 100px 100px 0 100px;
+
+}
+.batch_section>div{
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}

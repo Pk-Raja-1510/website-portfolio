@@ -11,7 +11,7 @@ export const BlogCard = (props) => {
         <img className={styles.blogImage} src={props?.img} alt={props?.alt}/>
         <h5 className={styles.blogHead}>{props?.title}</h5>
         <div className={styles.blogButton}>
-          <button>Show More</button>
+          <button>Show More &gt;&gt; </button>
         </div>
       </div> 
   );

@@ -36,10 +36,12 @@
   }
   
   .blogButton button {
-    background: #000;
-    color: #fff;
+    background: none;
+    color: red;
     border: none;
     border-radius: 16px;
     padding: 0.5rem;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
   }

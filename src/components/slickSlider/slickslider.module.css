@@ -6,7 +6,7 @@
     overflow: hidden;
     overflow-x: scroll;
     padding-bottom: 1.5rem;
-    height: 510px !important;
+    height: 420px !important;
   }
 
   .slider_main_content>div>div::-webkit-scrollbar {
@@ -23,11 +23,11 @@
     width: 100% !important;
   }
   .slider_main_content_box {
-    height: 450px;
+    height: 380px;
     width: 380px;
     min-width: 380px;
     max-width:380px ;
-    min-height: 490px;
+    min-height: 380px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: #fff;
     border-radius: 16px;
@@ -82,7 +82,7 @@
   }
   
   .slider_main_content_box>div {
-    height: 75%;
+    height: 66%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -123,7 +123,7 @@
     height: 82px !important;
     padding: 18px;
     position: relative;
-    bottom: 75%;
+    bottom: 66%;
     transform: translate(-50%, -50%);
     border-radius: 100%;
     margin: 1rem auto;

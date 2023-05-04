@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Contact from "src/components/form/contact";
 import ImageSliders from "src/components/ImageSliders";
 import { useRouter } from "next/router";
-import { clientData, faqData, recentBlogs } from "src/constants/home";
+import { batchData, clientData, faqData, recentBlogs } from "src/constants/home";
 import { homeHooks } from "src/Hooks/home";
 import { handleContact, handleForm } from "src/services/contact";
 import styles from "styles/Home.module.css";
@@ -185,6 +185,21 @@ const Index = () => {
             </div>
           </div>
         </div>
+        <div className={styles.batch_section}>
+          <div>
+          {batchData?.map((item,index)=>
+          <Image
+            src={item}
+            height="150"
+            width="150"
+            layout="fixed"
+            alt=""
+            key={index}
+          />
+          )}
+          </div>
+          
+        </div>
         <section className={styles.section2} id="WhatWeDo">
           <div className={styles.portfolio_main_left}>
             <div className={styles.intro}>
@@ -311,19 +326,6 @@ const Index = () => {
             </div>
           </div>
         </section>
-        <section className={styles.recent_blogs}>
-          <h3>Our Recent Blogs</h3>
-          <div className={styles.blogWrapper_new}>
-            {recentBlogs?.map((item) => (
-              <BlogCard
-                img={item?.img}
-                title={item?.name}
-                path={item?.path}
-                key={item?.id}
-              />
-            ))}
-          </div>
-        </section>
         <section className={styles.section3}>
           <h3>Why Redblox Technologies?</h3>
           <p>
@@ -366,6 +368,19 @@ const Index = () => {
               }
             </div>
           ))}
+        </section>
+        <section className={styles.recent_blogs}>
+          <h3>Our Recent Blogs</h3>
+          <div className={styles.blogWrapper_new}>
+            {recentBlogs?.map((item) => (
+              <BlogCard
+                img={item?.img}
+                title={item?.name}
+                path={item?.path}
+                key={item?.id}
+              />
+            ))}
+          </div>
         </section>
         <Contacts />
         <Footer />

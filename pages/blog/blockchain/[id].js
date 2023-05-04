@@ -4,8 +4,8 @@ import BlockchainExpert from "src/pageComponents/BlockchainExpert";
 import BlockchainProceedToPay from "src/pageComponents/BlockchainProceedToPay";
 const Blog = (props) => {
   const { id } = props;
-  if (id === "blockchain-expert") return <BlockchainExpert />;
-  if (id === "blockchain-cenVsDecen") return <BlockchainCenVsDecen />;
+  if (id === "how-to-become-a-blockchain-expert-in-2023") return <BlockchainExpert />;
+  if (id === "centralised-vs-decentralised-digital-networks") return <BlockchainCenVsDecen />;
   if (id === "how-blockchain-can-transform-the-procure-to-pay-process") return <BlockchainProceedToPay />;
   return <div>Not found</div>;
 };
