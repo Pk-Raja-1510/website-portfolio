@@ -1,0 +1,50 @@
+import Image from 'next/image';
+import React from 'react'
+import styles from './blogSocialIcons.module.css'
+export const BlogSocialIcons = () => {
+    const otherRoute = (url) => window?.open(url);
+  return (
+    <div className={styles.fixed_social_icons}>
+      <h3>Share this Page on</h3>
+      <div>
+      <Image
+          onClick={() => otherRoute("https://www.linkedin.com/company/redblox-io/")}
+          src="/static/icons/linkedin.png"
+          height={40}
+          width={40}
+          layout="fixed"
+        />
+        <Image
+          onClick={() => otherRoute("https://www.facebook.com/Redblox.io")}
+          src="/static/icons/fb.png"
+          height={40}
+          width={40}
+          layout="fixed"
+        />
+        <Image
+          onClick={() =>
+            otherRoute("https://https://twitter.com/RedBloxIO")
+          }
+          src="/static/icons/twitter.png"
+          height={40}
+          width={40}
+          layout="fixed"
+        />
+        <Image
+          onClick={() => otherRoute("")}
+          src="/static/icons/medium.png"
+          height={40}
+          width={40}
+          layout="fixed"
+        />
+        <Image
+          onClick={() => otherRoute("")}
+          src="/static/icons/reddit.png"
+          height={40}
+          width={40}
+          layout="fixed"
+        />
+        </div>
+    </div>
+  )
+}

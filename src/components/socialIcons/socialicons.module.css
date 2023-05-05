@@ -13,6 +13,8 @@
   font-family: "Comfortaa";
   font-size: 30px;
   font-weight: 600;
+  margin: 0;
+  margin-bottom: 1rem; 
 }
 .fixed_social_icons>div{
   width: 100%;

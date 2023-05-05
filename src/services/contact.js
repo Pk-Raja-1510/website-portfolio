@@ -1,6 +1,15 @@
 import { toast } from "react-toastify";
 
-export const handleContact = async (name, email, company, setLoading, cb) => {
+export const handleContact = async (
+  name,
+  email,
+  company,
+  setLoading,
+  cb,
+  setName,
+  setCompany,
+  setEmail
+) => {
   if (name && email && company) {
     setLoading(true);
     const res = await fetch("api/contact", {
@@ -21,6 +30,9 @@ export const handleContact = async (name, email, company, setLoading, cb) => {
     if (status) {
       setLoading(false);
       toast.success("Sent successfully.");
+      setName(''),
+      setCompany(''),
+      setEmail('')
       // cb();
       return;
     }
@@ -34,18 +46,22 @@ export const handleForm = async (
   // subject,
   message,
   setLoading,
+  setName,
+  setEmail,
+  setPhone,
+  setMessage,
   cb
 ) => {
-  if (name && email  && message) {
+  if (name && email && message) {
     setLoading(true);
     const res = await fetch("api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, email, phone,  message }),
+      body: JSON.stringify({ name, email, phone, message }),
     });
-
+    console.log(res, "res");
     const { error, status } = await res.json();
 
     if (error) {
@@ -56,6 +72,10 @@ export const handleForm = async (
     if (status) {
       setLoading(false);
       toast.success("Sent successfully.");
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
       // cb();
       return;
     }

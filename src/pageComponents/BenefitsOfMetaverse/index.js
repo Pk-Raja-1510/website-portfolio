@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import { BlogSocialIcons } from "src/components/BlogSocialicons";
 import Contacts from "src/components/contacts";
 import { Footer } from "src/components/footer";
+import { SocialIcons } from "src/components/socialIcons";
 import styles from "styles/Home.module.css";
 
 const BenefitsOfMetaverse = () => {
@@ -50,7 +52,9 @@ const BenefitsOfMetaverse = () => {
                 lives of individuals with disabilities, as well as their
                 financial situations.
               </h2>
-              <h4 className={styles.blog_id_content_bold}>1. Improved accessibility</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                1. Improved accessibility
+              </h4>
               <p className={styles.blog_id_content}>
                 The metaverse could provide a more accessible environment for
                 people with disabilities. Virtual spaces can be designed with
@@ -80,7 +84,9 @@ const BenefitsOfMetaverse = () => {
                 their own avatars, they can express themselves in ways that may
                 not be possible in the physical world.
               </p>
-              <h4 className={styles.blog_id_content_bold}>5. Training and Education</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                5. Training and Education
+              </h4>
               <p className={styles.blog_id_content}>
                 The Metaverse can also offer unique opportunities for education
                 and training for people with disabilities. The virtual
@@ -102,7 +108,9 @@ const BenefitsOfMetaverse = () => {
                 health. VR and AR can improve medical imaging in radiology,
                 aiding in diagnostics, treatment planning, and medical research.
               </p>
-              <h4 className={styles.blog_id_content_bold}>8. Enhancing the Senses</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                8. Enhancing the Senses
+              </h4>
               <p className={styles.blog_id_content}>
                 Individuals who have partial hearing or visual loss can benefit
                 from AR and VR applications designed to enhance their senses.
@@ -112,7 +120,9 @@ const BenefitsOfMetaverse = () => {
                 watching framework, enabling individuals with low vision to see
                 with better quality.
               </p>
-              <h4 className={styles.blog_id_content_bold}>9. Buying their First Home</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                9. Buying their First Home
+              </h4>
               <p className={styles.blog_id_content}>
                 Purchasing a new home is a significant decision as it is likely
                 the most expensive asset they will acquire in their lifetime.
@@ -132,7 +142,9 @@ const BenefitsOfMetaverse = () => {
                 to access types of work that may be challenging for them to
                 obtain in the physical world.
               </p>
-              <h4 className={styles.blog_id_content_bold}>11. Start their own business </h4>
+              <h4 className={styles.blog_id_content_bold}>
+                11. Start their own business{" "}
+              </h4>
               <p className={styles.blog_id_content}>
                 It is possible to establish your own business in the Metaverse
                 without requiring any actual financial investment. You could
@@ -161,7 +173,8 @@ const BenefitsOfMetaverse = () => {
             </div>
           </div>
         </section>
-        <Contacts/>
+        <BlogSocialIcons/>
+        <Contacts />
         <Footer />
       </main>
     </>

@@ -93,6 +93,7 @@
     border-radius: 0.35714em;
     margin-bottom: 1.42857em;
     font-family: 'Comfortaa';
+    outline: none;
 }
 
 .contact_us_form>textarea {
@@ -109,11 +110,16 @@
     line-height: auto;
     border-radius: 0.35714em;
     margin-bottom: 1.42857em;
+    outline: none;
 }
 
 .contact_us_form>button {
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
     color: #fff;
-    font-size: 0.875em;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1;
     text-transform: uppercase;

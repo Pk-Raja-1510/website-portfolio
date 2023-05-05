@@ -1,0 +1,37 @@
+.fixed_social_icons {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+   
+    /* max-width: fit-content; */
+}
+
+.fixed_social_icons>h3 {
+    font-family: "Comfortaa";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.fixed_social_icons>div {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: fit-content;
+}
+.fixed_social_icons>div>span {
+    cursor: pointer;
+    transition: transform .2s;
+}
+.fixed_social_icons>div>span:hover{
+    transform: scale(1.2);
+
+}

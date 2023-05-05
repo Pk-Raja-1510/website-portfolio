@@ -2,7 +2,6 @@ import nodemailer from "nodemailer";
 
 export default function handler(req, res) {
   const { name, email, phone, company, subject, message } = req.body;
-  // console.log(phone, "phone");
   var messageData;
   const mailer = nodemailer.createTransport({
     host: "smtp.gmail.com",
