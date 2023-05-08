@@ -9,6 +9,7 @@ const ImageSliders = () => {
   const onNext = (id) => {
 		if (id === 'TechList') {
 			const NextTech = [...currentIndex]
+      console.log(NextTech,'NextTechNextTech');
 			NextTech.push(NextTech.shift())
 			setCurrentIndex([...NextTech])
 		}

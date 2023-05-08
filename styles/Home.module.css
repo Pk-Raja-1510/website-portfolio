@@ -141,7 +141,7 @@
 .section2 {
   flex-direction: column;
   justify-content: space-between;
-  gap: 100px;
+  /* gap: 100px; */
 }
 
 .intro {
@@ -412,8 +412,8 @@
 }
 
 .clients>div>img:last-child {
-  height: 100px;
-  width: 100px;
+  /* height: 100px;
+  width: 100px; */
 }
 
 .clients>div>img:hover {
@@ -892,9 +892,11 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
 .industries_we_covered>div {
   display: flex;
   gap: 17rem;
+  margin-top: 4rem;
 
 }
 
@@ -1244,6 +1246,37 @@
 }
 
 /* responsive screens - ipad */
+@media (max-width: 1450px) {
+  .blogWrapper {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .industries_we_covered>div {
+    gap: 13rem;
+  }
+
+}
+
+@media (max-width: 1350px) {
+  .blogWrapper {
+    grid-template-columns: auto auto;
+  }
+
+  .blogWrapper_new {
+    grid-template-columns: auto auto;
+  }
+
+  .industries_we_covered>div {
+    flex-direction: column;
+    gap: 2rem;
+    min-height: 415px;
+  }
+
+  .industries_we_covered>div>div>p {
+    width: 100%;
+  }
+}
 
 @media (max-width: 1000px) {
   .section {
@@ -1261,9 +1294,34 @@
     gap: 40px;
   }
 
+  .industries_we_covered {
+    padding: 30px 70px;
+  }
+
+  .industries_we_covered>div {
+    gap: 1rem;
+    min-height: 450px;
+  }
+
   .section2>div:first-child {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .intro>p {
+    margin: 0;
+  }
+
+  .portfolio_main_left {
+    gap: 0;
+  }
+
+  .portfolio_main_right {
+    width: 100%;
   }
 
   .section2>div:first-child>h2 {
@@ -1287,8 +1345,19 @@
     justify-content: space-evenly;
   }
 
-  .section3 {
+  .slider_new_container {
     padding: 30px 70px;
+  }
+
+  .slider_new_container>h3 {
+    text-align: start;
+    font-size: 35px;
+  }
+
+  .slider_new_imgs>h3 {
+    font-size: 35px;
+    text-align: start;
+    padding: 0 70px;
   }
 
   .section3>p {
@@ -1337,19 +1406,78 @@
   .clients {
     margin-top: 50px;
   }
-
+  .content{
+    flex-direction: column;
+  }
   .contact {
-    padding: 30px 70px 200px;
+    padding: 30px 70px;
   }
 
   .content_form_one {
     width: 20%;
+    position: absolute;
+    right: 0;
   }
 
   .content_form_two {
-    width: 60%;
+    width: 80%;
+  }
+  .content_form_three{
+    width: 100%;
+  }
+  .industries_we_covered>h3 {
+    font-size: 35px;
+    text-align: start;
   }
 
+  .help_banner_content>h3 {
+    font-size: 35px;
+    text-align: start;
+  }
+
+  .help_banner_button>button {
+    font-size: 16px;
+  }
+
+  .section5>h3 {
+    font-size: 35px;
+    text-align: start;
+  }
+
+  .section3 {
+    padding: 30px 70px;
+  }
+
+  .section3>h3 {
+    font-size: 35px;
+    text-align: start;
+  }
+
+  .execution_process {
+    padding: 30px 70px;
+  }
+
+  .execution_process>h3 {
+    font-size: 35px;
+    text-align: start;
+  }
+  .faq_banner_home>h3{
+    font-size: 35px;
+    text-align: start;
+  }
+  .faq_banner_home{
+    padding: 30px 70px;
+  }
+  .faq_sapn_head{
+    font-size: 25px;
+  }
+  .recent_blogs{
+    padding: 30px 70px;
+  }
+.recent_blogs>h3{
+  font-size: 35px;
+  text-align: start;
+}
   /* .content > div:last-child > p {
     width: 100%;
     font-family: 'Comfortaa';
@@ -1372,9 +1500,48 @@
   .wrapper>h5 {
     text-align: center;
   }
+
+}
+
+@media (max-width: 900px) {
+  .blogWrapper {
+    grid-template-columns: auto;
+  }
+
+  .blogWrapper_new {
+    grid-template-columns: auto;
+  }
+
+  .blogWrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 860px) {
+  .gridStyle {
+    flex-direction: column;
+  }
+
+  .backroundCard {
+    max-width: 80%;
+    margin: auto;
+  }
 }
 
 /* - - - - - - - - - - - - - */
+@media(max-width: 800px) {
+  .head {
+    font-size: 30px;
+  }
+
+  .Gameimg {
+    padding: 0%;
+  }
+
+  .data {
+    padding: 0%;
+  }
+}
 
 /* responsive screen in between */
 
@@ -1421,6 +1588,10 @@
   .content_form_two {
     width: 60%;
   }
+
+  .industries_we_covered>div {
+    min-height: 550px;
+  }
 }
 
 /* - - - - - - - - - - - - - - */
@@ -1432,6 +1603,7 @@
   .section,
   .section2 {
     padding: 50px 25px;
+    align-items: center;
   }
 
   .section {
@@ -1443,7 +1615,8 @@
   }
 
   .section>div>h1 {
-    font-size: 45px;
+    font-size: 35px;
+    text-align: center;
   }
 
   .section>div>span {
@@ -1451,7 +1624,7 @@
   }
 
   .section>div>p {
-    margin: 0;
+    /* margin: 0; */
     text-align: center;
   }
 
@@ -1484,6 +1657,10 @@
     row-gap: 30px;
   }
 
+  .industries_we_covered>div>div>p {
+    margin-bottom: 0;
+  }
+
   .wrapper {
     width: 100%;
     align-items: center;
@@ -1494,9 +1671,15 @@
   }
 
   .section3,
+  .slider_new_container,
   .section4,
   .section5,
   .contact {
+    padding: 30px 25px;
+    text-align: start;
+  }
+
+  .execution_process {
     padding: 30px 25px;
   }
 
@@ -1571,17 +1754,13 @@
 
   .clients>div>img {
     width: 100px;
-    height: 70px;
+    /* height: 70px; */
   }
 
   .clients>div>span {
     margin: 0 auto !important;
   }
 
-  .contact {
-    padding-bottom: 175px;
-    border: 10px solid;
-  }
 
   .content {
     gap: 0;
@@ -1597,7 +1776,7 @@
   }
 
   .content_form_two {
-    width: 60%;
+    width: 100%;
   }
 
   .content_form_two>p {
@@ -1669,6 +1848,7 @@
     font-size: 1rem;
     font-family: Comfortaa;
     cursor: pointer;
+    margin-bottom: 2rem;
   }
 
   .arrow>img {
@@ -1708,6 +1888,51 @@
   .footer>div:first-child {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .slider_new_imgs>h3 {
+    padding: 30px 25px;
+  }
+
+  .industries_we_covered {
+    padding: 30px 25px;
+    align-items: center;
+  }
+  .faq_banner_home{
+    padding: 30px 25px;
+  }
+  .recent_blogs{
+    padding: 30px 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .portfolio_main_right {
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+
+  .portfolio_main_right>div:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .portfolio_main_right>div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .data {
+    font-family: Comfortaa;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .Gameimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
   }
 }
 
@@ -1780,34 +2005,9 @@
   padding: 0 9rem;
 }
 
-@media screen and (max-width: 800px) {
-  .head {
-    font-size: 30px;
-  }
 
-  .Gameimg {
-    padding: 0%;
-  }
 
-  .data {
-    padding: 0%;
-  }
-}
 
-@media screen and (max-width: 350px) {
-  .data {
-    font-family: Comfortaa;
-    align-items: center;
-    text-align: justify;
-  }
-
-  .Gameimg {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 30px;
-  }
-}
 
 .img {
   display: flex;
@@ -1866,16 +2066,7 @@
   gap: 2rem;
 }
 
-@media screen and (max-width: 860px) {
-  .gridStyle {
-    flex-direction: column;
-  }
 
-  .backroundCard {
-    max-width: 80%;
-    margin: auto;
-  }
-}
 
 .sectionBlog {
   position: relative;
@@ -1981,39 +2172,10 @@
   max-width: fit-content;
 }
 
-@media (max-width: 1450px) {
-  .blogWrapper {
-    width: 90%;
-    justify-content: center;
-  }
 
-}
 
-@media (max-width: 1350px) {
-  .blogWrapper {
-    grid-template-columns: auto auto;
-  }
 
-  .blogWrapper_new {
-    grid-template-columns: auto auto;
-  }
-}
 
-@media (max-width: 900px) {
-  .blogWrapper {
-    grid-template-columns: auto;
-  }
-
-  .blogWrapper_new {
-    grid-template-columns: auto;
-  }
-}
-
-@media (max-width: 900px) {
-  .blogWrapper {
-    width: 80%;
-  }
-}
 
 .blogContainer {
   height: 300px;
@@ -2100,13 +2262,15 @@
   font-size: 20px;
   font-weight: 700;
 }
-.table_blog{
-    border-collapse: collapse;
-    width: 90%;
-    margin: 0 auto;
-    margin: 2rem auto;
+
+.table_blog {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  margin: 2rem auto;
 }
-.table_blog>tbody>tr>th{
+
+.table_blog>tbody>tr>th {
   border: 2px solid #000;
   padding: 8px;
   width: 50%;
@@ -2114,17 +2278,20 @@
   font-weight: bold;
   text-align: center;
 }
-.table_blog>tbody>tr>td{
+
+.table_blog>tbody>tr>td {
   border: 2px solid #000;
   text-align: left;
   padding: 8px;
   width: 50%;
 }
-.batch_section{
+
+.batch_section {
   padding: 100px 100px 0 100px;
 
 }
-.batch_section>div{
+
+.batch_section>div {
   display: flex;
   gap: 2.5rem;
   justify-content: center;

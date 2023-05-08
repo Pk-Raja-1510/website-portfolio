@@ -136,6 +136,7 @@ export const ProcessFlow = () => {
     <div className={styles.process_container}>
       <div className={styles.process_container_left}>
         {ProcessData?.map((item) => (
+          <>
           <div key={item?.id} className={processSelectedData === item?.title ? styles.select_field : styles.unselect_field} onClick={() => setProcessSelectedData(item?.title)}>
             <Image
               src={processSelectedData === item?.title ? item?.img_clr : item?.img}
@@ -146,6 +147,8 @@ export const ProcessFlow = () => {
             />
             <p>{item?.title}</p>
           </div>
+          <p className={styles.mobile_content}>{ processSelectedData === item?.title && item?.content}</p>
+          </>
         ))}
       </div>
       {ProcessData?.map((item) => 

@@ -106,7 +106,9 @@
   .wrapper {
     padding: 10px 25px;
   }
-
+  .navLinks{
+    width: fit-content;
+  }
   .navLinks > a {
     display: none;
   }
@@ -135,6 +137,13 @@
   }
   .active > div {
     margin-top: 7.5px;
+  }
+}
+@media (max-width: 450px)
+{
+  .header_button{
+    font-size: 16px;
+    padding: 0.5rem;
   }
 }
 

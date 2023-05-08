@@ -30,18 +30,21 @@
       text-align: center;
       height: 150px;
   }
-  .carousel__face>div{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
+
+  .carousel__face>div {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      align-items: center;
+      justify-content: center;
   }
-  .carousel__face>div>span>img{
-    background: #fff !important;
-    padding: 0.2rem !important;
-    border-radius: 50%;
+
+  .carousel__face>div>span>img {
+      background: #fff !important;
+      padding: 0.2rem !important;
+      border-radius: 50%;
   }
+
   .carousel__face>div>h4 {
       font-size: 20px;
       font-family: Comfortaa;
@@ -80,18 +83,6 @@
       transform: rotateY(360deg) translateZ(280px);
   }
 
-  /* .carousel__face:nth-child(7) { 
-    background-image: url("https://images.pexels.com/photos/1415268/pexels-photo-1415268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-   transform: rotateY(240deg) translateZ(430px); }
-  .carousel__face:nth-child(8) {
-    background-image: url("https://images.pexels.com/photos/135018/pexels-photo-135018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    transform: rotateY(280deg) translateZ(430px); }
-  .carousel__face:nth-child(9) {
-    background-image: url("https://images.pexels.com/photos/1175135/pexels-photo-1175135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    transform: rotateY(320deg) translateZ(430px); }
-   */
-
-
   @keyframes rotate360 {
       from {
           transform: rotateY(0deg);
@@ -99,5 +90,109 @@
 
       to {
           transform: rotateY(-360deg);
+      }
+  }
+
+  @media (max-width:1350px) {
+      .container_carousel {
+          margin: 0 auto;
+      }
+  }
+
+  @media (max-width:750px) {
+      .carousel__face {
+          width: 220px;
+          height: 210px;
+      }
+
+      .carousel__face:nth-child(1) {
+          transform: rotateY(60deg) translateZ(200px);
+      }
+
+      .carousel__face:nth-child(2) {
+          transform: rotateY(120deg) translateZ(200px);
+      }
+
+      .carousel__face:nth-child(3) {
+          transform: rotateY(180deg) translateZ(200px);
+      }
+
+      .carousel__face:nth-child(4) {
+          transform: rotateY(240deg) translateZ(200px);
+      }
+
+      .carousel__face:nth-child(5) {
+          transform: rotateY(300deg) translateZ(200px);
+      }
+
+      .carousel__face:nth-child(6) {
+          transform: rotateY(360deg) translateZ(200px);
+      }
+  }
+
+  @media (max-width:450px) {
+      .carousel__face:nth-child(1) {
+          transform: none;
+          width: 100%;
+          margin-bottom: 0.5rem;
+          border-radius: 12px;
+          justify-content: space-around;
+      }
+
+      .carousel__face:nth-child(2) {
+          transform: none;
+          width: 100%;
+          margin-bottom: 0.5rem;
+          border-radius: 12px;
+          justify-content: space-around;
+      }
+
+      .carousel__face:nth-child(3) {
+          transform: none;
+          width: 100%;
+          margin-bottom: 0.5rem;
+          border-radius: 12px;
+          justify-content: space-around;
+      }
+
+      .carousel__face:nth-child(4) {
+          transform: none;
+          width: 100%;
+          margin-bottom: 0.5rem;
+          border-radius: 12px;
+          justify-content: space-around;
+      }
+
+      .carousel__face:nth-child(5) {
+          transform: none;
+          width: 100%;
+          margin-bottom: 0.5rem;
+          border-radius: 12px;
+          justify-content: space-around;
+      }
+
+      .carousel__face:nth-child(6) {
+          transform: none;
+          width: 100%;
+          margin-bottom: 2rem;
+          border-radius: 12px;
+          justify-content: space-around;
+
+      }
+
+      .carousel__face {
+          position: relative;
+          top: 0;
+          left: 0;
+          right: 0;
+      }
+
+      .carousel {
+          transform-style: initial;
+          animation: none;
+          position: relative;
+      }
+      .carousel__face>p {
+        font-size: 12px;
       }
   }

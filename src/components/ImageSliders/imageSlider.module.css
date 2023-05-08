@@ -77,3 +77,36 @@
     right: 50px;
     cursor: pointer;
 }
+@media (max-width:1300px){
+    .tech_img{
+        flex-wrap: wrap;
+        border-radius: 12px;
+    }
+}
+@media (max-width:1000px){
+    .titles{
+            gap: 1rem;
+            margin-top: 0.4rem;
+    }
+    .tech_container{
+        padding: 50px 48px;
+    }
+    .arrows>span:nth-child(1){
+        left: 30px;
+    }
+    .arrows>span:nth-child(2){
+        right: 30px;
+    }
+    .head_title,.head_title_select{
+        font-size: 20px;
+    }
+}
+@media (max-width:600px){
+    .head_title,.head_title_select{
+        font-size: 16px;
+        padding: 0.4rem 0.8rem;
+    }
+    .titles{
+        margin-top: 0.6rem;
+    }
+}

@@ -15,21 +15,21 @@ export const SlickSlider = ({ props }) => {
         adaptiveHeight: true,
         responsive: [
             {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 4,
-                },
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 3,
-                },
-            },
-            {
-                breakpoint: 576,
+                breakpoint: 1350,
                 settings: {
                     slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+            {
+                breakpoint: 976,
+                settings: {
+                    slidesToShow: 1,
                 },
             },
         ],

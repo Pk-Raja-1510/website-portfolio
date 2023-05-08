@@ -61,21 +61,21 @@ const Index = () => {
     adaptiveHeight: true,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
@@ -216,9 +216,7 @@ const Index = () => {
                 opportunities. Take your business to the next level with our
                 bespoke blockchain development services.
               </p>
-              <a href="/#contact" className={styles.touch_button}>
-                Connect With Us Today
-              </a>
+             
             </div>
             <div className={styles.portfolio_main_right}>
               <div>
@@ -263,6 +261,9 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <a href="/#contact" className={styles.touch_button}>
+                Connect With Us Today
+              </a>
         </section>
         <section className={styles.slider_new_container}>
           <h3>Here are the Services and Solutions We Provide</h3>
@@ -283,12 +284,12 @@ const Index = () => {
                 development services, and more. These services across various
                 industries, including:
               </p>
-              <a href="/#contact" className={styles.touch_button}>
-                Talk to our experts
-              </a>
             </div>
             <CarouselRotaing />
           </div>
+          <a href="/#contact" className={styles.touch_button}>
+                Talk to our experts
+              </a>
         </section>
         <section className={styles.help_banner}>
           <div className={styles.help_banner_content}>
