@@ -5,7 +5,7 @@ import MusicNft from "src/pageComponents/MusicNft";
 const Blog = (props) => {
   const { id } = props;
   if (id === "nft-gaming") return <Gaming />;
-  if (id === "music-nft") return <MusicNft />;
+  if (id === "music-nft-marketplace-development-with-unique-features") return <MusicNft />;
   return <div>Not found</div>;
 };
 

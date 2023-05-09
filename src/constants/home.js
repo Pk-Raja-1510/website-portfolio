@@ -71,16 +71,14 @@ export const metaverseData = [
   },
   {
     id: 3,
-    title:
-      "Metaverse Effectively Reshaping the Fashion Industry",
+    title: "Metaverse Effectively Reshaping the Fashion Industry",
     image: "/static/images/FashionMetaverse.webp",
     alt: "",
     path: "/metaverse/metaverse-effectively-reshaping-the-fashion-industry",
   },
   {
     id: 4,
-    title:
-      "How Metaverse will transform the Real Estate Industry?",
+    title: "How Metaverse will transform the Real Estate Industry?",
     image: "/static/images/realestate.webp",
     alt: "",
     path: "/metaverse/how-metaverse-will-transform-the-real-estate-industry",
@@ -97,11 +95,11 @@ export const nftData = [
   },
   {
     id: 2,
-    title: "Build Your Music NFT Marketplace With Unique Features",
-    description: "Build your Music NFT marketplace with unique features",
-    image: "/static/images/MusicNft.png",
+    title: "Launch Your Own Music NFT Marketplace Platform With Unique Features",
+    description: "Launch Your Own Music NFT Marketplace Platform With Unique Features",
+    image: "/static/images/NFT-Music-Marketplace-Development-Company-RedBlox-Technologies-min.webp",
     alt: "",
-    path: "/nft/music-nft",
+    path: "/nft/music-nft-marketplace-development-with-unique-features",
   },
 ];
 export const softwareDevelopmentData = [
@@ -446,7 +444,7 @@ export const industryCoveredData = [
 ];
 export const recentBlogs = [
   {
-    id: 1,  
+    id: 1,
     name: "Metaverse Effectively Reshaping the Fashion Industry",
     path: "/metaverse/metaverse-effectively-reshaping-the-fashion-industry",
     img: "/static/images/FashionMetaverse.webp",
@@ -454,9 +452,9 @@ export const recentBlogs = [
   },
   {
     id: 2,
-    name: "Build Your Music NFT Marketplace With Unique Features",
-    path: "/nft/music-nft",
-    img: "/static/images/MusicNft.png",
+    name: "Launch Your Own Music NFT Marketplace Platform With Unique Features",
+    path: "/nft/music-nft-marketplace-development-with-unique-features",
+    img: "/static/images/NFT-Music-Marketplace-Development-Company-RedBlox-Technologies-min.webp",
     alt: "",
   },
   {
@@ -493,4 +491,29 @@ export const faqData = [
       "A blockchain platform is a distributed digital ledger that enables users to securely store and exchange information. The register is maintained by a distributed network of computers, and each transaction is confirmed by agreement among network users.",
   },
 ];
-export const batchData=['/static/batch/appfutura-badge.jpg','/static/batch/top_clutch.png','/static/batch/Google.jpg','/static/batch/Top_Software_Development_Company.jpg','/static/batch/vr_development_company_mumbai.png']
+export const batchData = [
+  {
+    id: 1,
+    img: "/static/batch/Top AR_VR Development Company - RedBlox Technologies.png",
+    alt: "Top AR_VR Development Company - RedBlox Technologies",
+    url: "https://clutch.co/profile/redbloxio#summary",
+  },
+  {
+    id: 2,
+    img: "/static/batch/Top Blockchain Development Company - RedBlox Technologies.png",
+    alt: "Top Blockchain Development Company - RedBlox Technologies",
+    url: "",
+  },
+  {
+    id: 3,
+    img: "/static/batch/Top Smart TV Development Company - RedBlox Technologies.png",
+    alt: "Top Smart TV Development Company - RedBlox Technologies",
+    url: "https://clutch.co/profile/redbloxio#summary",
+  },
+  {
+    id: 4,
+    img: "/static/batch/Top Software Developers in 2023 - RedBlox Technologies.png",
+    alt: "Top Software Developers in 2023 - RedBlox Technologies",
+    url: "",
+  },
+];

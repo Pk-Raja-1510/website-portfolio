@@ -45,3 +45,8 @@
     font-family: "Comfortaa";
 
 }
+@media (max-width:600px){
+    .Subscribe_wrapper{
+        min-width:auto;
+    }
+}

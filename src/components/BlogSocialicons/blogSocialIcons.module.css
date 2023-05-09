@@ -35,3 +35,15 @@
     transform: scale(1.2);
 
 }
+@media (max-width:600px){
+    .fixed_social_icons{
+        width: 100%;
+        padding: 30px 25px;
+    }
+    
+}
+@media (max-width:450px){
+    .fixed_social_icons>div{
+        gap: 1.5rem;
+    }
+}

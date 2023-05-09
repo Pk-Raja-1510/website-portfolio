@@ -76,7 +76,7 @@
   .location>nav>span {
     max-width: 30%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
     .footer>div>nav {
         flex-direction: column;
         gap: 20px;
@@ -91,5 +91,8 @@
       .footer>div:first-child {
         flex-direction: column;
         align-items: flex-start;
+      }
+      .contact_us_footer>div{
+        width: 100%;
       }
   }

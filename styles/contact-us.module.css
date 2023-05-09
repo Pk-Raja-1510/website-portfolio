@@ -23,7 +23,8 @@
     font-weight: 300;
 }
 .contact_us_social_icons{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    padding: 0 50px;
 }
 .contact_us_social_icons>h3 {
     font-size: 1.375em;
@@ -47,7 +48,9 @@
     gap: 1rem;
     align-items: center;
 }
-
+.contact_us_contact_details>div>span{
+    min-width: 25px;
+}
 .contact_us_contact_details>div>p{
     display: flex;
     flex-direction: column;
@@ -131,4 +134,21 @@
     font-family: 'Comfortaa';
     width: 100%;
     max-width: fit-content;
+}
+@media (max-width:1000px){
+    .main{
+        flex-direction: column;
+    }
+    .left_contact_us{
+        width: 100%;
+    }
+    .right_contact_us{
+        width: 100%;
+        max-width: 600px;
+    }
+}
+@media (max-width:600px){
+    .main,.contact_us_social_icons{
+        padding: 0 25px;
+    }
 }

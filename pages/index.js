@@ -3,7 +3,12 @@ import React, { useEffect, useState } from "react";
 import Contact from "src/components/form/contact";
 import ImageSliders from "src/components/ImageSliders";
 import { useRouter } from "next/router";
-import { batchData, clientData, faqData, recentBlogs } from "src/constants/home";
+import {
+  batchData,
+  clientData,
+  faqData,
+  recentBlogs,
+} from "src/constants/home";
 import { homeHooks } from "src/Hooks/home";
 import { handleContact, handleForm } from "src/services/contact";
 import styles from "styles/Home.module.css";
@@ -186,19 +191,20 @@ const Index = () => {
           </div>
         </div>
         <div className={styles.batch_section}>
+          <h3>Awards and Recognition</h3>
           <div>
-          {batchData?.map((item,index)=>
-          <Image
-            src={item}
-            height="150"
-            width="150"
-            layout="fixed"
-            alt=""
-            key={index}
-          />
-          )}
+            {batchData?.map((item, index) => (
+              <Image
+                onClick={() => otherRoute(item?.url)}
+                src={item?.img}
+                height={200}
+                width={200}
+                layout="fixed"
+                alt={item?.alt}
+                key={index}
+              />
+            ))}
           </div>
-          
         </div>
         <section className={styles.section2} id="WhatWeDo">
           <div className={styles.portfolio_main_left}>
@@ -216,7 +222,6 @@ const Index = () => {
                 opportunities. Take your business to the next level with our
                 bespoke blockchain development services.
               </p>
-             
             </div>
             <div className={styles.portfolio_main_right}>
               <div>
@@ -262,8 +267,8 @@ const Index = () => {
             </div>
           </div>
           <a href="/#contact" className={styles.touch_button}>
-                Connect With Us Today
-              </a>
+            Connect With Us Today
+          </a>
         </section>
         <section className={styles.slider_new_container}>
           <h3>Here are the Services and Solutions We Provide</h3>
@@ -288,8 +293,8 @@ const Index = () => {
             <CarouselRotaing />
           </div>
           <a href="/#contact" className={styles.touch_button}>
-                Talk to our experts
-              </a>
+            Talk to our experts
+          </a>
         </section>
         <section className={styles.help_banner}>
           <div className={styles.help_banner_content}>

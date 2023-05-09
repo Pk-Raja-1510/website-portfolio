@@ -37,3 +37,14 @@
     height:50px;
     border-radius:8px;
 }
+@media (max-width:1000px){
+    .recentblogstitle_wrapper{
+        height:451.6px;
+    }
+}
+@media (max-width:600px){
+    .recentblogstitle_wrapper{
+        min-width:auto;
+        height: fit-content;
+    }
+}

@@ -48,10 +48,10 @@ const contactUs = () => {
           <div className={styles.contact_us_content_head}>
             <h3>CONTACT US</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.
+              We're excited to hear from you. Whether you have a question or are
+              interested in our services, we're here to help. You can reach us
+              through the contact form on this page or via the email address and
+              phone number provided.
             </p>
             <div className={styles.contact_us_contact_details}>
               <div>
@@ -84,52 +84,6 @@ const contactUs = () => {
                 />
                 <p>contact@redblox.io</p>
               </div>
-            </div>
-          </div>
-          <div className={styles.contact_us_social_icons}>
-            <h3>FOLLOW US ON</h3>
-            <div>
-              <Image
-                onClick={() =>
-                  otherRoute("https://www.instagram.com/redblox.io/")
-                }
-                src="/static/icons/instagram.svg"
-                height={25}
-                width={25}
-                layout="fixed"
-              />
-              <Image
-                onClick={() =>
-                  otherRoute("https://www.linkedin.com/company/redblox-io/")
-                }
-                src="/static/icons/linkedin-b.webp"
-                height={25}
-                width={25}
-                layout="fixed"
-              />
-              <Image
-                onClick={() => otherRoute("https://twitter.com/RedBloxIO")}
-                src="/static/icons/twitter.svg"
-                height={25}
-                width={25}
-                layout="fixed"
-              />
-              <Image
-                onClick={() => otherRoute("https://github.com/Redblox-io")}
-                src="/static/icons/github.svg"
-                height={25}
-                width={25}
-                layout="fixed"
-              />
-              <Image
-                onClick={() =>
-                  otherRoute("https://www.facebook.com/Redblox.io")
-                }
-                src="/static/icons/fb.png"
-                height={25}
-                width={25}
-                layout="fixed"
-              />
             </div>
           </div>
         </div>
@@ -180,6 +134,48 @@ const contactUs = () => {
               </button>
             </form>
           </div>
+        </div>
+      </div>
+      <div className={styles.contact_us_social_icons}>
+        <h3>FOLLOW US ON</h3>
+        <div>
+          <Image
+            onClick={() => otherRoute("https://www.instagram.com/redblox.io/")}
+            src="/static/icons/instagram.svg"
+            height={25}
+            width={25}
+            layout="fixed"
+          />
+          <Image
+            onClick={() =>
+              otherRoute("https://www.linkedin.com/company/redblox-io/")
+            }
+            src="/static/icons/linkedin-b.webp"
+            height={25}
+            width={25}
+            layout="fixed"
+          />
+          <Image
+            onClick={() => otherRoute("https://twitter.com/RedBloxIO")}
+            src="/static/icons/twitter.svg"
+            height={25}
+            width={25}
+            layout="fixed"
+          />
+          <Image
+            onClick={() => otherRoute("https://github.com/Redblox-io")}
+            src="/static/icons/github.svg"
+            height={25}
+            width={25}
+            layout="fixed"
+          />
+          <Image
+            onClick={() => otherRoute("https://www.facebook.com/Redblox.io")}
+            src="/static/icons/fb.png"
+            height={25}
+            width={25}
+            layout="fixed"
+          />
         </div>
       </div>
       <Footer />
