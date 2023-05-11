@@ -41,7 +41,7 @@
   font-weight: bold;
 }
 
-.process_container_left > div > p {
+.process_container_left>div > div > p {
   margin: 0;
   font-size: 18px;
   font-family: Comfortaa;

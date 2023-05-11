@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import styles from "./processFlow.module.css";
 import { ProcessData } from "./mock";
 export const ProcessFlow = () => {
-  const [processSelectedData, setProcessSelectedData] = useState('Gathering Requirements')
+  const [processSelectedData, setProcessSelectedData] = useState(
+    "Gathering Requirements"
+  );
   return (
     // <div className={styles.flexbox}>
     //   <div className={styles.flexbottom}>
@@ -136,34 +138,57 @@ export const ProcessFlow = () => {
     <div className={styles.process_container}>
       <div className={styles.process_container_left}>
         {ProcessData?.map((item) => (
-          <>
-          <div key={item?.id} className={processSelectedData === item?.title ? styles.select_field : styles.unselect_field} onClick={() => setProcessSelectedData(item?.title)}>
-            <Image
-              src={processSelectedData === item?.title ? item?.img_clr : item?.img}
-              width="30"
-              height="30"
-              layout="fixed"
-              alt={item?.alt}
-            />
-            <p>{item?.title}</p>
+          <div key={item?.id}>
+            <div
+              className={
+                processSelectedData === item?.title
+                  ? styles.select_field
+                  : styles.unselect_field
+              }
+              onClick={() => setProcessSelectedData(item?.title)}
+            >
+              <Image
+                src={
+                  processSelectedData === item?.title
+                    ? item?.img_clr
+                    : item?.img
+                }
+                width="30"
+                height="30"
+                layout="fixed"
+                alt={item?.alt}
+              />
+              <p>{item?.title}</p>
+            </div>
+            <p className={styles.mobile_content}>
+              {processSelectedData === item?.title && item?.content}
+            </p>
           </div>
-          <p className={styles.mobile_content}>{ processSelectedData === item?.title && item?.content}</p>
-          </>
         ))}
       </div>
-      {ProcessData?.map((item) => 
-      processSelectedData === item?.title &&
-          <div className={styles.process_container_right} key={item?.id}>
-        <Image
-              src={item?.img}
-              width="75"
-              height="75"
-              layout="fixed"
-              alt={item?.alt}
-            />
-          <h3 className={processSelectedData === item?.title ? styles.select_title : styles.unselect_title}>{item?.title}</h3>
-          <p>{item?.content}</p>
-      </div>
+      {ProcessData?.map(
+        (item) =>
+          processSelectedData === item?.title && (
+            <div className={styles.process_container_right} key={item?.id}>
+              <Image
+                src={item?.img}
+                width="75"
+                height="75"
+                layout="fixed"
+                alt={item?.alt}
+              />
+              <h3
+                className={
+                  processSelectedData === item?.title
+                    ? styles.select_title
+                    : styles.unselect_title
+                }
+              >
+                {item?.title}
+              </h3>
+              <p>{item?.content}</p>
+            </div>
+          )
       )}
     </div>
   );

@@ -46,7 +46,7 @@ export const teckData = [
       },
       {
         id: 2,
-        img: "/static/images/metaverse/architect.jpg",
+        img: "/static/images/metaverse/architect.png",
         alt: "",
       },
       {
@@ -148,7 +148,7 @@ export const teckData = [
       },
       {
         id: 3,
-        img: "/static/images/mobile/flutter.png",
+        img: "/static/images/mobile/flutter.webp",
         alt: "",
       },
       {
@@ -391,7 +391,7 @@ export const teckData = [
       },
       {
         id: 3,
-        img: "/static/images/devops/docker.png",
+        img: "/static/images/devops/docker.webp",
         alt: "",
       },
       {
@@ -546,7 +546,7 @@ export const teckData = [
     img: [
       {
         id: 1,
-        img: "/static/images/frontend/angular.png",
+        img: "/static/images/frontend/AngularJS.svg",
         alt: "",
       },
       {
@@ -561,7 +561,7 @@ export const teckData = [
       },
       {
         id: 4,
-        img: "/static/images/frontend/jquery.png",
+        img: "/static/images/frontend/jquery.svg",
         alt: "",
       },
       {

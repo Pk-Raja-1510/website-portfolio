@@ -20,6 +20,7 @@
     "react-auto-image-slider": "^1.0.0",
     "react-dom": "18.1.0",
     "react-phone-number-input": "^3.2.20",
+    "react-share": "^4.4.1",
     "react-simple-image-slider": "^2.4.1",
     "react-slick": "^0.29.0",
     "react-toastify": "^9.0.5"

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import React from "react";
 import { BlogSocialIcons } from "src/components/BlogSocialicons";
 import Contacts from "src/components/contacts";
@@ -7,6 +6,9 @@ import { Footer } from "src/components/footer";
 import styles from "styles/Home.module.css";
 
 const Gaming = () => {
+  // console.log(window.location.href,'window.location.href')
+  // console.log(window.location.protocol,'window.location.protocol')
+  // console.log(window.location.pathname,'window.location.pathname')
   return (
     <>
       <Head>
