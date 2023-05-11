@@ -87,11 +87,11 @@ export const metaverseData = [
 export const nftData = [
   {
     id: 1,
-    title: "NFT Gaming - How Does NFT Gaming Get A Wide Reach Than The Other?",
-    description: "NFT Gaming Get A Wide Reach Than The Other?",
-    image: "/static/images/Gaming.jpeg",
-    alt: "",
-    path: "/nft/nft-gaming",
+    title: "Play-to-Earn NFT Gaming Dvelopment Services",
+    description: "Play-to-Earn NFT Gaming Dvelopment Services",
+    image: "/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp",
+    alt: "Play to Earn NFT Gaming Development Services - RedBlox Technologies-min",
+    path: "/nft/play-to-earn-nft-gaming-development-services",
   },
   {
     id: 2,

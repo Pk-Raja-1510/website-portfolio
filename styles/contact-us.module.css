@@ -135,6 +135,9 @@
     width: 100%;
     max-width: fit-content;
 }
+.contact_us_form>input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
 @media (max-width:1000px){
     .main{
         flex-direction: column;
