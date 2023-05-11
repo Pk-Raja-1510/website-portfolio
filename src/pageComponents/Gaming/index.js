@@ -6,9 +6,6 @@ import { Footer } from "src/components/footer";
 import styles from "styles/Home.module.css";
 
 const Gaming = () => {
-  // console.log(window.location.href,'window.location.href')
-  // console.log(window.location.protocol,'window.location.protocol')
-  // console.log(window.location.pathname,'window.location.pathname')
   return (
     <>
       <Head>
@@ -22,6 +19,10 @@ const Gaming = () => {
         <meta
           property="og:keywords"
           content="Play to Earn NFT Gaming Development, NFT Gaming Platform Development, P2E NFT Gaming Development Services, NFT Game Development Services, NFT Gaming Development Company, Best NFT Gaming Development Company, NFT Gaming Solutions"
+        />
+        <meta
+          property="og:image"
+          content="/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp"
         />
       </Head>
       <main className={styles.main}>
