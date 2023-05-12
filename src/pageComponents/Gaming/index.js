@@ -22,7 +22,7 @@ const Gaming = () => {
         />
         <meta
           property="og:image"
-          content="/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp"
+          content="https://redblox.netlify.app/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp"
         />
       </Head>
       <main className={styles.main}>

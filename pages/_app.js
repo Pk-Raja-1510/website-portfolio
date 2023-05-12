@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>
+        {/* <title>
           Blockchain, Web3, Metaverse, Fullstack & Mobile App Development -
           RedBlox
         </title>
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
         <meta
           property="og:description"
           content="Hire Web3 experts to enhance your Metaverse experience. Expedite your NFT Drops with RedBlox, Best blockchain developers in Pondicherry,India."
-        />
+        /> */}
         <link rel="canonical" href={canonicalUrl} />
         <link rel="icon" href="/static/icons/red_new.svg" />
 
