@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import styles from './blogSocialIcons.module.css'
 import {
   FacebookShareButton,
@@ -17,23 +17,23 @@ import {
 const ShareButtons = ({title, url, twitterHandle, tags}) => {
   return(
       <div>
-        <FacebookShareButton url={url} >
+        <FacebookShareButton url={url} title={title} >
               <FacebookIcon  size={40} round={true}/>
        </FacebookShareButton>
 
-        <TwitterShareButton url={url} >
+        <TwitterShareButton url={url} title={title} >
               <TwitterIcon  size={40} round={true} />
         </TwitterShareButton>
 
-        <LinkedinShareButton url={url} >
+        <LinkedinShareButton url={url}title={title}  >
           <LinkedinIcon  size={40} round={true}/>
         </LinkedinShareButton>
 
-        <RedditShareButton url={url} >
+        <RedditShareButton url={url} title={title} >
           <RedditIcon  size={40} round={true} />
         </RedditShareButton>
 
-        <WhatsappShareButton url={url}>
+        <WhatsappShareButton url={url} title={title} >
              <WhatsappIcon  size={40} round={true}/>
          </WhatsappShareButton>
       </div>
@@ -41,7 +41,13 @@ const ShareButtons = ({title, url, twitterHandle, tags}) => {
 
 }
 export const BlogSocialIcons = () => {
+
   const [SocialUrl, setSocialUrl] = useState('');
+  const [pageTitle, setPageTitle] = useState('');
+
+  useEffect(() => {
+    setPageTitle(document.title);
+  }, []);
   setTimeout(() => {
     const href = window.location.href;
     setSocialUrl(href);
@@ -50,7 +56,7 @@ export const BlogSocialIcons = () => {
   return (
     <div className={styles.fixed_social_icons}>
       <h3>Share this Page on</h3>
-        <ShareButtons url={SocialUrl}/>
+        <ShareButtons url={SocialUrl} title={pageTitle}/>
     </div>
   )
 }
