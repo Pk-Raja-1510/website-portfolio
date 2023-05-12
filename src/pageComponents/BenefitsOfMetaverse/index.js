@@ -22,6 +22,10 @@ const BenefitsOfMetaverse = () => {
           property="og:keywords"
           content="Metaverse, Benefits of Metaverse, Metaverse for People with Disabilities, Metaverse Development, Metaverse Solutions and Services, Metaverse Development Services, Metaverse Platform Development, Metaverse for Healthcare, Metaverse for Education, Metaverse for Entertainment, Metaverse for Social, Metaverse Application Development"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/metaverse.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

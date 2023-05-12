@@ -21,6 +21,10 @@ const ResonsForPHP = () => {
           property="og:keywords"
           content="Why PHP, Why choose PHP, PHP services, Hire PHP Developers, PHP Development Services, PHP web development services, PHP Development Company, PHP for startups, PHP framework, PHP development, Why PHP is Best for Startups, Best PHP Developers, Hire PHP Developers, Top PHP Developers, PHP Software Consultant, Hiring a PHP Developer, Benefits of PHP"
         />
+         <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/php.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

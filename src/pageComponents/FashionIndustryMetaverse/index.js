@@ -21,6 +21,10 @@ const FashionIndustryMetaverse = () => {
           property="og:keywords"
           content="Metaverse Reshaping the Fashion Industry, Metaverse Fashion, Metaverse Fashion Services, Metaverse Fashion Development Company, Metaverse Reshapes Fashion, Fashion in Metaverse, Metaverse in Fashion Industry, Metaverse Fashion Services and Solutions"
         />
+         <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/FashionMetaverse.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

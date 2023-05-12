@@ -21,6 +21,10 @@ const Javascript = () => {
           property="og:keywords"
           content="Javascript, Learn Javascript, Javascript Programming Languages, Javascript the definitive guide, Javascript Language, Javascript Programming, Simple Javascript Program, Java Programming Languages, Tricks for Javascript developer, Best Javascript Developer, Js developer, Professional JavaScript for Web developers, Hire Javascript Developer"
         />
+         <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/js.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

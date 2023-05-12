@@ -19,6 +19,10 @@ const BlockchainCenVsDecen = () => {
           property="og:keywords"
           content="decentralised vs centralised, difference between centralization and decentralisation, what is centralization and decentralisation, centralised vs decentralised organisation, Difference between centralised and decentralised, centralised and decentralised management,"
         />
+         <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/Centralized_Vs_Decentralized.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

@@ -22,6 +22,10 @@ const BlockchainProceedToPay = () => {
           property="og:keywords"
           content="Blockchain P2P Payment, Blockchain Solutions, P2P Payment Gateway Solutions, Blockchain Services & Solutions, P2P Payment Services, Blockchain Based Procure to Pay Solution, P2P Payment Solution"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/ProceedToPay.jpg"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">
@@ -47,7 +51,9 @@ const BlockchainProceedToPay = () => {
                 need for reconciliation when two businesses engage in a
                 transaction that involves the exchange of services and money.
               </p>
-              <h2 className={styles.blog_id_main_heading}>The inefficiency of the P2P process:</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                The inefficiency of the P2P process:
+              </h2>
               <p className={styles.blog_id_content}>
                 The peer-to-peer (P2P) process can typically be time-consuming
                 and problematic for both sellers and buyers. They often operate
@@ -71,10 +77,12 @@ const BlockchainProceedToPay = () => {
               </p>
               <div className={styles.blog_buttons}>
                 <a href="/#contact" className={styles.touch_button}>
-                P2P Blockchain Services & Solutions - Contact Us
+                  P2P Blockchain Services & Solutions - Contact Us
                 </a>
               </div>
-              <h3 className={styles.blog_id_sub_heading}>Blockchain Solutions for P2P Process:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Blockchain Solutions for P2P Process:
+              </h3>
               <p className={styles.blog_id_content}>
                 Procure-to-pay, also known as P2P, is the structured set of
                 steps involved in the procurement and financial processes for
@@ -87,7 +95,9 @@ const BlockchainProceedToPay = () => {
                 speedy purchase order management process, along with the
                 necessary precision, security, and operational efficiency.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Improved Business Liquidity:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Improved Business Liquidity:
+              </h3>
               <p className={styles.blog_id_content}>
                 Employing a blockchain-based B2P system for procure-to-pay can
                 offer stakeholders instantaneous access to a database that
@@ -102,7 +112,9 @@ const BlockchainProceedToPay = () => {
                 verification by providing all necessary pre-verified information
                 on the blockchain, It enhances the supplier's liquidity.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Expanding the procurement network:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Expanding the procurement network:
+              </h3>
               <p className={styles.blog_id_content}>
                 Procurement can be challenging for businesses of all sizes but
                 can become particularly problematic for larger enterprises.
@@ -116,7 +128,9 @@ const BlockchainProceedToPay = () => {
                 The technology fosters collaboration between various enterprises
                 to establish a shared database for procurement purposes.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Managing the risk of unauthorised access:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Managing the risk of unauthorised access:
+              </h3>
               <p className={styles.blog_id_content}>
                 In most companies, the supply chain transactions go unnoticed,
                 leading to inefficiencies due to gaps between procurement
@@ -133,19 +147,22 @@ const BlockchainProceedToPay = () => {
               </p>
               <div className={styles.blog_buttons}>
                 <a href="/#contact" className={styles.touch_button}>
-                Procure to Pay Blockchain Solutions - Contact Us
+                  Procure to Pay Blockchain Solutions - Contact Us
                 </a>
               </div>
-              <h3 className={styles.blog_id_sub_heading}>Adherence to regulations</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Adherence to regulations
+              </h3>
               <p className={styles.blog_id_content}>
                 Globalisation has resulted in increasingly complex compliance
                 requirements for P2P processes. Companies with global operations
                 must consider the regulations of numerous countries. However, a
-                B2P<a href="/#contact">blockchain solution for the P2P process</a> can ensure
-                compliance through the use of smart contracts, which automates
-                the system and makes it entirely reliable. This eliminates the
-                need for manual compliance efforts, reducing the risk of costly
-                errors.
+                B2P
+                <a href="/#contact">blockchain solution for the P2P process</a>{" "}
+                can ensure compliance through the use of smart contracts, which
+                automates the system and makes it entirely reliable. This
+                eliminates the need for manual compliance efforts, reducing the
+                risk of costly errors.
               </p>
               <p className={styles.blog_id_content}>
                 The immutability feature of blockchain serves as evidence of the
@@ -155,7 +172,9 @@ const BlockchainProceedToPay = () => {
                 access to the organisation's supply chains, practically
                 eliminating the possibility of non-compliance.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Procedures to a paperless format</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Procedures to a paperless format
+              </h3>
               <p className={styles.blog_id_content}>
                 Implementing blockchain technology in P2P can lead to the
                 elimination or reduction of paperwork. By recording everything
@@ -166,7 +185,9 @@ const BlockchainProceedToPay = () => {
                 The use of blockchain in procurement can eliminate the need for
                 paperwork in the authorization and authentication process.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Saving Time and Reduce Costs</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Saving Time and Reduce Costs
+              </h3>
               <p className={styles.blog_id_content}>
                 By replacing human executives with automated smart contracts,
                 processing time can be significantly reduced, and accuracy
@@ -207,8 +228,8 @@ const BlockchainProceedToPay = () => {
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
-        <Contacts/>
+        <BlogSocialIcons />
+        <Contacts />
         <Footer />
       </main>
     </>

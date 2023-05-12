@@ -21,6 +21,10 @@ const Fullstack = () => {
           property="og:keywords"
           content=" full stack development services, full stack development company, full stack mobile app development, full stack web development services, full stack web development company, full stack software development company, full stack developers, full stack developers services, full stack web and mobile app development, aws full stack developer,"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/fullstack.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

@@ -19,6 +19,10 @@ const KamranQamar = () => {
           property="og:description"
           content="We are happy & excited to announce that Mr. Kamran Qamar has joined Redblox Team as the Advisor and mentor, guiding our Tech Ninjas & elevating our Initiatives"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/Advisor.jpg"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

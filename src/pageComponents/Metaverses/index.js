@@ -21,6 +21,10 @@ const Metaverses = () => {
           property="og:keywords"
           content="How metaverse will reshape real estate, Metaverse in Real Estate Industry, Metaverse transform the real estate industry, Metaverse in real estate services, metaverse real estate development services, metaverse real estate development company, Metaverse real estate platform services,"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/realestate.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

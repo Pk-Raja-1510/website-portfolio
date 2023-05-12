@@ -21,6 +21,10 @@ const BlockchainExpert = () => {
           property="og:keywords"
           content="Blockchain Experts, Certified Blockchain Expert, Web3 Expert, Blockchain Certified Expert, Blockchain Technology Experts, Top Blockchain Experts, Experts on Blockchain, Best Blockchain Experts"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/BlockchainExpert.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">
@@ -82,7 +86,9 @@ const BlockchainExpert = () => {
                 identify the risks associated with fake medicines and ultimately
                 enhance patient outcomes.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Identity Verification:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Identity Verification:
+              </h3>
               <p className={styles.blog_id_content}>
                 NFTs are digital assets that are stored on the blockchain. These
                 tokens can represent various forms of content, such as artwork,
@@ -112,7 +118,9 @@ const BlockchainExpert = () => {
                 transfer, making the process more efficient and potentially
                 reducing the requirement for intermediaries.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Who is a blockchain expert?</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Who is a blockchain expert?
+              </h2>
               <p className={styles.blog_id_content}>
                 A person considered a blockchain expert has a deep understanding
                 of the workings of blockchain platforms and can create
@@ -125,8 +133,12 @@ const BlockchainExpert = () => {
                 security, smart contracts, consensus algorithms, and use cases
                 in diverse sectors.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Top Skills to Become a Blockchain Expert in 2023</h2>
-              <h3 className={styles.blog_id_sub_heading}>Blockchain Architecture</h3>
+              <h2 className={styles.blog_id_main_heading}>
+                Top Skills to Become a Blockchain Expert in 2023
+              </h2>
+              <h3 className={styles.blog_id_sub_heading}>
+                Blockchain Architecture
+              </h3>
               <p className={styles.blog_id_content}>
                 Acquiring an understanding of fundamental blockchain concepts
                 and terminology is crucial for those aspiring to become
@@ -141,7 +153,9 @@ const BlockchainExpert = () => {
                 optimised solutions while adhering to constraints. It is also
                 beneficial in efficiently organising and storing data.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Web Design & Development</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Web Design & Development
+              </h3>
               <p className={styles.blog_id_content}>
                 Creating and building decentralised applications is an essential
                 part of becoming a blockchain developer. As a result, front-end
@@ -172,7 +186,9 @@ const BlockchainExpert = () => {
                 engineer. Sharpen your programming skills and establish yourself
                 as an expert in your area.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Advantages of Becoming a Blockchain Expert in 2023</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Advantages of Becoming a Blockchain Expert in 2023
+              </h2>
               <p className={styles.blog_id_content}>
                 As blockchain technology continues to expand into various
                 domains, various career prospects are emerging for individuals
@@ -188,13 +204,17 @@ const BlockchainExpert = () => {
                 blockchain-based products, smart contracts, and other related
                 items.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Opportunities for Career Development:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Opportunities for Career Development:
+              </h3>
               <p className={styles.blog_id_content}>
                 The emergence of blockchain has brought about notable
                 developments in several new domains, providing experts with
                 numerous opportunities to enhance their careers.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Innovation and Captivating:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Innovation and Captivating:
+              </h3>
               <p className={styles.blog_id_content}>
                 The field of blockchain technology is both innovative and
                 captivating, affording experts the chance to create products
@@ -207,7 +227,9 @@ const BlockchainExpert = () => {
                 necessity for a considerable number of skilled professionals,
                 guarantees job security in this domain.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Blockchain-Based Products</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Blockchain-Based Products
+              </h2>
               <h3 className={styles.blog_id_sub_heading}>Cryptocurrency</h3>
               <p className={styles.blog_id_content}>
                 The flagship product of blockchain is a secure transaction
@@ -216,14 +238,18 @@ const BlockchainExpert = () => {
                 centralised processes, this solution provides enhanced
                 transaction security.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Decentralised Application ( dApp )</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Decentralised Application ( dApp )
+              </h3>
               <p className={styles.blog_id_content}>
                 Decentralised applications (dApps) are mostly used to construct
                 smart contracts with blockchain technology. These smart
                 contracts can be used for a variety of applications, including
                 money, trading, and agreements.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Management of the Supply Chain</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Management of the Supply Chain
+              </h3>
               <p className={styles.blog_id_content}>
                 Supply chain management entails tracking items from the moment
                 of manufacture to the point of delivery. This aids in monitoring
@@ -262,7 +288,7 @@ const BlockchainExpert = () => {
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
+        <BlogSocialIcons />
         <Contacts />
         <Footer />
       </main>

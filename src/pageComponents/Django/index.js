@@ -21,6 +21,10 @@ const Django = () => {
           property="og:keywords"
           content="What is Django, What is Django used for, What is Django Framework, Benefits of Django, What is the use of Django, Django framework for web development, What is Django web framework, Features of Django Framework, Django Web Development, Django framework services"
         />
+          <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/django.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

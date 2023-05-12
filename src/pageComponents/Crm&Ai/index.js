@@ -21,6 +21,10 @@ const CrmAi = () => {
           property="og:keywords"
           content="Artificial Intelligence, Customer Relationship Management, Artificial Intelligence and Machine Learning, AI applications, AI Services company, AI as a service company, Artificial Intelligence Development Services, CRM Software, CRM Management Software,"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/art.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">

@@ -18,6 +18,7 @@ import { SlickSlider } from "src/components/slickSlider";
 import { CarouselRotaing } from "src/components/carouselRotaing";
 import { ProcessFlow } from "src/components/processFlow";
 import Contacts from "src/components/contacts";
+import Head from "next/head";
 const Index = () => {
   const navigate = useRouter();
   const router = useRouter();
@@ -133,6 +134,27 @@ const Index = () => {
   }, [clientData]);
   return (
     <>
+      <Head>
+        <title>
+          Blockchain, Web3, Metaverse, Fullstack & Mobile App Development -
+          RedBlox
+        </title>
+        <meta property="og:site_name" content="RedBlox" />
+        <meta property="og:url" content="http://redblox.io/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="/assets/AgileSoftLabs-Logo-87d982c2e2a043f2c499fda7038b4dd17671278595ece54196de9ec6c9d13794.png"
+        />
+        <meta
+          property="og:description"
+          content="As a Leading Blockchain Development Company. we offer a wide range of Metaverse, NFT, VR, AR, Web & Mobile App Development Services. we have the best blockchain developers to work on your next-gen projects"
+        />
+        <meta
+          property="og:keywords"
+          content="Blockchain Development Company, Metaverse Services and solutions, Metaverse Development Company, Best Blockchain Developers, Leading Blockchain Development Services Company, Metaverse App Development Company, NFT Platform Development Company, NFT Platform Services, Leading Outsourcing Company, VR & AR Development Company, Website Development Company, Mobile App Development Company, Android & IOS App Development Company"
+        />
+      </Head>
       <main className={styles.main}>
         <section className={styles.video_container}>
           <video

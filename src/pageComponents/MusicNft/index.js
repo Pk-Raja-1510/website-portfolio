@@ -21,6 +21,10 @@ const MusicNft = () => {
           property="og:keywords"
           content="Music NFT Marketplace Development Company, Music NFT Marketplace Development Services, Music NFT Marketplace, NFT Music Marketplace, Best NFT Platform Development, NFT Marketplace for Music, NFT Music Marketplace Development,"
         />
+        <meta
+          property="og:image"
+          content="https://redblox.netlify.app/static/images/NFT-Music-Marketplace-Development-Company-RedBlox-Technologies-min.webp"
+        />
       </Head>
       <main className={styles.main}>
         <section className={styles.sectionBlog} id="WhatWeDo">
