@@ -542,7 +542,7 @@ export const teckData = [
   },
   {
     id: 17,
-    title: "Frondend",
+    title: "Frontend",
     img: [
       {
         id: 1,
@@ -614,7 +614,7 @@ export const teckData = [
   },
   {
     id: 19,
-    title: "Cloud Infratcture",
+    title: "Cloud Infrastructure",
     img: [
       {
         id: 1,

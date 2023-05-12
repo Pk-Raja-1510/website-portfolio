@@ -58,8 +58,8 @@ export const metaverseData = [
     id: 1,
     title:
       "5 Metaverse Trends That Will Shape The Next Decade Of Your Business",
-    image: "/static/images/metaverse_trend.jpg",
-    alt: "",
+    image: "/static/images/Top Metaverse Trends that will reshape the future-min.webp",
+    alt: "Top Metaverse Trends that will reshape the future-min",
     path: "/metaverse/MetaverseTrend",
   },
   {

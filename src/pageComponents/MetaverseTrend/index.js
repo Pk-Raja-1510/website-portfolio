@@ -21,7 +21,7 @@ const MetaverseTrend = () => {
         />
         <meta
           property="og:image"
-          content="https://redblox.netlify.app/static/images/metaverse_trend.jpg"
+          content="https://redblox.netlify.app/static/images/Top Metaverse Trends that will reshape the future-min.webp"
         />
       </Head>
       <main className={styles.main}>
@@ -35,7 +35,8 @@ const MetaverseTrend = () => {
               <div className={styles.img}>
                 <img
                   className={styles.Gameimg}
-                  src="/static/images/metaverse_trend.jpg"
+                  src="/static/images/Top Metaverse Trends that will reshape the future-min.webp"
+                  alt="Top Metaverse Trends that will reshape the future-min"
                 />
               </div>
             </div>
