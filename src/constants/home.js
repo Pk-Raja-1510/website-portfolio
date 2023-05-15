@@ -4,27 +4,27 @@ export const projects = [
     description:
       "Smartcontract development & auditing, Web3, Decentralized application development.",
     image: "/static/icons/block.svg",
-    alt: "",
+    alt: "block",
   },
   {
     title: "Metaverse Development",
     description:
       "Combine your virtual and physical world with our metaverse expertise.",
     image: "/static/icons/people.svg",
-    alt: "",
+    alt: "People",
   },
   {
     title: "Mobile & Web App Development",
     description: "Accelerate your mobile & web app development with us.",
     image: "/static/icons/mobile.svg",
-    alt: "",
+    alt: "Mobile",
   },
   {
     title: "UI / UX Development",
     description:
       "Increase customer engagement with rich UI experience & responsive designs.",
     image: "/static/icons/ios.svg",
-    alt: "",
+    alt: "Ios",
   },
 ];
 export const blackChainData = [
@@ -33,7 +33,7 @@ export const blackChainData = [
     title: "How to Became a Blockchain Expert in 2023",
     description: "How to Became a Blockchain Expert in 2023",
     image: "/static/images/BlockchainExpert.webp",
-    alt: "",
+    alt: "How-to-Became-a-Blockchain-Expert-in-2023",
     path: "/blockchain/how-to-become-a-blockchain-expert-in-2023",
   },
   {
@@ -41,7 +41,7 @@ export const blackChainData = [
     title: "Centralized Vs Decentralized Digital Networks",
     description: "Blockchain - Centralized Vs Decentralized Digital Networks",
     image: "/static/images/Centralized_Vs_Decentralized.webp",
-    alt: "",
+    alt: "Centralized-vs-Decentralized-Digital-Networks",
     path: "/blockchain/centralised-vs-decentralised-digital-networks",
   },
   {
@@ -49,7 +49,7 @@ export const blackChainData = [
     title: "How Blockchain Can Boost Up The Procure-To-Pay Process?",
     description: "How Blockchain can Boost up the Procure-to-Pay process?",
     image: "/static/images/ProceedToPay.jpg",
-    alt: "how_blockchain_can_transform_the_procure_to_pay_process",
+    alt: "How-Blockchain-can-Boost-up-the-procure-to-pay-process",
     path: "/blockchain/how-blockchain-can-transform-the-procure-to-pay-process",
   },
 ];
@@ -58,29 +58,30 @@ export const metaverseData = [
     id: 1,
     title:
       "5 Metaverse Trends That Will Shape The Next Decade Of Your Business",
-    image: "/static/images/Top Metaverse Trends that will reshape the future-min.webp",
-    alt: "Top Metaverse Trends that will reshape the future-min",
+    image:
+      "/static/images/Top Metaverse Trends that will reshape the future-min.webp",
+    alt: "5-Metaverse-Trends-that-willshape-the-Next-decade-of-your-business",
     path: "/metaverse/MetaverseTrend",
   },
   {
     id: 2,
     title: "How Metaverse is Empowering People With Disabilities",
     image: "/static/images/metaverse.webp",
-    alt: "how_metaverse_is_empowering_people_with_disabilities",
+    alt: "How-Metaverse-is-Empoering-With-Disabilities",
     path: "/metaverse/how-metaverse-is-empowering-people-with-disabilities",
   },
   {
     id: 3,
     title: "Metaverse Effectively Reshaping the Fashion Industry",
     image: "/static/images/FashionMetaverse.webp",
-    alt: "",
+    alt: "Metaverse-effectively-reshape-the-fashion-industry",
     path: "/metaverse/metaverse-effectively-reshaping-the-fashion-industry",
   },
   {
     id: 4,
     title: "How Metaverse will transform the Real Estate Industry?",
     image: "/static/images/realestate.webp",
-    alt: "",
+    alt: "How-Metaverse-will-Transform-the-Real-Estate-Indyutry",
     path: "/metaverse/how-metaverse-will-transform-the-real-estate-industry",
   },
 ];
@@ -89,16 +90,20 @@ export const nftData = [
     id: 1,
     title: "Play-to-Earn NFT Gaming Dvelopment Services",
     description: "Play-to-Earn NFT Gaming Dvelopment Services",
-    image: "/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp",
-    alt: "Play to Earn NFT Gaming Development Services - RedBlox Technologies-min",
+    image:
+      "/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp",
+    alt: "Play-to-Earn-NFT-Gaming-Development-Services",
     path: "/nft/play-to-earn-nft-gaming-development-services",
   },
   {
     id: 2,
-    title: "Launch Your Own Music NFT Marketplace Platform With Unique Features",
-    description: "Launch Your Own Music NFT Marketplace Platform With Unique Features",
-    image: "/static/images/NFT-Music-Marketplace-Development-Company-RedBlox-Technologies-min.webp",
-    alt: "",
+    title:
+      "Launch Your Own Music NFT Marketplace Platform With Unique Features",
+    description:
+      "Launch Your Own Music NFT Marketplace Platform With Unique Features",
+    image:
+      "/static/images/NFT-Music-Marketplace-Development-Company-RedBlox-Technologies-min.webp",
+    alt: "Launch-Your-Own-Music-NFT-Marketplace-Platform-With-Unique-Features",
     path: "/nft/music-nft-marketplace-development-with-unique-features",
   },
 ];
@@ -138,7 +143,7 @@ export const softwareDevelopmentData = [
     description:
       "JavaScript - The Massive Trick To Accomplish Your Business Goals. ",
     image: "/static/images/js.webp",
-    alt: "",
+    alt: "Javascript-The-massive-trick-to-accomplish-your-business-goals",
     path: "/software-development/javascript-tricks-to-accomplish-your-business-goals",
   },
   {
@@ -147,7 +152,7 @@ export const softwareDevelopmentData = [
     description:
       "Let's look at what Django is used for and How it can benefit your business, why businesses use the Django framework, and how it works.",
     image: "/static/images/django.webp",
-    alt: "",
+    alt: "What-is-Django-and-how-can-it-benefit your business",
     path: "/software-development/what-is-django-how-can-it-benefit-your-business",
   },
   {
@@ -156,7 +161,7 @@ export const softwareDevelopmentData = [
     description:
       "PHP is the best choice for startups, Enterprises, and business owners wishing to create their own static websites. Most businesses, including media firms, and advertising, choose PHP as their preferred language due to the platform's convenience and usefulness.",
     image: "/static/images/php.webp",
-    alt: "",
+    alt: "10-Reasons-Why-PHP-is-the-Best-choice-for-startups",
     path: "/software-development/10-reasons-why-php-is-the-best-choice-for-startups",
   },
 ];
@@ -167,7 +172,7 @@ export const artificialIntelligenceData = [
     description:
       "AI - The massive growth of CRM & AI from the past to the Future.",
     image: "/static/images/art.webp",
-    alt: "",
+    alt: "Artificial-Intelligence-in-Customer-Relationship-Management",
     path: "/artificial-intelligence/artificial-intelligence-in-customer-relationship-management",
   },
 ];
@@ -188,104 +193,104 @@ export const clientData = [
     name: "Navigant",
     url: "https://guidehouse.com/",
     image: "/static/images/clients/navigant.png",
-    alt: "",
+    alt: "Navigant",
   },
   {
     name: "Ruang guru",
     url: "ps://www.ruangguru.com/",
     image: "static/images/clients/ruang-guru.png",
-    alt: "",
+    alt: "Ruang guru",
   },
   {
     name: "Korn Ferry",
     url: "",
     image: "/static/images/clients/korenf.svg",
-    alt: "",
+    alt: "Korn Ferry",
   },
   {
     name: "Building Pulse",
     url: "https://www.buildingpulse.com/",
     image: "/static/images/clients/BuildingPulse.png",
-    alt: "",
+    alt: "Building Pulse",
   },
   {
     name: "Roombird",
     url: "https://www.roombird.com/",
     image: "/static/images/clients/roombird.png",
-    alt: "",
+    alt: "Roombird",
   },
   {
     name: "Woodsdeck",
     url: "https://www.woodsdeck.com/",
     image: "/static/images/clients/woodseck.png",
-    alt: "",
+    alt: "Woodsdeck",
   },
   {
     name: "Xcoins",
     url: "https://xcoins.com/",
     image: "/static/images/clients/xcoins.svg",
-    alt: "",
+    alt: "Xcoins",
   },
   {
     name: "vene",
     url: "",
     image: "/static/images/clients/vene.png",
-    alt: "",
+    alt: "vene",
   },
   {
     name: "mobility EyeOrde",
     url: "",
     image: "/static/images/clients/mobilityeye.png",
-    alt: "",
+    alt: "mobility EyeOrde",
   },
   {
     name: "learning app",
     url: "https://www.thelearning.app/",
     image: "/static/images/clients/Edudeck.png",
-    alt: "",
+    alt: "learning app",
   },
   {
     name: "drone portal",
     url: "",
     image: "/static/images/clients/drone-portal.png",
-    alt: "",
+    alt: "drone portal",
   },
 
   {
     name: "Exclusible",
     url: "https://www.exclusible.com/",
     image: "/static/images/clients/exclusible.png",
-    alt: "",
+    alt: "Exclusible",
   },
   {
     name: "IP Consulting",
     url: "https://www.ipconsultinggroups.com/",
     image: "/static/images/clients/IP.png",
-    alt: "",
+    alt: "IP Consulting",
   },
   {
     name: "Spryton",
     url: "https://spryntz.com/",
     image: "/static/images/clients/spryton.jpg",
-    alt: "",
+    alt: "Spryton",
   },
   {
     name: "Gogaston",
     url: "https://www.gogaston.io/",
     image: "/static/images/clients/gaston.png",
-    alt: "",
+    alt: "Gogaston",
   },
   {
     name: "Lit It",
     url: "https://lit.it/",
     image: "/static/images/clients/lit.png",
-    alt: "",
+    alt: "Lit It",
   },
   {
     name: "Berman GPS",
     url: "",
     image: "/static/images/clients/bermann.png",
-    alt: "",
+    alt: "Berman GPS",
   },
 ];
 
@@ -332,7 +337,7 @@ export const sliderData = [
     content:
       "We specialise in delivering customised blockchain development services and solutions utilising various blockchain platforms.",
     image: "/static/icons/blockchain.png",
-    alt: "",
+    alt: "Blockchain Development",
   },
   {
     id: 2,
@@ -340,7 +345,7 @@ export const sliderData = [
     content:
       "We offer a variety of fascinating opportunities through our metaverse development solutions. Don't miss out on the chance to kickstart your Metaverse business today!",
     image: "/static/icons/metaverse.png",
-    alt: "",
+    alt: "Metaverse Development",
   },
   {
     id: 3,
@@ -348,7 +353,7 @@ export const sliderData = [
     content:
       "Our Mobile app development solutions offer a wide range of benefits to businesses to enhance customer engagement and create apps that align with their goals.",
     image: "/static/icons/web_app.png",
-    alt: "",
+    alt: "Mobile App Development",
   },
   {
     id: 4,
@@ -356,7 +361,7 @@ export const sliderData = [
     content:
       " Our Experienced NFT developers can take your business models to new heights by utilizing the potential of blockchain technology.",
     image: "/static/icons/nft_platform.png",
-    alt: "",
+    alt: "NFT Platform Development",
   },
   {
     id: 5,
@@ -364,7 +369,7 @@ export const sliderData = [
     content:
       "Our VR and AR development services cover everything from strategy. We work closely with your team to ensure a deep understanding of your business objectives.",
     image: "/static/icons/vr_ar.png",
-    alt: "",
+    alt: "VR/AR Development",
   },
   {
     id: 6,
@@ -372,7 +377,7 @@ export const sliderData = [
     content:
       "Our dApp development services provide diverse tools and technologies across various blockchain networks.",
     image: "/static/icons/dapp.png",
-    alt: "",
+    alt: "dApp Development",
   },
   {
     id: 7,
@@ -380,7 +385,7 @@ export const sliderData = [
     content:
       "We specialise in Custom software development services to streamline corporate processes from concept to coding, development to deployment, and increase business revenues.",
     image: "/static/icons/custom_software.png",
-    alt: "",
+    alt: "Custom Software Development",
   },
   {
     id: 8,
@@ -388,7 +393,7 @@ export const sliderData = [
     content:
       "Our Crypto Wallet Development Services facilitate faster and more secure transactions for users, leveraging the benefits of our advanced crypto wallet solutions.",
     image: "/static/icons/crypto_wallet.png",
-    alt: "",
+    alt: "Crypto Wallet Development ",
   },
 ];
 
@@ -396,7 +401,7 @@ export const industryCoveredData = [
   {
     id: 1,
     img: "/static/icons/supply-chain.png",
-    alt: "",
+    alt: "Supply Chain",
     title: "Supply chain",
     content:
       "Our Blockchain in Supply chain management improves the traceability of each component of a supply chain, such as monitoring supplier data, purchasing, product delivery, etc.",
@@ -404,7 +409,7 @@ export const industryCoveredData = [
   {
     id: 2,
     img: "/static/icons/business-and-finance.png",
-    alt: "",
+    alt: "Finance",
     title: "Finance",
     content:
       "Our Blockchain in Finance can lead to several benefits for the industry. Our blockchain in finance service has helped you with better security and transparency, effectively control risks & Reduce costs",
@@ -412,7 +417,7 @@ export const industryCoveredData = [
   {
     id: 3,
     img: "/static/icons/healthcare.png",
-    alt: "",
+    alt: "Health Care",
     title: "Healthcare",
     content:
       "We provide a safe, decentralized network for storing medical records and blockchain in healthcare services. It is simpler to access medical records from anywhere while giving patients complete ownership over their health data.",
@@ -420,7 +425,7 @@ export const industryCoveredData = [
   {
     id: 4,
     img: "/static/icons/storefront.png",
-    alt: "",
+    alt: "Retail",
     title: "Retail",
     content:
       "Blockchain in the Retail sector builds and maintains possibilities for everyone to maintain the infrastructure. That delivers Reduce costs, increase transparency, Faster Payments & More",
@@ -428,7 +433,7 @@ export const industryCoveredData = [
   {
     id: 5,
     img: "/static/icons/gaming.png",
-    alt: "",
+    alt: "Gaming",
     title: "Gaming",
     content:
       "Blockchain has created new opportunities in gaming economics. In Blockchain gaming gamers can control all in-game items, currency, and all distributions and it should be fully decentralized.",
@@ -436,7 +441,7 @@ export const industryCoveredData = [
   {
     id: 6,
     img: "/static/icons/real-estate.png",
-    alt: "",
+    alt: "Real Estate",
     title: "Real Estate",
     content:
       "Tokenization is used in blockchain real estate. Real estate assets, tokens that can be issued, purchased, and sold using blockchain platforms and cryptocurrencies represent a specific number of shares. It expedites real estate transactions and lowers crowdfunding hurdles.",
@@ -448,14 +453,14 @@ export const recentBlogs = [
     name: "Metaverse Effectively Reshaping the Fashion Industry",
     path: "/metaverse/metaverse-effectively-reshaping-the-fashion-industry",
     img: "/static/images/FashionMetaverse.webp",
-    alt: "",
+    alt: "Metaverse-effectively-reshape-the-fashion-industry",
   },
   {
     id: 2,
     name: "Launch Your Own Music NFT Marketplace Platform With Unique Features",
     path: "/nft/music-nft-marketplace-development-with-unique-features",
     img: "/static/images/NFT-Music-Marketplace-Development-Company-RedBlox-Technologies-min.webp",
-    alt: "",
+    alt: "Launch-Your-Own-Music-NFT-Marketplace-Platform-With-Unique-Features",
   },
   {
     id: 3,

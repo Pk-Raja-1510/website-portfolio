@@ -9,7 +9,7 @@ export const CarouselRotaing = (props) => {
         {industryCoveredData?.map((item) => (
           <div className={styles.carousel__face} key={item?.id}>
             <div>
-              <Image src={item?.img} height="40" width="40" layout="fixed" />
+              <Image src={item?.img} height="40" width="40" layout="fixed" alt={item?.alt} />
               <h4>{item?.title}</h4>
             </div>
             <p>{item?.content}</p>

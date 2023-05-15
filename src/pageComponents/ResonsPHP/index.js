@@ -21,7 +21,7 @@ const ResonsForPHP = () => {
           property="og:keywords"
           content="Why PHP, Why choose PHP, PHP services, Hire PHP Developers, PHP Development Services, PHP web development services, PHP Development Company, PHP for startups, PHP framework, PHP development, Why PHP is Best for Startups, Best PHP Developers, Hire PHP Developers, Top PHP Developers, PHP Software Consultant, Hiring a PHP Developer, Benefits of PHP"
         />
-         <meta
+        <meta
           property="og:image"
           content="https://redblox.netlify.app/static/images/php.webp"
         />
@@ -38,7 +38,9 @@ const ResonsForPHP = () => {
               </div>
             </div>
             <div className={styles.data}>
-              <h2 className={styles.blog_id_main_heading}>What is PHP and Reasons to Choose PHP for Startups?</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                What is PHP and Reasons to Choose PHP for Startups?
+              </h2>
               <p className={styles.blog_id_content}>
                 One of the most popular languages is PHP which is continually
                 changing the IT sector. One of the top web development
@@ -53,13 +55,16 @@ const ResonsForPHP = () => {
                 you see on the internet today. PHP is compatible with search
                 engines and permits social media integration. You’re looking to
                 start growing your business digitally. Here are the reasons for
-                choosing PHP for your startup. <a href="/#contact">Hire the Best PHP Developers</a>
+                choosing PHP for your startup.{" "}
+                <a href="/#contact"> Hire the Best PHP Developers</a>
               </p>
               <h2 className={styles.blog_id_main_heading}>
                 Let us see the 10 Reasons Why PHP is the Best choice for the
                 Startups
               </h2>
-              <h3 className={styles.blog_id_sub_heading}>PHP is open source & Cost-effective</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP is open source & Cost-effective
+              </h3>
               <p className={styles.blog_id_content}>
                 PHP is accessible for free via an open-source network is
                 probably what draws business owners and programmers to it. PHP
@@ -73,7 +78,9 @@ const ResonsForPHP = () => {
                 update, PHP addresses user needs and desires, which means you
                 can use it at your convenience without incurring any expenses.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP has A Standard Library</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP has A Standard Library
+              </h3>
               <p className={styles.blog_id_content}>
                 In today's highly competitive internet business, operating and
                 launching an online business are no easy tasks. Hosting your
@@ -87,7 +94,9 @@ const ResonsForPHP = () => {
                 ideas and find the perfect fit for their project, ultimately
                 saving time during the development process.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP is Everywhere on the internet</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP is Everywhere on the internet
+              </h3>
               <p className={styles.blog_id_content}>
                 At present, PHP empowers 80% of websites, highlighting its
                 essential role in the web development process. With its
@@ -98,7 +107,9 @@ const ResonsForPHP = () => {
                 PHP enables you to develop from the extensive PHP ecosystem and
                 employ many built-in tools for a beginning business.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP is perfect for Rapid Development</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP is perfect for Rapid Development
+              </h3>
               <p className={styles.blog_id_content}>
                 PHP is the Best choice for businesses because it is simple to
                 get started with and develops quickly. PHP is not only useful
@@ -107,10 +118,12 @@ const ResonsForPHP = () => {
               </p>
               <p className={styles.blog_id_content}>
                 When you're just getting started and lack the funds or time to
-                <a href="/#contact">Hire a PHP dedicated development team</a>, it makes it easier to
-                grow your idea.
+                <a href="/#contact"> Hire a PHP dedicated development team</a>,
+                it makes it easier to grow your idea.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP comes with a flexible code option</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP comes with a flexible code option
+              </h3>
               <p className={styles.blog_id_content}>
                 Many startup founders and developers benefit from PHP's
                 flexibility and adaptability. PHP code is adaptable and may be
@@ -134,7 +147,9 @@ const ResonsForPHP = () => {
                 the perfect programming language to help your business grow as
                 quickly as possible.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP offers quick development and maintenance</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP offers quick development and maintenance
+              </h3>
               <p className={styles.blog_id_content}>
                 PHP offers the option of code reuse, which reduces the time and
                 effort required to create and construct websites and online
@@ -144,7 +159,9 @@ const ResonsForPHP = () => {
                 Every PHP framework enables secure and quick app development and
                 includes built-in HTML capabilities to improve performance.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP is fast and secure</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP is fast and secure
+              </h3>
               <p className={styles.blog_id_content}>
                 PHP's main advantage is its high-speed performance, making it
                 one of the fastest open-source languages available today. PHP is
@@ -152,17 +169,22 @@ const ResonsForPHP = () => {
               </p>
               <p className={styles.blog_id_content}>
                 It also offers better security compared to languages like Perl
-                or JavaScript. <a href="/#contact">Hiring a PHP developer for your business</a> is a
-                wise investment in terms of both time and money.
+                or JavaScript.{" "}
+                <a href="/#contact"> Hiring a PHP developer for your business</a>{" "}
+                is a wise investment in terms of both time and money.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP Support for other frameworks</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP Support for other frameworks
+              </h3>
               <p className={styles.blog_id_content}>
                 A PHP outstanding capacity to interface with different
                 programming languages contributes to its flexibility. The C
                 programming language allows developers to create PHP extensions,
                 which enables PHP apps to have even more capability.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>PHP Easily Handle Big Data</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                PHP Easily Handle Big Data
+              </h3>
               <p className={styles.blog_id_content}>
                 PHP is also very scalable, enabling it to adapt to rising data
                 volumes as the firm expands. Startups may scale their web
@@ -177,9 +199,13 @@ const ResonsForPHP = () => {
                 it a desirable choice for any company with a high budget
               </p>
               <div className={styles.blog_buttons}>
-              <a href="/#contact" className={styles.touch_button}>PHP Development Company - Contact Us</a>
+                <a href="/#contact" className={styles.touch_button}>
+                  PHP Development Company - Contact Us
+                </a>
               </div>
-              <h2 className={styles.blog_id_main_heading}>Benefits of PHP for the startups</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Benefits of PHP for the startups
+              </h2>
               <h3 className={styles.blog_id_sub_heading}>
                 Let us see the top benefits of choosing PHP for your startup
                 businesses
@@ -195,10 +221,11 @@ const ResonsForPHP = () => {
               </p>
               <p className={styles.blog_id_content}>
                 For startups and Enterprises who are looking for reliable and
-                fast <a href="/#contact">PHP Development Services</a> for their custom web development
-                needs and requirements, PHP is an ideal choice. PHP is a simple
-                syntax and robust feature set and it will be perfect for
-                constructing static and dynamic web applications and websites.
+                fast <a href="/#contact"> PHP Development Services</a> for their
+                custom web development needs and requirements, PHP is an ideal
+                choice. PHP is a simple syntax and robust feature set and it
+                will be perfect for constructing static and dynamic web
+                applications and websites.
               </p>
               <h4 className={styles.blog_id_sub_heading}>Summing Up</h4>
               <p className={styles.blog_id_content}>
@@ -206,16 +233,17 @@ const ResonsForPHP = () => {
                 online application should consider using PHP. It is free and
                 open source, offers strong security and scalability, gives
                 first-rate support and resources, and is simple to learn. You
-                should <a href="/#contact">Hire PHP developers</a> whether your company is just getting
-                started or has been around for a while because PHP can offer the
-                ideal platform for your web development requirements.
+                should <a href="/#contact"> Hire PHP developers</a> whether your
+                company is just getting started or has been around for a while
+                because PHP can offer the ideal platform for your web
+                development requirements.
               </p>
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
-        <Contacts/>
-        <Footer/>
+        <BlogSocialIcons />
+        <Contacts />
+        <Footer />
       </main>
     </>
   );

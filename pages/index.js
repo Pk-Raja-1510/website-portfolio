@@ -201,6 +201,7 @@ const Index = () => {
                 height="25"
                 width="25"
                 layout="fixed"
+                alt="previous"
               />
               <hr></hr>
               <Image
@@ -208,6 +209,7 @@ const Index = () => {
                 height="25"
                 width="25"
                 layout="fixed"
+                alt="next"
               />
             </div>
           </div>
@@ -253,6 +255,7 @@ const Index = () => {
                     height="150"
                     width="150"
                     layout="fixed"
+                    alt='Developers'
                   />
                   <p>200+ Developers </p>
                 </div>
@@ -262,6 +265,7 @@ const Index = () => {
                     height="150"
                     width="150"
                     layout="fixed"
+                    alt="Projects"
                   />
                   <p>250+ Projects </p>
                 </div>
@@ -273,6 +277,7 @@ const Index = () => {
                     height="150"
                     width="150"
                     layout="fixed"
+                    alt="Years of Experience"
                   />
                   <p> 5+ Year Experience</p>
                 </div>
@@ -282,6 +287,7 @@ const Index = () => {
                     height="150"
                     width="150"
                     layout="fixed"
+                    alt="Clients"
                   />
                   <p>30+ Clients</p>
                 </div>
@@ -339,7 +345,7 @@ const Index = () => {
                 <img
                   onClick={() => otherRoute(item?.url)}
                   src={item?.image}
-                  alt={`${item?.name}-redblox-metaverse`}
+                  alt={item?.alt}
                   key={index}
                 />
               ))}

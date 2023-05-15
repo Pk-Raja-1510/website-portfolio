@@ -289,8 +289,8 @@ const Metaverses = () => {
               </ol>
               <h4 className={styles.blog_id_sub_heading}>Summing Up!</h4>
               <p className={styles.blog_id_content}>
-                <a href="/#contact">Metaverse Real Estate</a>is quickly becoming
-                a promising investment opportunity for individuals and
+                <a href="/#contact"> Metaverse Real Estate</a>is quickly
+                becoming a promising investment opportunity for individuals and
                 businesses alike. It offers NFT creators the ability to monetize
                 their virtual content, allowing them to exchange NFT-based
                 assets for real-world currency. Additionally, companies can
@@ -302,7 +302,7 @@ const Metaverses = () => {
               </p>
               <p className={styles.blog_id_content}>
                 If you are looking to develop a
-                <a href="/#contact">Real Estate Business in the metaverse</a>,
+                <a href="/#contact"> Real Estate Business in the metaverse</a>,
                 Redblox Technologies offers Metaverse development services that
                 can be tailored to your preferences and needs. Their metaverse
                 real estate app development focuses on providing customised
@@ -311,8 +311,8 @@ const Metaverses = () => {
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
-        <Contacts/>
+        <BlogSocialIcons />
+        <Contacts />
         <Footer />
       </main>
     </>

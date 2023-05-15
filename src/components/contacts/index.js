@@ -169,6 +169,7 @@ const Contacts = () => {
                 height="25"
                 width="25"
                 layout="fixed"
+                alt="Whatsapp"
               />
             </div>
             <p>Whatsapp us: +91 7806974190</p>
@@ -180,6 +181,7 @@ const Contacts = () => {
                 height="25"
                 width="25"
                 layout="fixed"
+                alt="Email"
               />
             </div>
             <p>Email: contact@redblox.io</p>
@@ -191,6 +193,7 @@ const Contacts = () => {
                 height="25"
                 width="25"
                 layout="fixed"
+                alt="Skype"
               />
             </div>
             <p>Skype: +91 7806974190</p>
@@ -202,6 +205,7 @@ const Contacts = () => {
                 height="25"
                 width="25"
                 layout="fixed"
+                alt="Telegram"
               />
             </div>
             <p>Telegram: +91 7806974190</p>

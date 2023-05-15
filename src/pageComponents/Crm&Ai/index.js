@@ -57,7 +57,9 @@ const CrmAi = () => {
                 feasible to hire more employees to handle them. AI provides the
                 ultimate solution for CRM in such situations.
               </p>
-              <h2 className={styles.blog_id_main_heading}>What is Artificial Intelligence?</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                What is Artificial Intelligence?
+              </h2>
               <p className={styles.blog_id_content}>
                 Artificial Intelligence has long been a symbol of the future,
                 whether it involves robots in the workplace or smart appliances
@@ -78,9 +80,13 @@ const CrmAi = () => {
                 are required more than ever to sort out this data deluge.
               </p>
               <div className={styles.blog_buttons}>
-              <a href="/#contact" className={styles.touch_button}>AI Development Services - Contact Us</a>
+                <a href="/#contact" className={styles.touch_button}>
+                  AI Development Services - Contact Us
+                </a>
               </div>
-              <h2 className={styles.blog_id_main_heading}>What is Customer Relationship Management (CRM)?</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                What is Customer Relationship Management (CRM)?
+              </h2>
               <p className={styles.blog_id_content}>
                 Customer relationship management (CRM) is a set of practices,
                 strategies, and technology used by businesses to manage and
@@ -92,7 +98,9 @@ const CrmAi = () => {
                 company's website, phone, live chat, direct mail, marketing
                 materials, and social networks.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Role of AI in Customer Relationship Management</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Role of AI in Customer Relationship Management
+              </h2>
               <p className={styles.blog_id_content}>
                 AI has numerous applications in CRM. However, despite most
                 businesses significantly enhancing their ability to collect
@@ -120,7 +128,9 @@ const CrmAi = () => {
                 essential for gathering information about businesses, customers,
                 and other entities.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Artificial Intelligence (AI) and the future of the CRM</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Artificial Intelligence (AI) and the future of the CRM
+              </h2>
               <p className={styles.blog_id_content}>
                 With the evolution of data sets, integration, and machine
                 learning capabilities, there is immense potential for advancing
@@ -132,12 +142,16 @@ const CrmAi = () => {
               object manipulation, reasoning, planning, knowledge, voice-speech
               recognition, perception, and other capabilities.
               <div className={styles.blog_buttons}>
-              <a href="/#contact" className={styles.touch_button}>AI-Powered CRM Software Services - Get Free Estimation</a>
+                <a href="/#contact" className={styles.touch_button}>
+                  AI-Powered CRM Software Services - Get Free Estimation
+                </a>
               </div>
               <h3 className={styles.blog_id_sub_heading}>
                 How Artificial Intelligence Transforms the CRM Operations?
               </h3>
-              <h4 className={styles.blog_id_content_bold}>Virtual Assistance for Everyone</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                Virtual Assistance for Everyone
+              </h4>
               <p className={styles.blog_id_content}>
                 Integrating artificial intelligence with CRM can significantly
                 enhance employee productivity. Essentially, it acts as a virtual
@@ -156,7 +170,9 @@ const CrmAi = () => {
                 administrative duties, separates workflows, and thereby
                 minimises errors.
               </p>
-              <h4 className={styles.blog_id_content_bold}>Automate Data Capturing</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                Automate Data Capturing
+              </h4>
               <p className={styles.blog_id_content}>
                 CRM tools make customer acquisition easier with automated data
                 capture. During onboarding, user information can be gathered
@@ -173,7 +189,9 @@ const CrmAi = () => {
                 brand image, foster genuine enthusiasm, and drive customer
                 service, lead generation, and business growth.
               </p>
-              <h4 className={styles.blog_id_content_bold}>Data Segmentation and Communication Customization</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                Data Segmentation and Communication Customization
+              </h4>
               <p className={styles.blog_id_content}>
                 Without the use of algorithms to make sense of raw databases,
                 the process of data capture mentioned earlier would be
@@ -194,7 +212,9 @@ const CrmAi = () => {
                 channels. This data can then be used to analyse the
                 effectiveness of advertising elements.
               </p>
-              <h4 className={styles.blog_id_content_bold}>User Retention and Client Maintenance with AI</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                User Retention and Client Maintenance with AI
+              </h4>
               <p className={styles.blog_id_content}>
                 Organisations encounter the task of retaining users once they
                 have acquired them. Utilising data collected from Customer
@@ -213,7 +233,9 @@ const CrmAi = () => {
                 Various communication methods are available, such as SMS, email,
                 search engine advertisements, and more.
               </p>
-              <h4 className={styles.blog_id_content_bold}>Lifetime Value with Data Analytics</h4>
+              <h4 className={styles.blog_id_content_bold}>
+                Lifetime Value with Data Analytics
+              </h4>
               <p className={styles.blog_id_content}>
                 As previously stated, artificial intelligence aids in
                 comprehending patterns, anticipating tactics, and forecasting
@@ -229,9 +251,13 @@ const CrmAi = () => {
                 data.
               </p>
               <div className={styles.blog_buttons}>
-              <a href="/#contact" className={styles.touch_button}>CRM Development Services</a>
+                <a href="/#contact" className={styles.touch_button}>
+                  CRM Development Services
+                </a>
               </div>
-              <h3 className={styles.blog_id_sub_heading}>The Benefits of AI in the CRM?</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                The Benefits of AI in the CRM?
+              </h3>
               <p className={styles.blog_id_content}>
                 Organisations of all sizes, from small businesses to large
                 corporations, can reap the benefits of using CRM systems. Some
@@ -253,7 +279,9 @@ const CrmAi = () => {
                   necessary but time-consuming.
                 </li>
               </ul>
-              <h3 className={styles.blog_id_sub_heading}>Future is Now: AI in CRM Systems</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Future is Now: AI in CRM Systems
+              </h3>
               <p className={styles.blog_id_content}>
                 It is widely accepted that customers are the lifeline of any
                 business. However, merely having a large customer base is not
@@ -276,15 +304,18 @@ const CrmAi = () => {
               </p>
               <p className={styles.blog_id_content}>
                 Looking for
-                <a href="/#contact">AI powered CRM Development Services?</a> Get
-                in touch with our Experts today at
-                <a href="/#contact">contact@redblox.io</a>
+                <a href="/#contact">
+                  {" "}
+                  AI powered CRM Development Services?
+                </a>{" "}
+                Get in touch with our Experts today at
+                <a href="/#contact"> contact@redblox.io</a>
               </p>
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
-        <Contacts/>
+        <BlogSocialIcons />
+        <Contacts />
         <Footer />
       </main>
     </>

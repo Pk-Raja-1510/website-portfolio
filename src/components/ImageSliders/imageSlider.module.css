@@ -109,4 +109,14 @@
     .titles{
         margin-top: 0.6rem;
     }
+    .tech_container{
+        background: none;
+        padding: 25px 48px;
+    }
+    .arrows>span:nth-child(1){
+       top: 20px;
+    }
+    .arrows>span:nth-child(2){
+        top: 20px;
+    }
 }

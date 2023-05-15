@@ -29,6 +29,7 @@ export const Footer = () => {
             height="25"
             width="25"
             layout="fixed"
+            alt='Email'
           />
           contact@redblox.io
         </nav>
@@ -38,6 +39,7 @@ export const Footer = () => {
             height="25"
             width="25"
             layout="fixed"
+            alt='Phone'
           />
           +91 7806974190
         </nav>
@@ -53,6 +55,7 @@ export const Footer = () => {
             height='40'
             width='40'
             layout="fixed"
+            alt='Instagram'
           />
           <Image
             onClick={() =>
@@ -62,6 +65,7 @@ export const Footer = () => {
             height='40'
             width='40'
             layout="fixed"
+            alt='LinkedIn'
           />
           <Image
             onClick={() => otherRoute("https://twitter.com/RedBloxIO")}
@@ -69,6 +73,7 @@ export const Footer = () => {
             height='40'
             width='40'
             layout="fixed"
+            alt='Twitter'
           />
           <Image
             onClick={() => otherRoute("https://github.com/Redblox-io")}
@@ -76,6 +81,7 @@ export const Footer = () => {
             height='40'
             width='40'
             layout="fixed"
+            alt='Github'
           />
           <Image
             onClick={() => otherRoute("https://www.facebook.com/Redblox.io")}
@@ -83,6 +89,7 @@ export const Footer = () => {
             height='40'
             width='40'
             layout="fixed"
+            alt='Facebook'
           />
         </div>
       </div>

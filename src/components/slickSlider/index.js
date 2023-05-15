@@ -9,7 +9,7 @@ import Image from 'next/image'
 export const SlickSlider = ({ props }) => {
     const slidercomingSoon = {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         arrows: false,
         autoplay: true,
         adaptiveHeight: true,
@@ -50,6 +50,7 @@ export const SlickSlider = ({ props }) => {
                       height="50"
                       width="50"
                       layout="fixed"
+                      alt={item?.alt}
                     />
                   </div>
                 </div>

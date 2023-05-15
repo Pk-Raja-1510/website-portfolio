@@ -158,7 +158,10 @@ const BlockchainProceedToPay = () => {
                 requirements for P2P processes. Companies with global operations
                 must consider the regulations of numerous countries. However, a
                 B2P
-                <a href="/#contact">blockchain solution for the P2P process</a>{" "}
+                <a href="/#contact">
+                  {" "}
+                  blockchain solution for the P2P process
+                </a>{" "}
                 can ensure compliance through the use of smart contracts, which
                 automates the system and makes it entirely reliable. This
                 eliminates the need for manual compliance efforts, reducing the
@@ -220,6 +223,7 @@ const BlockchainProceedToPay = () => {
                 processing, data management, funds management, and timely
                 payment. Our
                 <a href="/#contact">
+                  {" "}
                   blockchain-based procurement to Pay (P2P) solution
                 </a>
                 aims to minimise value leakage and lower the cost of operations,

@@ -283,7 +283,10 @@ const BlockchainExpert = () => {
               </p>
               <p className={styles.blog_id_content}>
                 You now understand how to become a blockchain expert.{" "}
-                <a href="/#contact">Get in Touch With Our Blockchain Experts</a>
+                <a href="/#contact">
+                  {" "}
+                  Get in Touch With Our Blockchain Experts
+                </a>
               </p>
             </div>
           </div>

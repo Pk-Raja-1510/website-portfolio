@@ -57,7 +57,9 @@ const Fullstack = () => {
                 technical team for your business and how it can benefit your
                 business's success.
               </p>
-              <h2 className={styles.blog_id_main_heading}>What is Full Stack Development?</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                What is Full Stack Development?
+              </h2>
               <p className={styles.blog_id_content}>
                 Web application development demands expertise in various domains
                 such as frontend, backend, mobile app, database development, and
@@ -72,7 +74,9 @@ const Fullstack = () => {
                 development of websites and web applications, encompassing
                 frontend, backend, database, and debugging.
               </p>
-              <h2 className={styles.blog_id_main_heading}>Full-stack Development is the new big thing</h2>
+              <h2 className={styles.blog_id_main_heading}>
+                Full-stack Development is the new big thing
+              </h2>
               <p className={styles.blog_id_content}>
                 The demand for Full Stack Developers has skyrocketed in recent
                 times due to their ability to work on various technologies and
@@ -82,7 +86,7 @@ const Fullstack = () => {
               </p>
               <p className={styles.blog_id_content}>
                 Businesses are now looking for
-                <a href="/#contact">Full Stack Developers</a> who can work on
+                <a href="/#contact"> Full Stack Developers</a> who can work on
                 all aspects of software development, including front-end
                 development, back-end development, and database management. Full
                 Stack Development has become essential for organisations that
@@ -101,7 +105,9 @@ const Fullstack = () => {
                 development, allowing businesses to leverage their strengths and
                 make it cost-effective.
               </p>
-              <p className={styles.blog_id_content_bold}>1. Better Team Management</p>
+              <p className={styles.blog_id_content_bold}>
+                1. Better Team Management
+              </p>
               <p className={styles.blog_id_content}>
                 In today's business environment, companies are looking for
                 software developers who possess excellent communication and team
@@ -112,7 +118,9 @@ const Fullstack = () => {
                 them to collaborate more effectively, ensure transparency, and
                 listen to each other's ideas.
               </p>
-              <p className={styles.blog_id_content_bold}>2. Cost-effective development</p>
+              <p className={styles.blog_id_content_bold}>
+                2. Cost-effective development
+              </p>
               <p className={styles.blog_id_content}>
                 One of the primary factors of those business organisations
                 hiring a full-stack development company is cost-effectiveness.
@@ -122,14 +130,16 @@ const Fullstack = () => {
               </p>
               <p className={styles.blog_id_content}>
                 Engaging a
-                <a href="/#contact">Full-stack development company</a> can
+                <a href="/#contact"> Full-stack development company</a> can
                 significantly reduce your expenditure during the initial stages
                 of mobile app development. Instead of hiring separate iOS and
                 Android developers for each stage of software project
                 development, you can save time and money by opting for a
                 full-stack solution provider.
               </p>
-              <p className={styles.blog_id_content_bold}>3. Rapid Development</p>
+              <p className={styles.blog_id_content_bold}>
+                3. Rapid Development
+              </p>
               <p className={styles.blog_id_content}>
                 The advent of full-stack web development services has
                 transformed the way websites are created. This approach enables
@@ -145,7 +155,9 @@ const Fullstack = () => {
                 backend engineers often have to wait for the completion of the
                 frontend design, leading to delays in their work.
               </p>
-              <p className={styles.blog_id_content_bold}>4. Better Support and Maintenance</p>
+              <p className={styles.blog_id_content_bold}>
+                4. Better Support and Maintenance
+              </p>
               <p className={styles.blog_id_content}>
                 Full stack developers, being proficient in multiple
                 technologies, stay updated with the latest developments and can
@@ -166,7 +178,9 @@ const Fullstack = () => {
                 backend, and database-level issues can be fixed, resulting in
                 hassle-free support that is both comprehensive and efficient.
               </p>
-              <p className={styles.blog_id_content_bold}>5. Latest Technologies</p>
+              <p className={styles.blog_id_content_bold}>
+                5. Latest Technologies
+              </p>
               <p className={styles.blog_id_content}>
                 A proficient full-stack web developer remains updated with the
                 latest technologies, such as progressive web applications,
@@ -179,7 +193,9 @@ const Fullstack = () => {
                 full-stack technologies depending on whether they're working on
                 a web stack or native application stack development.
               </p>
-              <p className={styles.blog_id_content_bold}>6. All-in-one development</p>
+              <p className={styles.blog_id_content_bold}>
+                6. All-in-one development
+              </p>
               <p className={styles.blog_id_content}>
                 Full stack development services offer an all-in-one development
                 solution for businesses, and improved developer productivity.
@@ -233,8 +249,8 @@ const Fullstack = () => {
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
-        <Contacts/>
+        <BlogSocialIcons />
+        <Contacts />
         <Footer />
       </main>
     </>

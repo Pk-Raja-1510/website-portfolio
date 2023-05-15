@@ -21,7 +21,7 @@ const Django = () => {
           property="og:keywords"
           content="What is Django, What is Django used for, What is Django Framework, Benefits of Django, What is the use of Django, Django framework for web development, What is Django web framework, Features of Django Framework, Django Web Development, Django framework services"
         />
-          <meta
+        <meta
           property="og:image"
           content="https://redblox.netlify.app/static/images/django.webp"
         />
@@ -64,7 +64,7 @@ const Django = () => {
                 development of secure and scalable websites. Django reduces the
                 effort needed to create websites by handling huge portions of
                 the difficulties involved with
-                <a href="/#contact">Django website development</a>. It is the
+                <a href="/#contact"> Django website development</a>. It is the
                 perfect web tool for developers.
               </p>
               <ul>
@@ -87,12 +87,14 @@ const Django = () => {
               </ul>
               <p className={styles.blog_id_content}>
                 Django's functionality and potential will keep surprising you.
-                <a href="/#contact">Hire Django Web Developers today</a>
+                <a href="/#contact"> Hire Django Web Developers today</a>
               </p>
               <h2 className={styles.blog_id_main_heading}>
                 Benefits of Django Framework for Your Business
               </h2>
-              <h3 className={styles.blog_id_sub_heading}>Django Supports Multi-Language</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Django Supports Multi-Language
+              </h3>
               <p className={styles.blog_id_content}>
                 Nowadays, a lot of businesses work to gain international
                 recognition by providing their products and services in
@@ -102,7 +104,9 @@ const Django = () => {
                 simpler to create websites and online applications that function
                 in every location.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Django is fast and simple</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Django is fast and simple
+              </h3>
               <p className={styles.blog_id_content}>
                 Django's primary objective is to make development work simpler.
                 It allows developers to reuse existing code and concentrate on
@@ -110,7 +114,9 @@ const Django = () => {
                 allows developers to complete multiple versions at once without
                 having to start the schedule from scratch.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Django is Secure Development</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Django is Secure Development
+              </h3>
               <p className={styles.blog_id_content}>
                 Security is Django's greatest strength as a web development
                 framework. The framework has default data privacy and security
@@ -120,7 +126,9 @@ const Django = () => {
                 is regularly updated, it is perfect for Fintech-related apps to
                 handle secure data.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Django is scalability</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Django is scalability
+              </h3>
               <p className={styles.blog_id_content}>
                 Similar to Python, Django offers scalable web development.
                 Django is frequently integrated by businesses looking to take
@@ -130,7 +138,9 @@ const Django = () => {
                 than being restricted. It allows us to solve any problems that
                 can arise during development. It will be helpful for developers.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Django Suits for any application development</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Django Suits for any application development
+              </h3>
               <p className={styles.blog_id_content}>
                 Whether it's a static website or a web application that handles
                 a lot of traffic, Django lets you take on projects of any size
@@ -140,7 +150,9 @@ const Django = () => {
                 and enables the use of one or even more databases
                 simultaneously.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Django is fully loaded</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Django is fully loaded
+              </h3>
               <p className={styles.blog_id_content}>
                 You can take advantage of a huge amount of extra functionality
                 with Django to handle routine web development jobs. You may
@@ -194,7 +206,7 @@ const Django = () => {
               <p className={styles.blog_id_content}>
                 We highlighted the Django advantages that make it unique for the
                 framework.
-                <a href="/#contact">Django Web Development Company</a>
+                <a href="/#contact"> Django Web Development Company</a>
               </p>
               <p className={styles.blog_id_content_bold}>Rich Ecosystem</p>
               <p className={styles.blog_id_content}>
@@ -231,7 +243,9 @@ const Django = () => {
                   Hire Our Full Stack Django Developers
                 </a>
               </div>
-              <h3 className={styles.blog_id_sub_heading}>Top Companies using Django web framework:</h3>
+              <h3 className={styles.blog_id_sub_heading}>
+                Top Companies using Django web framework:
+              </h3>
               <p className={styles.blog_id_content}>
                 Django is used by both established businesses and budding
                 startups to execute their projects. Let's look at a few
@@ -276,15 +290,15 @@ const Django = () => {
               <p className={styles.blog_id_content}>
                 We use the Django framework to create websites in Python because
                 it is transparent, dependable, and easy to use. Don't hesitate
-                to <a href="/#contact">contact us!</a> if you need a team to
+                to <a href="/#contact"> contact us!</a> if you need a team to
                 help you with your project or if you have any queries about
                 Python web frameworks.
               </p>
             </div>
           </div>
         </section>
-        <BlogSocialIcons/>
-        <Contacts/>
+        <BlogSocialIcons />
+        <Contacts />
         <Footer />
       </main>
     </>
