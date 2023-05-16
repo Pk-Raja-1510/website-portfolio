@@ -35,6 +35,7 @@ const BlockchainCenVsDecen = () => {
                 <img
                   className={styles.Gameimg}
                   src="/static/images/Centralized_Vs_Decentralized.webp"
+                  alt= "Centralized-vs-Decentralized-Digital-Networks"
                 />
               </div>
             </div>

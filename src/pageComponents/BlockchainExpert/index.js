@@ -37,6 +37,7 @@ const BlockchainExpert = () => {
                 <img
                   className={styles.Gameimg}
                   src="/static/images/BlockchainExpert.webp"
+                  alt="How-to-Became-a-Blockchain-Expert-in-2023"
                 />
               </div>
             </div>

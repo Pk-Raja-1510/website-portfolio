@@ -34,7 +34,8 @@ const CrmAi = () => {
             </h1>
             <div>
               <div className={styles.img}>
-                <img className={styles.Gameimg} src="/static/images/art.webp" />
+                <img className={styles.Gameimg} src="/static/images/art.webp"
+                alt="Artificial-Intelligence-in-Customer-Relationship-Management" />
               </div>
             </div>
             <div className={styles.data}>

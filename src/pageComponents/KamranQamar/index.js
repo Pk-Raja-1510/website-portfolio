@@ -38,6 +38,7 @@ const KamranQamar = () => {
                   height="320"
                   width="250"
                   layout="fixed"
+                  alt="Advisor"
                 />
               </div>
               <div className={styles.nameViews}>

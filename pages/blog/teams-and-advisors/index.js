@@ -6,7 +6,7 @@ import { Footer } from "src/components/footer";
 const Teams = () => {
   return (
     <>
-      <div className={styles.blockchain_container}>
+      {/* <div className={styles.blockchain_container}>
         <h1>Teams & Advisors</h1>
         <div className={styles.blockchain_grid}>
           {teamsData?.map((item) => (
@@ -14,7 +14,7 @@ const Teams = () => {
           ))}
         </div>
       </div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

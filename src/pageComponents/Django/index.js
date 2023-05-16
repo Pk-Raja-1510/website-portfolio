@@ -37,6 +37,7 @@ const Django = () => {
                 <img
                   className={styles.Gameimg}
                   src="/static/images/django.webp"
+                  alt="What-is-Django-and-how-can-it-benefit your business"
                 />
               </div>
             </div>

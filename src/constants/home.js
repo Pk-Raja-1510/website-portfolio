@@ -57,11 +57,11 @@ export const metaverseData = [
   {
     id: 1,
     title:
-      "5 Metaverse Trends That Will Shape The Next Decade Of Your Business",
+      "Top Metaverse Trends That Will Reshape the Future",
     image:
       "/static/images/Top Metaverse Trends that will reshape the future-min.webp",
-    alt: "5-Metaverse-Trends-that-willshape-the-Next-decade-of-your-business",
-    path: "/metaverse/MetaverseTrend",
+    alt: "Top Metaverse Trends That Will Reshape the Future",
+    path: "/metaverse/top-metaverse-trends-that-will-reshape-the-future",
   },
   {
     id: 2,
@@ -176,17 +176,17 @@ export const artificialIntelligenceData = [
     path: "/artificial-intelligence/artificial-intelligence-in-customer-relationship-management",
   },
 ];
-export const teamsData = [
-  {
-    id: 1,
-    title: "Mr.Kamran Qamar - An Inspiring Business Strategist And Advisor",
-    description:
-      "Smartcontract development & auditing, Web3, Decentralized application development.",
-    image: "/static/images/AdvisorCover.jpg",
-    alt: "",
-    path: "/teams-and-advisors/kamranqamar-advisor",
-  },
-];
+// export const teamsData = [
+//   {
+//     id: 1,
+//     title: "Mr.Kamran Qamar - An Inspiring Business Strategist And Advisor",
+//     description:
+//       "Smartcontract development & auditing, Web3, Decentralized application development.",
+//     image: "/static/images/AdvisorCover.jpg",
+//     alt: "",
+//     path: "/teams-and-advisors/kamranqamar-advisor",
+//   },
+// ];
 
 export const clientData = [
   {

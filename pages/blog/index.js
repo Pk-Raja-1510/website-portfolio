@@ -119,7 +119,7 @@ const Blog = () => {
             >
               See All
             </button>
-            <h3>Teams & Advisors</h3>
+            {/* <h3>Teams & Advisors</h3>
             <section className={styles.new_blogWrapper}>
               {teamsData?.map((item) => (
                 <BlogCard
@@ -135,7 +135,7 @@ const Blog = () => {
               onClick={() => router.push(`/blog/teams-and-advisors`)}
             >
               See All
-            </button>
+            </button> */}
           </div>
           <div className={styles.blogs_recent_update}>
             <Categories />
@@ -144,7 +144,7 @@ const Blog = () => {
             <SocialIcons />
           </div>
         </div>
-        <Contacts/>
+        <Contacts />
         <Footer />
       </main>
     </>

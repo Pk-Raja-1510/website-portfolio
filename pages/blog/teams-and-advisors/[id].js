@@ -3,7 +3,7 @@ import KamranQamar from "src/pageComponents/KamranQamar";
 
 const Blog = (props) => {
   const { id } = props;
-  if (id === "kamranqamar-advisor") return <KamranQamar />;
+  // if (id === "kamranqamar-advisor") return <KamranQamar />;
   return <div>Not found</div>;
 };
 

@@ -37,6 +37,7 @@ const Metaverses = () => {
                 <img
                   className={styles.Gameimg}
                   src="/static/images/realestate.webp"
+                  alt="How-Metaverse-will-Transform-the-Real-Estate-Indyutry"
                 />
               </div>
             </div>

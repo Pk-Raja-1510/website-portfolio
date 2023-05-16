@@ -37,6 +37,7 @@ const FashionIndustryMetaverse = () => {
                 <img
                   className={styles.Gameimg}
                   src="/static/images/FashionMetaverse.webp"
+                  alt="Metaverse-effectively-reshape-the-fashion-industry"
                 />
               </div>
             </div>

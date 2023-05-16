@@ -37,6 +37,7 @@ const Javascript = () => {
                 <img
                   className={styles.Gameimg}
                   src="/static/images/js.webp"
+                  alt=""
                 />
               </div>
             </div>

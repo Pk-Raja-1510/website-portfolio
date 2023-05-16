@@ -34,7 +34,8 @@ const ResonsForPHP = () => {
             </h1>
             <div>
               <div className={styles.img}>
-                <img className={styles.Gameimg} src="/static/images/php.webp" />
+                <img className={styles.Gameimg} src="/static/images/php.webp" 
+                alt="10-Reasons-Why-PHP-is-the-Best-choice-for-startups"/>
               </div>
             </div>
             <div className={styles.data}>

@@ -37,6 +37,7 @@ const BlockchainProceedToPay = () => {
               <img
                 className={styles.Gameimg}
                 src="/static/images/ProceedToPay.jpg"
+                alt=""
               />
             </div>
             <div className={styles.data}>

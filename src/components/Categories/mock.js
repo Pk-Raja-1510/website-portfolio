@@ -29,10 +29,10 @@ export const CategoriesData = [
     count:'1',
     path:'/blog/artificial-intelligence',
 }, 
-{
-    id:6,
-    name:"Teams & Advisors",
-    count:'1',
-    path:'/blog/teams-and-advisors',
-}, 
+// {
+//     id:6,
+//     name:"Teams & Advisors",
+//     count:'1',
+//     path:'/blog/teams-and-advisors',
+// }, 
 ];
