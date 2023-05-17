@@ -495,15 +495,17 @@
   font-family: Comfortaa;
   font-weight: 400;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .content_form_two>p {
-  font-size: 24px;
+  font-size: 18px;
   font-family: Comfortaa;
   font-weight: 300;
   width: 100%;
-  line-height: 2em;
+  margin: 0;
+  margin-bottom: 2rem;
+  max-width: 400px;
 }
 
 .content_form_two>button {
@@ -1206,7 +1208,7 @@
 
 .form_contact_details>p {
   margin: 0;
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
 }
 
@@ -2166,15 +2168,7 @@
     width: 100%;
   }
 
-  .content_form_two>p {
-    width: 100%;
-    font-family: "Comfortaa";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 2.5rem;
-    color: #000000;
-  }
+
 
   .content_form_two>h2 {
     font-family: "Comfortaa";

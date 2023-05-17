@@ -39,7 +39,7 @@ const Contact = ({ hooks }) => {
         <input
           ref={ref.phoneRef}
           type="number"
-          placeholder="Phone"
+          placeholder="Phone*"
           name="phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}

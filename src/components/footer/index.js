@@ -91,6 +91,14 @@ export const Footer = () => {
             layout="fixed"
             alt='Facebook'
           />
+          <Image
+            onClick={() => otherRoute(" https://in.pinterest.com/Redbloxsolutions/")}
+            src="/static/icons/pinterest.png"
+            height='40'
+            width='40'
+            layout="fixed"
+            alt='pinterest'
+          />
         </div>
       </div>
     </div>

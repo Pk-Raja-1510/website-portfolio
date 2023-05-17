@@ -83,6 +83,10 @@ const Contacts = () => {
       );
     e.preventDefault();
   };
+  const otherRoute = (url) => {
+    if (!url) return;
+    window?.open(url);
+  };
   return (
     <section className={styles.contact} id="contact">
       <div className={styles.content}>
@@ -104,6 +108,9 @@ const Contacts = () => {
         </div>
         <div className={styles.content_form_two}>
           <h2>Contact</h2>
+          <p>
+            Fill your details below and get in touch with our domain experts
+          </p>
           {!form ? (
             <Contact hooks={hooks} />
           ) : (
@@ -157,12 +164,10 @@ const Contacts = () => {
         </div>
         <div className={styles.content_form_three}>
           <h2>Talk To Our Experts :</h2>
-          <p>
-            To get started, simply fill out our contact form and let us know
-            what topic you would like to discuss. Our team will connect you with
-            the most suitable expert for your needs.
-          </p>
-          <div className={styles.form_contact_details}>
+          <div
+            className={styles.form_contact_details}
+            onClick={() => otherRoute("https://wa.me/917806974190")}
+          >
             <div>
               <Image
                 src="/static/icons/whatsapp.png"
@@ -174,7 +179,10 @@ const Contacts = () => {
             </div>
             <p>Whatsapp us: +91 7806974190</p>
           </div>
-          <div className={styles.form_contact_details}>
+          <div
+            className={styles.form_contact_details}
+            onClick={() => otherRoute("mailto:contact@redblox.io")}
+          >
             <div>
               <Image
                 src="/static/icons/gmail.png"
@@ -186,7 +194,10 @@ const Contacts = () => {
             </div>
             <p>Email: contact@redblox.io</p>
           </div>
-          <div className={styles.form_contact_details}>
+          <div
+            className={styles.form_contact_details}
+            onClick={() =>otherRoute("https://join.skype.com/invite/uNDCdDWL2v0i")}
+          >
             <div>
               <Image
                 src="/static/icons/skype.png"

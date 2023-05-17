@@ -168,10 +168,10 @@ const Index = () => {
             <div className={styles.left}>
               <h1>Blockchain, Metaverse, NFTs, AR/VR Development</h1>
               <p>
-                Our team of Experienced developers specialising in both
-                blockchain and web technologies, can elevate your business to
-                new heights by providing secure, scalable, and transparent
-                solutions.
+                Our team of Experienced developers specializing in Blockchain,
+                Metaverse, Apps, and web technologies, We can elevate your
+                business to new heights by providing secure, scalable, and
+                transparent solutions.
               </p>
               <a className={styles.header_button} href="/#contact">
                 Get Free Consultation
@@ -235,16 +235,16 @@ const Index = () => {
             <div className={styles.intro}>
               <p className={styles.sub_do_text}>What we do</p>
               <h2>
-                With our Blockchain Development Solutions, We can elevate your
-                business to new heights
+                Elevate your business to new heights with our expertise in
+                blockchain solutions.
               </h2>
               <p>
-                Redblox places customer experience as a top priority in all of
-                our operations. Our aim is to revolutionise businesses with
-                dynamic, scalable, and versatile blockchain solutions, creating
-                operational systems that enhance performance and unlock new
-                opportunities. Take your business to the next level with our
-                bespoke blockchain development services.
+                Redblox prioritizes customer experience across all our
+                operations. Our goal is to revolutionize businesses by providing
+                dynamic, scalable, and versatile blockchain solutions. We create
+                operational systems that boost performance and unlock new
+                opportunities. Elevate your business to the next level with our
+                tailored blockchain development services.
               </p>
             </div>
             <div className={styles.portfolio_main_right}>
@@ -255,9 +255,9 @@ const Index = () => {
                     height="150"
                     width="150"
                     layout="fixed"
-                    alt='Developers'
+                    alt="Developers"
                   />
-                  <p>200+ Developers </p>
+                  <p>100+ Developers </p>
                 </div>
                 <div>
                   <Image
@@ -267,7 +267,7 @@ const Index = () => {
                     layout="fixed"
                     alt="Projects"
                   />
-                  <p>250+ Projects </p>
+                  <p>150+ Projects </p>
                 </div>
               </div>
               <div>
@@ -289,7 +289,7 @@ const Index = () => {
                     layout="fixed"
                     alt="Clients"
                   />
-                  <p>30+ Clients</p>
+                  <p>75+ Clients</p>
                 </div>
               </div>
             </div>
@@ -314,7 +314,7 @@ const Index = () => {
                 Following the trend and popularity of Blockchain technology, our
                 experts have expanded our service offerings to include
                 blockchain services such as testing, technology advisory,
-                development services, and more. These services across various
+                development services, and more. These services cater to various
                 industries, including:
               </p>
             </div>
@@ -328,8 +328,8 @@ const Index = () => {
           <div className={styles.help_banner_content}>
             <h3>Need Assistance with Blockchain Development?</h3>
             <p>
-              You are one step closer to making the right decision. Shall we get
-              started?
+              You are one step closer to making the right decision. Let's
+              Connect?
             </p>
             <div className={styles.help_banner_button}>
               <button>CONTACT US</button>
