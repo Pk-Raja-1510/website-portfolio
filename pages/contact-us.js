@@ -136,7 +136,7 @@ const contactUs = () => {
           </div>
         </div>
       </div>
-      <div className={styles.contact_us_social_icons}>
+      {/* <div className={styles.contact_us_social_icons}>
         <h3>FOLLOW US ON</h3>
         <div>
           <Image
@@ -177,7 +177,7 @@ const contactUs = () => {
             layout="fixed"
           />
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
