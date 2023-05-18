@@ -88,8 +88,8 @@ export const metaverseData = [
 export const nftData = [
   {
     id: 1,
-    title: "Play-to-Earn NFT Gaming Dvelopment Services",
-    description: "Play-to-Earn NFT Gaming Dvelopment Services",
+    title: "Play-to-Earn NFT Gaming Development Services",
+    description: "Play-to-Earn NFT Gaming Development Services",
     image:
       "/static/images/Play to Earn NFT Gaming Development Services - RedBlox Technologies-min.webp",
     alt: "Play-to-Earn-NFT-Gaming-Development-Services",
@@ -110,12 +110,12 @@ export const nftData = [
 export const softwareDevelopmentData = [
   {
     id: 1,
-    title: "PHP - Programing Language With High Effeciency And Advantages",
+    title: "The Swift Programming Language: Benefits and Advantages",
     description:
-      "PHP - Programing Language With High Effeciency And Advantages",
-    image: "/static/images/swift.png",
-    alt: "",
-    path: "/software-development/swift",
+      "The Swift Programming Language: Benefits and Advantages",
+    image: "/static/images/Swift Programing Language With High Efficiency and Advantages-min.webp",
+    alt: "Swift Programing Language With High Efficiency and Advantages-min",
+    path: "/software-development/swift-programming-language-with-its-benefits-and-advantages",
   },
 
   {

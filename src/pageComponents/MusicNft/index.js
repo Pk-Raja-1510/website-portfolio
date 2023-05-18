@@ -30,7 +30,8 @@ const MusicNft = () => {
         <section className={styles.sectionBlog} id="WhatWeDo">
           <div>
             <h1 className={styles.blog_id_title}>
-              Build Your Music NFT Marketplace With Unique Features
+              Launch Your Own Music NFT Marketplace Platform With Unique
+              Features
             </h1>
             <div>
               <div className={styles.img}>

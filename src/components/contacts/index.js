@@ -207,7 +207,7 @@ const Contacts = () => {
                 alt="Skype"
               />
             </div>
-            <p>Skype: +91 7806974190</p>
+            <p>Skype:RedBlox_technologies</p>
           </div>
           <div className={styles.form_contact_details}>
             <div>

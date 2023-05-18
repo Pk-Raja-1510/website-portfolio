@@ -48,10 +48,10 @@ const contactUs = () => {
           <div className={styles.contact_us_content_head}>
             <h3>CONTACT US</h3>
             <p>
-              We're excited to hear from you. Whether you have a question or are
-              interested in our services, we're here to help. You can reach us
-              through the contact form on this page or via the email address and
-              phone number provided.
+              We're thrilled to hear from you! Whether you have a question or
+              are interested in our services, we're here to assist you. You can
+              reach out to us through the contact form on this page or by using
+              the provided email address and phone number.
             </p>
             <div className={styles.contact_us_contact_details}>
               <div>

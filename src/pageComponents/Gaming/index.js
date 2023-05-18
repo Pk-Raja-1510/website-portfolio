@@ -29,7 +29,7 @@ const Gaming = () => {
         <section className={styles.sectionBlog} id="WhatWeDo">
           <div>
             <h1 className={styles.blog_id_title}>
-              Play-to-Earn NFT Gaming Dvelopment Services
+              Play-to-Earn NFT Gaming Development Services
             </h1>
             <div>
               <div className={styles.img}>
