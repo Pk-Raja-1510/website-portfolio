@@ -19,6 +19,7 @@ import { CarouselRotaing } from "src/components/carouselRotaing";
 import { ProcessFlow } from "src/components/processFlow";
 import Contacts from "src/components/contacts";
 import Head from "next/head";
+import Typewriter from "typewriter-effect";
 const Index = () => {
   const navigate = useRouter();
   const router = useRouter();
@@ -86,6 +87,7 @@ const Index = () => {
       },
     ],
   };
+  const web3Options = ["(SMEs)", "(Enterprise)", "(Start-Ups)"];
   const cb = () => {
     ref.nameRef.current.value = null;
     ref.emailRef.current.value = null;
@@ -338,7 +340,16 @@ const Index = () => {
           </div>
         </section>
         <section className={styles.section5}>
-          <h3>Snapshot of our Projects</h3>
+          <div className={styles.typewriter_text}>
+            <h3>Our Clientele : We serve </h3>
+            <Typewriter
+              options={{
+                strings: [...web3Options],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
           <div className={styles.clients}>
             <div>
               {client?.map((item, index) => (
@@ -361,6 +372,7 @@ const Index = () => {
           </div>
         </section>
         <section className={styles.section3}>
+          
           <h3>Why Redblox Technologies?</h3>
           <p>
             Over the past few years, we have consulted, designed, and developed
