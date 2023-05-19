@@ -87,7 +87,7 @@ const Index = () => {
       },
     ],
   };
-  const web3Options = ["(SMEs)", "(Enterprise)", "(Start-Ups)"];
+  const web3Options = ["SMEs", "Enterprise", "Start-Ups"];
   const cb = () => {
     ref.nameRef.current.value = null;
     ref.emailRef.current.value = null;
@@ -340,8 +340,9 @@ const Index = () => {
           </div>
         </section>
         <section className={styles.section5}>
+          <h3>Our Clientele</h3>
           <div className={styles.typewriter_text}>
-            <h3>Our Clientele : We serve </h3>
+            <h3>We serve</h3>
             <Typewriter
               options={{
                 strings: [...web3Options],

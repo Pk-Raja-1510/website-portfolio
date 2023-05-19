@@ -368,6 +368,14 @@
   min-height: fit-content;
   /* padding-top: 120px; */
 }
+.section5>h3{
+  font-size: 42px;
+  font-family: Comfortaa;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1rem;
+}
 .typewriter_text{
   display: flex;
   justify-content: center;
@@ -378,7 +386,8 @@
   font-weight: 400;
   text-align: center;
   margin: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  margin-right: 10px;
 }
 .typewriter_text>div>span {
   font-size: 42px;
@@ -386,7 +395,8 @@
   font-weight: 400;
   text-align: center;
   margin: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  color: red;
 }
 .intro2 {
   height: fit-content;
@@ -1816,10 +1826,16 @@
   .help_banner_button>button {
     font-size: 16px;
   }
-
+  .section5>h3{
+    font-size: 35px;
+    text-align: start;
+  }
   .typewriter_text>h3 {
     font-size: 35px;
     text-align: start;
+  }
+  .typewriter_text{
+    justify-content: start;
   }
   .typewriter_text>div>span {
     font-size: 35px;
@@ -2075,7 +2091,7 @@
   .section4,
   .section5,
   .contact {
-    padding: 00px 25px;
+    padding: 0px 25px;
     text-align: start;
   }
 
@@ -2116,18 +2132,14 @@
   .section4>div>div>p {
     margin: 0 0 5px;
   }
-
-  .typewriter_text{
-    flex-direction: column;
-    margin-top: 2rem;
-    align-items: center;
-  }
-
   .section5>div>h2 {
     margin: 0;
     width: fit-content;
   }
-
+.section5>h3{
+  margin-top: 2rem;
+  margin-bottom: 10px;
+}
   .section5>div>p {
     width: 100%;
     font-size: 22px;
@@ -2316,10 +2328,13 @@
 
   .recent_blogs>h3 {
     padding-bottom: 1rem;
-  }
-
+  } 
   .typewriter_text>h3 {
     margin-bottom: 0;
+    font-size: 25px;
+  }
+  .typewriter_text>div>span{
+    font-size: 25px;
   }
   .section5>div>span>span {
     margin-bottom: 0;
