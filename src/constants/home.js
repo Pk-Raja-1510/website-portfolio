@@ -118,14 +118,14 @@ export const softwareDevelopmentData = [
     path: "/software-development/swift-programming-language-with-its-benefits-and-advantages",
   },
 
-  {
-    id: 2,
-    title: "How To Hire Tech Talent 2X Faster Method?",
-    description: "How To Hire Tech Talent 2X Faster Method?",
-    image: "/static/images/tech_talent.jpg",
-    alt: "",
-    path: "/software-development/TechTalent",
-  },
+  // {
+  //   id: 2,
+  //   title: "How To Hire Tech Talent 2X Faster Method?",
+  //   description: "How To Hire Tech Talent 2X Faster Method?",
+  //   image: "/static/images/tech_talent.jpg",
+  //   alt: "",
+  //   path: "/software-development/TechTalent",
+  // },
   {
     id: 3,
     title:
@@ -133,7 +133,7 @@ export const softwareDevelopmentData = [
     description:
       "How having a full stack team can be the best asset for your business?",
     image: "/static/images/fullstack.webp",
-    alt: "",
+    alt: "how-can-a-full-stack-development-team-benefit-your-business",
     path: "/software-development/how-can-a-full-stack-development-team-benefit-your-business",
   },
 

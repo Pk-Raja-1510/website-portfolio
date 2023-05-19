@@ -20,7 +20,7 @@ export const CategoriesData = [
 {
     id:4,
     name:"Software Development",
-    count:'6',
+    count:'5',
     path:'/blog/software-development',
 },
 {

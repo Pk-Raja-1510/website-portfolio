@@ -8,7 +8,7 @@ import TechTalent from "src/pageComponents/TechTalent";
 const Blog = (props) => {
   const { id } = props;
   if (id === "swift-programming-language-with-its-benefits-and-advantages") return <Swift />;
-  if (id === "TechTalent") return <TechTalent />;
+  // if (id === "TechTalent") return <TechTalent />;
   if (id === "how-can-a-full-stack-development-team-benefit-your-business") return <Fullstack />;
   if (id === "javascript-tricks-to-accomplish-your-business-goals") return <Javascript />;
   if (id === "what-is-django-how-can-it-benefit-your-business") return <Django />;

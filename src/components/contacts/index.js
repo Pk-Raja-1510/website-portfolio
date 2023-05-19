@@ -207,7 +207,7 @@ const Contacts = () => {
                 alt="Skype"
               />
             </div>
-            <p>Skype:RedBlox_technologies</p>
+            <p>Skype: RedBlox Technologies</p>
           </div>
           <div className={styles.form_contact_details}>
             <div>
