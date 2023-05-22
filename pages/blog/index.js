@@ -141,7 +141,7 @@ const Blog = () => {
             <Categories />
             <RecentBlogsTitle />
             <Subscribe />
-            <SocialIcons />
+            {/* <SocialIcons /> */}
           </div>
         </div>
         <Contacts />

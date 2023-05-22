@@ -1,23 +1,26 @@
 .wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
+  flex-direction: column;
   background: #fff;
-  /* background: rgba(255, 255, 255, 0); */
-
   width: 100%;
+  /* height: 100vh; */ 
   min-height: 70px;
   height: fit-content;
   padding: 15px 50px;
-
   position: fixed;
   top: 0;
   z-index: 100;
   /* border-bottom: 1px solid rgba(0,0,0, 0.25); */
   border-bottom: 1px solid rgb(237 55 59);
 }
+.header_res {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+}
+
 .wrapper > span {
   width: 15% !important;
   margin: auto 0 !important;
@@ -68,12 +71,40 @@
 
 .wrapper > div:last-child {
   /* width: 15%; */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
-
+.res_nav_list>nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 2rem;
+  width: fit-content;
+  height: 100%;
+  color: #000;
+  font-size: 25px;
+}
+.res_nav_list>nav>a:hover{
+  color:red;
+}
+.res_nav_list>nav>a:last-child{
+  background: #000;
+  color: #fff;
+  padding:0.5rem 1rem;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Comfortaa';
+  cursor: pointer;
+  transition: transform .2s;
+}
+.res_nav_list>nav>a:last-child:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
 .menu {
   height: fit-content;
   cursor: pointer;
@@ -100,11 +131,24 @@
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
 }
+.menu_bar>span {
+  display: none;
+}
 /* responsive screens */
 
 @media (max-width: 1000px) {
   .wrapper {
     padding: 10px 25px;
+  }
+  .wrapper_new {
+    background: #fff;
+    overflow: hidden;
+    height: 100vh;
+    padding: 10px 25px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
   }
   .navLinks{
     width: fit-content;
@@ -138,6 +182,19 @@
   .active > div {
     margin-top: 7.5px;
   }
+  .header_button {
+    display: none;
+  }
+
+  .menu_bar {
+    cursor: pointer;
+  }
+
+  .menu_bar>span {
+    display: inline;
+    font-size: 40px;
+    color: #000;
+  }
 }
 @media (max-width: 450px)
 {
@@ -147,4 +204,3 @@
   }
 }
 
-/* - - - - - - - - - - */

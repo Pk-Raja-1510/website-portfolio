@@ -14,7 +14,7 @@
   }
   
   .slider_main_content>div>div::-webkit-scrollbar-thumb {
-    background: #000;
+    background: gray;
     border-radius: 10px;
   }
   .slider_main_content>div>div>div{

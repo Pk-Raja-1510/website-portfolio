@@ -8,7 +8,7 @@ import { Footer } from "src/components/footer";
 
 const Jobinffo = (props) => {
   return (
-    <div className={styles.info} key={props.key}>
+    <div className={styles.info}>
       <div>
         <div className={styles.innerinfo}>
           <h4 className={styles.title}>{props.position}</h4>
@@ -48,8 +48,8 @@ const Jobs = () => {
             <div className={styles.wrapper} key={index}>
               <h4>{i?.division}</h4>
               {i?.data?.length > 0 &&
-                i.data.map((item, indexy) => (
-                  <Jobinffo key={indexy} {...item} />
+                i.data.map((item, index) => (
+                  <Jobinffo key={index} {...item} />
                 ))}
             </div>
           ))}

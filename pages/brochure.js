@@ -12,7 +12,7 @@ const Index = () => {
           <iframe
             className={styles.iframe}
             loading="lazy"
-            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFJjNhlSwQ&#x2F;view?embed"
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFNhDUlnNU&#x2F;view?embed" 
             allow="fullscreen"
           ></iframe>
         </div>
