@@ -222,6 +222,7 @@
   height: fit-content;
   font-size: 18px;
   cursor: pointer;
+  border: 1px solid #000;
 }
 
 @media (max-width: 600px) {
