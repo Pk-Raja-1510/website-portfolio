@@ -244,7 +244,7 @@ const Django = () => {
                   Hire Our Full Stack Django Developers
                 </a>
               </div>
-              <h3 className={styles.blog_id_sub_heading}>
+              <h3 className={styles.blog_id_main_heading}>
                 Top Companies using Django web framework:
               </h3>
               <p className={styles.blog_id_content}>
@@ -280,7 +280,7 @@ const Django = () => {
                 web browsers. It can now manage high volumes of traffic and API
                 hits better.
               </p>
-              <h4 className={styles.blog_id_content_bold}>Summing Up:</h4>
+              <h2 className={styles.blog_id_main_heading}>Summing Up:</h2>
               <p className={styles.blog_id_content}>
                 One of the most popular business technologies is Python and
                 Django. The key justifications are that they are both fast,

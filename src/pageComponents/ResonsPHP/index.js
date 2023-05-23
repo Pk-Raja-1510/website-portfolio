@@ -228,7 +228,7 @@ const ResonsForPHP = () => {
                 will be perfect for constructing static and dynamic web
                 applications and websites.
               </p>
-              <h4 className={styles.blog_id_sub_heading}>Summing Up</h4>
+              <h2 className={styles.blog_id_main_heading}>Summing Up</h2>
               <p className={styles.blog_id_content}>
                 In Summing up, most startups wishing to create a website or
                 online application should consider using PHP. It is free and

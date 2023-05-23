@@ -129,9 +129,9 @@ export const softwareDevelopmentData = [
   {
     id: 3,
     title:
-      "How having a full stack team can be the best asset for your business?",
+      "How can a Full Stack development team benefit your business?",
     description:
-      "How having a full stack team can be the best asset for your business?",
+      "How can a Full Stack development team benefit your business?",
     image: "/static/images/fullstack.webp",
     alt: "how-can-a-full-stack-development-team-benefit-your-business",
     path: "/software-development/how-can-a-full-stack-development-team-benefit-your-business",

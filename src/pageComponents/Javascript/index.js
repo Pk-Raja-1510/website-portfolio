@@ -129,7 +129,7 @@ const Javascript = () => {
                 JavaScript is an ideal language for developing applications on
                 this platform as well.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>
+              <h3 className={styles.blog_id_main_heading}>
                 Top Reasons to choose why businesses use JavaScript to build
                 Software products?
               </h3>
@@ -208,7 +208,7 @@ const Javascript = () => {
                 confined to native platforms, JavaScript offers extensive
                 accessibility for your project.
               </p>
-              <h4 className={styles.blog_id_sub_heading}>What can we build with Javascript?</h4>
+              <h2 className={styles.blog_id_main_heading}>What can we build with Javascript?</h2>
               <p className={styles.blog_id_content}>
                 JavaScript is now utilised to automate simple tasks and develop
                 intricate software applications. Here are a few common
@@ -273,7 +273,7 @@ const Javascript = () => {
                 which enable the integration of virtual reality devices with the
                 internet.
               </p>
-              <h4 className={styles.blog_id_sub_heading}>How to Hire the Best JavaScript Developers?</h4>
+              <h2 className={styles.blog_id_main_heading}>How to Hire the Best JavaScript Developers?</h2>
               <p className={styles.blog_id_content}>
                 When starting a project from scratch, it may be difficult to
                 find the right developer to hire. However, there is no need to
@@ -294,7 +294,7 @@ const Javascript = () => {
                 Are you looking for Javascript Developers? Hire our <a href='/#contact'>Best
                 Javascript Developers</a> for stunning mobile and web applications
               </p>
-              <h4 className={styles.blog_id_sub_heading}>Summing Up</h4>
+              <h2 className={styles.blog_id_main_heading}>Summing Up</h2>
               <p className={styles.blog_id_content}>
                 Redblox Technologies can assist you in developing exceptional
                 JavaScript development services. You will experience a

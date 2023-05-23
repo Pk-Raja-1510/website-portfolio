@@ -288,7 +288,7 @@ const Metaverses = () => {
                   After feedback, Launch the full version of the platform
                 </li>
               </ol>
-              <h4 className={styles.blog_id_sub_heading}>Summing Up!</h4>
+              <h2 className={styles.blog_id_main_heading}>Summing Up!</h2>
               <p className={styles.blog_id_content}>
                 <a href="/#contact"> Metaverse Real Estate</a>is quickly
                 becoming a promising investment opportunity for individuals and

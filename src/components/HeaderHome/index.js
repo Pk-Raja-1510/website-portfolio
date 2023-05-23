@@ -37,7 +37,7 @@ const HeaderHome = () => {
             alt="redblox-metaverse"
           />
           <Link href="/">Home</Link>
-          <Link href="/jobs">Jobs</Link>
+          <Link href="/careers">Careers</Link>
           <Link href="/metaverse">Metaverse HQ</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/contact-us">Contact Us</Link>
@@ -94,7 +94,7 @@ const HeaderHome = () => {
         <div className={styles.res_nav_list}>
           <nav>
             <Link href="/">Home</Link>
-            <Link href="/jobs">Jobs</Link>
+            <Link href="/careers">Careers</Link>
             <Link href="/metaverse">Metaverse HQ</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/contact-us">Contact Us</Link>

@@ -52,6 +52,7 @@
   .footer_contact_icon {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
   }
   
   .footer_contact_icon>span {

@@ -1,13 +1,89 @@
+.careers_main {
+  margin-top: 100px;
+}
+
+.careers_banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-height: 65vh;
+  justify-content: center;
+}
+
+.careers_banner_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 0 2.5rem 3rem;
+  justify-content: center;
+}
+
+.careers_banner_left>h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Comfortaa";
+  margin-bottom: 1rem;
+}
+
+.careers_banner_left>h1 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Comfortaa";
+}
+
+.careers_banner_left>p {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+  font-family: "Comfortaa";
+  margin: 2rem 0;
+}
+
+.careers_banner_left>button {
+  background: #000;
+  border: none;
+  font-size: 20px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.careers_banner_left>a {
+  font-size: 18px;
+  color: blue;
+  text-decoration-line: underline;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.careers_banner_right {
+  width: 50%;
+}
+
+.careers_banner_right>img {
+  width: 100%;
+}
+
 .first {
-  font-size: 50px;
-  margin-top: 150px;
+  font-size: 42px;
   display: flex;
   place-content: center;
   font-family: "Comfortaa";
+  margin: 2rem 0;
 }
+
 .maindiv {
   width: 100%;
 }
+
 .head {
   margin-top: 20px;
   display: flex;
@@ -16,10 +92,12 @@
   justify-content: space-between;
   align-items: center;
 }
-.head > h4 {
+
+.head>h4 {
   color: #7b40a0;
   font-family: "Comfortaa";
 }
+
 .openroles {
   font-family: "Comfortaa";
   width: 115px;
@@ -31,12 +109,14 @@
   justify-content: center;
   padding-bottom: 2px;
 }
+
 .maindiv1 {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .info {
   display: flex;
   flex-direction: column;
@@ -51,23 +131,30 @@
   align-items: center;
   align-items: flex-start;
 }
-.info > div {
+
+.info>div {
   display: flex;
   flex-direction: row;
-
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
+.info>div>div>h2 {
+  text-align: center;
+}
+
 .innerinfo {
   width: 90%;
 }
+
 .title {
   font-size: 20px;
   font-weight: 600;
   font-family: "Comfortaa";
 }
+
 .jobcontent {
   font-size: 1.1rem;
   line-height: 2rem;
@@ -83,7 +170,8 @@
 .wrapper {
   padding: 0 1rem;
 }
-.wrapper > h4 {
+
+.wrapper>h4 {
   font-family: "Comfortaa";
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -93,10 +181,47 @@
 .apply {
   font-size: 1rem;
 }
-.apply > span {
+
+.apply>span {
   font-weight: 100;
   text-decoration: underline;
   margin-left: 1rem;
+  cursor: pointer;
+}
+
+.filter_data {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  justify-content: center ;
+  margin-bottom: 4rem;
+}
+
+.filter_data_title_active {
+  margin: 0;
+  padding: 15px 20px;
+  color: #fff;
+  background: #000;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  height: fit-content;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.filter_data_title {
+  margin: 0;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  height: fit-content;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {

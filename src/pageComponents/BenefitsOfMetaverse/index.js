@@ -157,7 +157,7 @@ const BenefitsOfMetaverse = () => {
                 area, enhancing your digital visibility, or pursuing any other
                 objective linked to launching your enterprise.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>Conclusion:</h3>
+              <h2 className={styles.blog_id_main_heading}>Conclusion:</h2>
               <p className={styles.blog_id_content}>
                 These are some of the benefits of the Metaverse that can help
                 people better their money. These advantages can benefit

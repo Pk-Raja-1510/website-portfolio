@@ -285,10 +285,10 @@ const FashionIndustryMetaverse = () => {
                 growing number of brands attempting to establish a presence in
                 this realm of limitless possibilities.
               </p>
-              <h4 className={styles.blog_id_content_bold}>
+              <h2 className={styles.blog_id_main_heading}>
                 Conclusion: Build your Metaverse Fashion World with Redblox
                 Technologies
-              </h4>
+              </h2>
               <p className={styles.blog_id_content}>
                 As a leading
                 <a href="/#contact"> Metaverse Development company</a> in the

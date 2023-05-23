@@ -147,7 +147,7 @@ const CrmAi = () => {
                   AI-Powered CRM Software Services - Get Free Estimation
                 </a>
               </div>
-              <h3 className={styles.blog_id_sub_heading}>
+              <h3 className={styles.blog_id_main_heading}>
                 How Artificial Intelligence Transforms the CRM Operations?
               </h3>
               <h4 className={styles.blog_id_content_bold}>
@@ -294,7 +294,7 @@ const CrmAi = () => {
                 new heights. This enables sales teams to synchronise with
                 clients effectively and enhance overall performance.
               </p>
-              <h4 className={styles.blog_id_content_bold}>Conclusion:</h4>
+              <h2 className={styles.blog_id_main_heading}>Conclusion:</h2>
               <p className={styles.blog_id_content}>
                 AI has the potential to enhance a business's CRM efforts by
                 providing precise insights into customer needs, leading to a

@@ -206,10 +206,10 @@ const Fullstack = () => {
                 developers and spend resources on separate web development
                 services.
               </p>
-              <h3 className={styles.blog_id_sub_heading}>
+              <h2 className={styles.blog_id_main_heading}>
                 What are the reasons to consider hiring Full-Stack Development
                 Services?
-              </h3>
+              </h2>
               <p className={styles.blog_id_content}>
                 In today's rapidly evolving world of web development. It is
                 vital to enlist the services of a developer who can work across
@@ -225,10 +225,10 @@ const Fullstack = () => {
                 progress, and the assimilation of state-of-the-art technology
                 maintenance.
               </p>
-              <h4 className={styles.blog_id_sub_heading}>
+              <h2 className={styles.blog_id_main_heading}>
                 Conclusion: Are You Looking for a Full Stack developer for your
                 Business?
-              </h4>
+              </h2>
               <p className={styles.blog_id_content}>
                 Whether you're a startup or an enterprise company, full stack
                 development can offer numerous advantages. By hiring a
