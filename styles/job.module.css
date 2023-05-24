@@ -136,7 +136,7 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   width: 100%;
 }
@@ -146,7 +146,7 @@
 }
 
 .innerinfo {
-  width: 90%;
+  width: 75%;
 }
 
 .title {
@@ -202,7 +202,7 @@
 
 .filter_data_title_active {
   margin: 0;
-  padding: 15px 20px;
+  padding: 10px 20px;
   color: #fff;
   background: #000;
   display: flex;
@@ -215,7 +215,7 @@
 
 .filter_data_title {
   margin: 0;
-  padding: 15px 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   border-radius: 30px;
@@ -224,9 +224,56 @@
   cursor: pointer;
   border: 1px solid #000;
 }
-
+@media (max-width: 1000px) {
+  .careers_banner{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .careers_banner_left{
+    width:100%;
+    padding: 25px 30px;
+  }
+  .careers_banner_right{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .careers_banner_right>img{
+    height: 565px;
+    opacity: 0.5;
+  }
+  .filter_data{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 30px;
+  }
+  .container{
+    width: 100%;
+    /* padding: 0px 30px; */
+  }
+  .wrapper{
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 770px) {
+  .innerinfo{
+    width: 50%;
+  }
+}
 @media (max-width: 600px) {
   .container {
     width: 100%;
+  }
+  .info>div{
+    flex-direction: column;
+  }
+  .innerinfo{
+    width:100% ;
+  }
+  .vacancy{
+    background: #000;
+    text-align: center;
+    color: #fff;
   }
 }

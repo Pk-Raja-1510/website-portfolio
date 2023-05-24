@@ -25,7 +25,8 @@ const Jobinffo = (props) => {
             ))}
           </ul>
         </div>
-        <div>
+        <div className={styles.vacancy}>
+          <h4 className={styles.title}>No.of vacancy</h4>
           <h2>{props.required} nos</h2>
         </div>
       </div>
@@ -96,7 +97,6 @@ const Careers = () => {
               {i?.data?.length > 0 &&
                 i.data.map((item, index) => <Jobinffo key={index} {...item} />)}
             </div>
-            
               }
               </>
           ))}
